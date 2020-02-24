@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/auto.dir/main.cpp.o CMakeFiles/auto.dir/sinif.cpp.o  -o auto 
