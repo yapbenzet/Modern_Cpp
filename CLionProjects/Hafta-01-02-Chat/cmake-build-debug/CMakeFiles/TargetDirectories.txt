@@ -1,0 +1,3 @@
+/home/atuash/CLionProjects/Chat/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/atuash/CLionProjects/Chat/cmake-build-debug/CMakeFiles/Chat.dir
+/home/atuash/CLionProjects/Chat/cmake-build-debug/CMakeFiles/edit_cache.dir
