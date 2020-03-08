@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BuildServerSettings">
+    <option name="LOGIN" value="" />
+    <option name="SERVER_URL" value="http://buildserver" />
+    <option name="REMEMBER_ME" value="true" />
+    <option name="USE_IDEA_PROXY_SETTINGS" value="true" />
+    <option name="INSPECTIONS_BUILD_TYPE_IDS" />
+    <option name="DUPLICATES_BUILD_TYPE_IDS" />
+    <option name="ENABLE_SUITABLE_CONFIGURATION_CACHING" value="true" />
+    <option name="COVERAGE_SETTINGS" />
+    <option name="TEST_STATUS_ENABLED" value="true" />
+    <option name="TEST_STATUS_SHOW_SUCCESSFUL" value="false" />
+    <option name="POSTPONE_SUITABLE_CONFIGURATIONS_SEARCH" value="false" />
+    <option name="ARTIFACTS_BUILD_TYPE_IDS" />
+    <option name="PERFORM_COMMIT_IF_SUCCESSFUL" value="true" />
+    <option name="PERFORM_COMMIT_IF_NO_NEW_FAILED_TESTS" value="false" />
+    <option name="REQUEST_CONFIRMATON" value="false" />
+    <option name="PRE_TESTED_COMMIT" value="true" />
+    <option name="FILTER_BY_STATUS" value="false" />
+    <option name="FILTER_MARKED_AS_FIXED" value="false" />
+    <option name="SHOW_CLOSE_PROMPT" value="true" />
+    <option name="TOOL_WINDOW_SELECTED_CONTENT_INDEX" value="0" />
+    <option name="FILTER_BY_CURRENT_PROJECT" value="true" />
+    <option name="showStatusBarWidget" value="true" />
+  </component>
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="Chat" targetName="Chat" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8a3de49c-8aca-440b-b36e-1420fef8c20a" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="YBYHhbqA" />
+  </component>
+  <component name="ProjectId" id="1YTxKPGhLOKr2bfxNw6jnWVssDF" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Chat" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Chat" TARGET_NAME="Chat" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Chat" RUN_TARGET_NAME="Chat">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8a3de49c-8aca-440b-b36e-1420fef8c20a" name="Default Changelist" comment="" />
+      <created>1582980320746</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1582980320746</updated>
+      <workItem from="1582980322034" duration="1145000" />
+      <workItem from="1582981531088" duration="4068000" />
+      <workItem from="1582986685148" duration="230000" />
+      <workItem from="1582986954194" duration="691000" />
+      <workItem from="1583056098708" duration="9501000" />
+      <workItem from="1583065861284" duration="15000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="971" y="326" key="#com.intellij.ide.util.MemberChooser" timestamp="1583064342658">
+      <screen x="0" y="30" width="2560" height="1410" />
+    </state>
+    <state x="728" y="246" key="#com.intellij.ide.util.MemberChooser/0.24.1920.1056@0.24.1920.1056" timestamp="1582984015919" />
+    <state x="971" y="326" key="#com.intellij.ide.util.MemberChooser/0.30.2560.1410@0.30.2560.1410" timestamp="1583064342658" />
+    <state x="648" y="276" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1582981429747">
+      <screen x="0" y="24" width="1920" height="1056" />
+    </state>
+    <state x="648" y="276" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.24.1920.1056@0.24.1920.1056" timestamp="1582981429747" />
+    <state x="952" y="409" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1583060861655">
+      <screen x="0" y="30" width="2560" height="1410" />
+    </state>
+    <state x="952" y="409" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.30.2560.1410@0.30.2560.1410" timestamp="1583060861655" />
+    <state width="532" height="664" key="DebuggerActiveHint" timestamp="1583063502916">
+      <screen x="0" y="30" width="2560" height="1410" />
+    </state>
+    <state width="532" height="664" key="DebuggerActiveHint/0.30.2560.1410@0.30.2560.1410" timestamp="1583063502916" />
+    <state x="1015" y="420" key="FileChooserDialogImpl" timestamp="1583065874201">
+      <screen x="0" y="30" width="2560" height="1410" />
+    </state>
+    <state x="1015" y="420" key="FileChooserDialogImpl/0.30.2560.1410@0.30.2560.1410" timestamp="1583065874201" />
+    <state width="2504" height="494" key="GridCell.Tab.0.bottom" timestamp="1583065791988">
+      <screen x="0" y="30" width="2560" height="1410" />
+    </state>
+    <state width="2504" height="494" key="GridCell.Tab.0.bottom/0.30.2560.1410@0.30.2560.1410" timestamp="1583065791988" />
+    <state width="2504" height="494" key="GridCell.Tab.0.center" timestamp="1583065791987">
+      <screen x="0" y="30" width="2560" height="1410" />
+    </state>
+    <state width="2504" height="494" key="GridCell.Tab.0.center/0.30.2560.1410@0.30.2560.1410" timestamp="1583065791987" />
+    <state width="2504" height="494" key="GridCell.Tab.0.left" timestamp="1583065791987">
+      <screen x="0" y="30" width="2560" height="1410" />
+    </state>
+    <state width="2504" height="494" key="GridCell.Tab.0.left/0.30.2560.1410@0.30.2560.1410" timestamp="1583065791987" />
+    <state width="2504" height="494" key="GridCell.Tab.0.right" timestamp="1583065791987">
+      <screen x="0" y="30" width="2560" height="1410" />
+    </state>
+    <state width="2504" height="494" key="GridCell.Tab.0.right/0.30.2560.1410@0.30.2560.1410" timestamp="1583065791987" />
+    <state width="2504" height="494" key="GridCell.Tab.1.bottom" timestamp="1583065791988">
+      <screen x="0" y="30" width="2560" height="1410" />
+    </state>
+    <state width="2504" height="494" key="GridCell.Tab.1.bottom/0.30.2560.1410@0.30.2560.1410" timestamp="1583065791988" />
+    <state width="2504" height="494" key="GridCell.Tab.1.center" timestamp="1583065791988">
+      <screen x="0" y="30" width="2560" height="1410" />
+    </state>
+    <state width="2504" height="494" key="GridCell.Tab.1.center/0.30.2560.1410@0.30.2560.1410" timestamp="1583065791988" />
+    <state width="2504" height="494" key="GridCell.Tab.1.left" timestamp="1583065791988">
+      <screen x="0" y="30" width="2560" height="1410" />
+    </state>
+    <state width="2504" height="494" key="GridCell.Tab.1.left/0.30.2560.1410@0.30.2560.1410" timestamp="1583065791988" />
+    <state width="2504" height="494" key="GridCell.Tab.1.right" timestamp="1583065791988">
+      <screen x="0" y="30" width="2560" height="1410" />
+    </state>
+    <state width="2504" height="494" key="GridCell.Tab.1.right/0.30.2560.1410@0.30.2560.1410" timestamp="1583065791988" />
+    <state x="548" y="285" key="IDE.errors.dialog" timestamp="1582982632263">
+      <screen x="0" y="24" width="1920" height="1056" />
+    </state>
+    <state x="548" y="285" key="IDE.errors.dialog/0.24.1920.1056@0.24.1920.1056" timestamp="1582982632263" />
+    <state x="1434" y="258" width="1012" height="739" key="SettingsEditor" timestamp="1582986460904">
+      <screen x="0" y="33" width="2560" height="1407" />
+    </state>
+    <state x="1434" y="258" width="1012" height="739" key="SettingsEditor/0.33.2560.1407@0.33.2560.1407" timestamp="1582986460904" />
+    <state x="723" y="484" key="com.intellij.ide.util.TipDialog" timestamp="1583065866357">
+      <screen x="0" y="30" width="2560" height="1410" />
+    </state>
+    <state x="542" y="364" key="com.intellij.ide.util.TipDialog/0.24.1920.1056@0.24.1920.1056" timestamp="1582981577975" />
+    <state x="723" y="484" key="com.intellij.ide.util.TipDialog/0.30.2560.1410@0.30.2560.1410" timestamp="1583065866357" />
+    <state x="723" y="486" key="com.intellij.ide.util.TipDialog/0.33.2560.1407@0.33.2560.1407" timestamp="1582986685141" />
+    <state x="860" y="331" key="run.anything.popup" timestamp="1583063235509">
+      <screen x="0" y="30" width="2560" height="1410" />
+    </state>
+    <state x="860" y="331" key="run.anything.popup/0.30.2560.1410@0.30.2560.1410" timestamp="1583063235509" />
+    <state x="831" y="315" width="896" height="904" key="search.everywhere.popup" timestamp="1582986333255">
+      <screen x="0" y="33" width="2560" height="1407" />
+    </state>
+    <state x="623" y="236" width="672" height="678" key="search.everywhere.popup/0.24.1920.1056@0.24.1920.1056" timestamp="1582982078300" />
+    <state x="831" y="315" width="896" height="904" key="search.everywhere.popup/0.33.2560.1407@0.33.2560.1407" timestamp="1582986333255" />
+  </component>
+</project>
