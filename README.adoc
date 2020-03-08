@@ -6,11 +6,11 @@ Bu depo Tasarım Örüntüleri dersinde gösterilen örnekleri içermektedir.
 
 . *Vector*
     
-Modern C++ 'ta vector tanımı nedir, nasıl kullanılır sorularını cevaplayan örnektir. Vector değişkeni ile ilgili temel bilgiler anlatılmaktadır.    
+Modern C++' ta vector tanımı nedir, nasıl kullanılır sorularını cevaplayan örnektir. Vector değişkeni ile ilgili temel bilgiler anlatılmaktadır.    
     
 . *Chat*
 
-Modern C++'ta sınıf oluşturmanın mantığını gösteren örnektir. Sınıfları oluştururken nelere dikkat edilmeli, C++'ta derleme işlemi nasıl yapılır sorularını cevaplamaya yöneliktir. 
+Modern C++' ta sınıf oluşturmanın mantığını gösteren örnektir. Sınıfları oluştururken nelere dikkat edilmeli, C++'ta derleme işlemi nasıl yapılır sorularını cevaplamaya yöneliktir. 
 
 . *Animals*
 
