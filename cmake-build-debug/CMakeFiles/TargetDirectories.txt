@@ -1,5 +1,0 @@
-/home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles/Hafta-01-03-Animals.dir
-/home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles/Hafta-01-01-vector.dir
-/home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles/Hafta-01-02-Chat.dir
