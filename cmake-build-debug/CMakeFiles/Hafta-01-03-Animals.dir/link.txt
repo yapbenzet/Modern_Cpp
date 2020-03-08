@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/Hafta-01-03-Animals.dir/Hafta-01/03-Animals/main.cpp.o CMakeFiles/Hafta-01-03-Animals.dir/Hafta-01/03-Animals/Animal.cpp.o CMakeFiles/Hafta-01-03-Animals.dir/Hafta-01/03-Animals/Cat.cpp.o CMakeFiles/Hafta-01-03-Animals.dir/Hafta-01/03-Animals/Dog.cpp.o  -o Hafta-01-03-Animals 

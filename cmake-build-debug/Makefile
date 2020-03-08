@@ -56,17 +56,6 @@ CMAKE_BINARY_DIR = /home/atuash/Modern_Cpp/cmake-build-debug
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/home/atuash/Downloads/clion-2019.3.3/bin/cmake/linux/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
-
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
-
-.PHONY : rebuild_cache/fast
-
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
@@ -77,6 +66,17 @@ edit_cache:
 edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
+
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	/home/atuash/Downloads/clion-2019.3.3/bin/cmake/linux/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
+
+# Special rule for the target rebuild_cache
+rebuild_cache/fast: rebuild_cache
+
+.PHONY : rebuild_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -111,43 +111,43 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named Animals
+# Target rules for targets named Hafta-01-03-Animals
 
 # Build rule for target.
-Animals: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Animals
-.PHONY : Animals
+Hafta-01-03-Animals: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Hafta-01-03-Animals
+.PHONY : Hafta-01-03-Animals
 
 # fast build rule for target.
-Animals/fast:
-	$(MAKE) -f CMakeFiles/Animals.dir/build.make CMakeFiles/Animals.dir/build
-.PHONY : Animals/fast
+Hafta-01-03-Animals/fast:
+	$(MAKE) -f CMakeFiles/Hafta-01-03-Animals.dir/build.make CMakeFiles/Hafta-01-03-Animals.dir/build
+.PHONY : Hafta-01-03-Animals/fast
 
 #=============================================================================
-# Target rules for targets named vector
+# Target rules for targets named Hafta-01-01-vector
 
 # Build rule for target.
-vector: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 vector
-.PHONY : vector
+Hafta-01-01-vector: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Hafta-01-01-vector
+.PHONY : Hafta-01-01-vector
 
 # fast build rule for target.
-vector/fast:
-	$(MAKE) -f CMakeFiles/vector.dir/build.make CMakeFiles/vector.dir/build
-.PHONY : vector/fast
+Hafta-01-01-vector/fast:
+	$(MAKE) -f CMakeFiles/Hafta-01-01-vector.dir/build.make CMakeFiles/Hafta-01-01-vector.dir/build
+.PHONY : Hafta-01-01-vector/fast
 
 #=============================================================================
-# Target rules for targets named Chat
+# Target rules for targets named Hafta-01-02-Chat
 
 # Build rule for target.
-Chat: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Chat
-.PHONY : Chat
+Hafta-01-02-Chat: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Hafta-01-02-Chat
+.PHONY : Hafta-01-02-Chat
 
 # fast build rule for target.
-Chat/fast:
-	$(MAKE) -f CMakeFiles/Chat.dir/build.make CMakeFiles/Chat.dir/build
-.PHONY : Chat/fast
+Hafta-01-02-Chat/fast:
+	$(MAKE) -f CMakeFiles/Hafta-01-02-Chat.dir/build.make CMakeFiles/Hafta-01-02-Chat.dir/build
+.PHONY : Hafta-01-02-Chat/fast
 
 Hafta-01/01-vector/main.o: Hafta-01/01-vector/main.cpp.o
 
@@ -155,7 +155,7 @@ Hafta-01/01-vector/main.o: Hafta-01/01-vector/main.cpp.o
 
 # target to build an object file
 Hafta-01/01-vector/main.cpp.o:
-	$(MAKE) -f CMakeFiles/vector.dir/build.make CMakeFiles/vector.dir/Hafta-01/01-vector/main.cpp.o
+	$(MAKE) -f CMakeFiles/Hafta-01-01-vector.dir/build.make CMakeFiles/Hafta-01-01-vector.dir/Hafta-01/01-vector/main.cpp.o
 .PHONY : Hafta-01/01-vector/main.cpp.o
 
 Hafta-01/01-vector/main.i: Hafta-01/01-vector/main.cpp.i
@@ -164,7 +164,7 @@ Hafta-01/01-vector/main.i: Hafta-01/01-vector/main.cpp.i
 
 # target to preprocess a source file
 Hafta-01/01-vector/main.cpp.i:
-	$(MAKE) -f CMakeFiles/vector.dir/build.make CMakeFiles/vector.dir/Hafta-01/01-vector/main.cpp.i
+	$(MAKE) -f CMakeFiles/Hafta-01-01-vector.dir/build.make CMakeFiles/Hafta-01-01-vector.dir/Hafta-01/01-vector/main.cpp.i
 .PHONY : Hafta-01/01-vector/main.cpp.i
 
 Hafta-01/01-vector/main.s: Hafta-01/01-vector/main.cpp.s
@@ -173,7 +173,7 @@ Hafta-01/01-vector/main.s: Hafta-01/01-vector/main.cpp.s
 
 # target to generate assembly for a file
 Hafta-01/01-vector/main.cpp.s:
-	$(MAKE) -f CMakeFiles/vector.dir/build.make CMakeFiles/vector.dir/Hafta-01/01-vector/main.cpp.s
+	$(MAKE) -f CMakeFiles/Hafta-01-01-vector.dir/build.make CMakeFiles/Hafta-01-01-vector.dir/Hafta-01/01-vector/main.cpp.s
 .PHONY : Hafta-01/01-vector/main.cpp.s
 
 Hafta-01/01-vector/sinif.o: Hafta-01/01-vector/sinif.cpp.o
@@ -182,7 +182,7 @@ Hafta-01/01-vector/sinif.o: Hafta-01/01-vector/sinif.cpp.o
 
 # target to build an object file
 Hafta-01/01-vector/sinif.cpp.o:
-	$(MAKE) -f CMakeFiles/vector.dir/build.make CMakeFiles/vector.dir/Hafta-01/01-vector/sinif.cpp.o
+	$(MAKE) -f CMakeFiles/Hafta-01-01-vector.dir/build.make CMakeFiles/Hafta-01-01-vector.dir/Hafta-01/01-vector/sinif.cpp.o
 .PHONY : Hafta-01/01-vector/sinif.cpp.o
 
 Hafta-01/01-vector/sinif.i: Hafta-01/01-vector/sinif.cpp.i
@@ -191,7 +191,7 @@ Hafta-01/01-vector/sinif.i: Hafta-01/01-vector/sinif.cpp.i
 
 # target to preprocess a source file
 Hafta-01/01-vector/sinif.cpp.i:
-	$(MAKE) -f CMakeFiles/vector.dir/build.make CMakeFiles/vector.dir/Hafta-01/01-vector/sinif.cpp.i
+	$(MAKE) -f CMakeFiles/Hafta-01-01-vector.dir/build.make CMakeFiles/Hafta-01-01-vector.dir/Hafta-01/01-vector/sinif.cpp.i
 .PHONY : Hafta-01/01-vector/sinif.cpp.i
 
 Hafta-01/01-vector/sinif.s: Hafta-01/01-vector/sinif.cpp.s
@@ -200,7 +200,7 @@ Hafta-01/01-vector/sinif.s: Hafta-01/01-vector/sinif.cpp.s
 
 # target to generate assembly for a file
 Hafta-01/01-vector/sinif.cpp.s:
-	$(MAKE) -f CMakeFiles/vector.dir/build.make CMakeFiles/vector.dir/Hafta-01/01-vector/sinif.cpp.s
+	$(MAKE) -f CMakeFiles/Hafta-01-01-vector.dir/build.make CMakeFiles/Hafta-01-01-vector.dir/Hafta-01/01-vector/sinif.cpp.s
 .PHONY : Hafta-01/01-vector/sinif.cpp.s
 
 Hafta-01/02-Chat/chat_sinif.o: Hafta-01/02-Chat/chat_sinif.cpp.o
@@ -209,7 +209,7 @@ Hafta-01/02-Chat/chat_sinif.o: Hafta-01/02-Chat/chat_sinif.cpp.o
 
 # target to build an object file
 Hafta-01/02-Chat/chat_sinif.cpp.o:
-	$(MAKE) -f CMakeFiles/Chat.dir/build.make CMakeFiles/Chat.dir/Hafta-01/02-Chat/chat_sinif.cpp.o
+	$(MAKE) -f CMakeFiles/Hafta-01-02-Chat.dir/build.make CMakeFiles/Hafta-01-02-Chat.dir/Hafta-01/02-Chat/chat_sinif.cpp.o
 .PHONY : Hafta-01/02-Chat/chat_sinif.cpp.o
 
 Hafta-01/02-Chat/chat_sinif.i: Hafta-01/02-Chat/chat_sinif.cpp.i
@@ -218,7 +218,7 @@ Hafta-01/02-Chat/chat_sinif.i: Hafta-01/02-Chat/chat_sinif.cpp.i
 
 # target to preprocess a source file
 Hafta-01/02-Chat/chat_sinif.cpp.i:
-	$(MAKE) -f CMakeFiles/Chat.dir/build.make CMakeFiles/Chat.dir/Hafta-01/02-Chat/chat_sinif.cpp.i
+	$(MAKE) -f CMakeFiles/Hafta-01-02-Chat.dir/build.make CMakeFiles/Hafta-01-02-Chat.dir/Hafta-01/02-Chat/chat_sinif.cpp.i
 .PHONY : Hafta-01/02-Chat/chat_sinif.cpp.i
 
 Hafta-01/02-Chat/chat_sinif.s: Hafta-01/02-Chat/chat_sinif.cpp.s
@@ -227,7 +227,7 @@ Hafta-01/02-Chat/chat_sinif.s: Hafta-01/02-Chat/chat_sinif.cpp.s
 
 # target to generate assembly for a file
 Hafta-01/02-Chat/chat_sinif.cpp.s:
-	$(MAKE) -f CMakeFiles/Chat.dir/build.make CMakeFiles/Chat.dir/Hafta-01/02-Chat/chat_sinif.cpp.s
+	$(MAKE) -f CMakeFiles/Hafta-01-02-Chat.dir/build.make CMakeFiles/Hafta-01-02-Chat.dir/Hafta-01/02-Chat/chat_sinif.cpp.s
 .PHONY : Hafta-01/02-Chat/chat_sinif.cpp.s
 
 Hafta-01/02-Chat/main.o: Hafta-01/02-Chat/main.cpp.o
@@ -236,7 +236,7 @@ Hafta-01/02-Chat/main.o: Hafta-01/02-Chat/main.cpp.o
 
 # target to build an object file
 Hafta-01/02-Chat/main.cpp.o:
-	$(MAKE) -f CMakeFiles/Chat.dir/build.make CMakeFiles/Chat.dir/Hafta-01/02-Chat/main.cpp.o
+	$(MAKE) -f CMakeFiles/Hafta-01-02-Chat.dir/build.make CMakeFiles/Hafta-01-02-Chat.dir/Hafta-01/02-Chat/main.cpp.o
 .PHONY : Hafta-01/02-Chat/main.cpp.o
 
 Hafta-01/02-Chat/main.i: Hafta-01/02-Chat/main.cpp.i
@@ -245,7 +245,7 @@ Hafta-01/02-Chat/main.i: Hafta-01/02-Chat/main.cpp.i
 
 # target to preprocess a source file
 Hafta-01/02-Chat/main.cpp.i:
-	$(MAKE) -f CMakeFiles/Chat.dir/build.make CMakeFiles/Chat.dir/Hafta-01/02-Chat/main.cpp.i
+	$(MAKE) -f CMakeFiles/Hafta-01-02-Chat.dir/build.make CMakeFiles/Hafta-01-02-Chat.dir/Hafta-01/02-Chat/main.cpp.i
 .PHONY : Hafta-01/02-Chat/main.cpp.i
 
 Hafta-01/02-Chat/main.s: Hafta-01/02-Chat/main.cpp.s
@@ -254,7 +254,7 @@ Hafta-01/02-Chat/main.s: Hafta-01/02-Chat/main.cpp.s
 
 # target to generate assembly for a file
 Hafta-01/02-Chat/main.cpp.s:
-	$(MAKE) -f CMakeFiles/Chat.dir/build.make CMakeFiles/Chat.dir/Hafta-01/02-Chat/main.cpp.s
+	$(MAKE) -f CMakeFiles/Hafta-01-02-Chat.dir/build.make CMakeFiles/Hafta-01-02-Chat.dir/Hafta-01/02-Chat/main.cpp.s
 .PHONY : Hafta-01/02-Chat/main.cpp.s
 
 Hafta-01/03-Animals/Animal.o: Hafta-01/03-Animals/Animal.cpp.o
@@ -263,7 +263,7 @@ Hafta-01/03-Animals/Animal.o: Hafta-01/03-Animals/Animal.cpp.o
 
 # target to build an object file
 Hafta-01/03-Animals/Animal.cpp.o:
-	$(MAKE) -f CMakeFiles/Animals.dir/build.make CMakeFiles/Animals.dir/Hafta-01/03-Animals/Animal.cpp.o
+	$(MAKE) -f CMakeFiles/Hafta-01-03-Animals.dir/build.make CMakeFiles/Hafta-01-03-Animals.dir/Hafta-01/03-Animals/Animal.cpp.o
 .PHONY : Hafta-01/03-Animals/Animal.cpp.o
 
 Hafta-01/03-Animals/Animal.i: Hafta-01/03-Animals/Animal.cpp.i
@@ -272,7 +272,7 @@ Hafta-01/03-Animals/Animal.i: Hafta-01/03-Animals/Animal.cpp.i
 
 # target to preprocess a source file
 Hafta-01/03-Animals/Animal.cpp.i:
-	$(MAKE) -f CMakeFiles/Animals.dir/build.make CMakeFiles/Animals.dir/Hafta-01/03-Animals/Animal.cpp.i
+	$(MAKE) -f CMakeFiles/Hafta-01-03-Animals.dir/build.make CMakeFiles/Hafta-01-03-Animals.dir/Hafta-01/03-Animals/Animal.cpp.i
 .PHONY : Hafta-01/03-Animals/Animal.cpp.i
 
 Hafta-01/03-Animals/Animal.s: Hafta-01/03-Animals/Animal.cpp.s
@@ -281,7 +281,7 @@ Hafta-01/03-Animals/Animal.s: Hafta-01/03-Animals/Animal.cpp.s
 
 # target to generate assembly for a file
 Hafta-01/03-Animals/Animal.cpp.s:
-	$(MAKE) -f CMakeFiles/Animals.dir/build.make CMakeFiles/Animals.dir/Hafta-01/03-Animals/Animal.cpp.s
+	$(MAKE) -f CMakeFiles/Hafta-01-03-Animals.dir/build.make CMakeFiles/Hafta-01-03-Animals.dir/Hafta-01/03-Animals/Animal.cpp.s
 .PHONY : Hafta-01/03-Animals/Animal.cpp.s
 
 Hafta-01/03-Animals/Cat.o: Hafta-01/03-Animals/Cat.cpp.o
@@ -290,7 +290,7 @@ Hafta-01/03-Animals/Cat.o: Hafta-01/03-Animals/Cat.cpp.o
 
 # target to build an object file
 Hafta-01/03-Animals/Cat.cpp.o:
-	$(MAKE) -f CMakeFiles/Animals.dir/build.make CMakeFiles/Animals.dir/Hafta-01/03-Animals/Cat.cpp.o
+	$(MAKE) -f CMakeFiles/Hafta-01-03-Animals.dir/build.make CMakeFiles/Hafta-01-03-Animals.dir/Hafta-01/03-Animals/Cat.cpp.o
 .PHONY : Hafta-01/03-Animals/Cat.cpp.o
 
 Hafta-01/03-Animals/Cat.i: Hafta-01/03-Animals/Cat.cpp.i
@@ -299,7 +299,7 @@ Hafta-01/03-Animals/Cat.i: Hafta-01/03-Animals/Cat.cpp.i
 
 # target to preprocess a source file
 Hafta-01/03-Animals/Cat.cpp.i:
-	$(MAKE) -f CMakeFiles/Animals.dir/build.make CMakeFiles/Animals.dir/Hafta-01/03-Animals/Cat.cpp.i
+	$(MAKE) -f CMakeFiles/Hafta-01-03-Animals.dir/build.make CMakeFiles/Hafta-01-03-Animals.dir/Hafta-01/03-Animals/Cat.cpp.i
 .PHONY : Hafta-01/03-Animals/Cat.cpp.i
 
 Hafta-01/03-Animals/Cat.s: Hafta-01/03-Animals/Cat.cpp.s
@@ -308,7 +308,7 @@ Hafta-01/03-Animals/Cat.s: Hafta-01/03-Animals/Cat.cpp.s
 
 # target to generate assembly for a file
 Hafta-01/03-Animals/Cat.cpp.s:
-	$(MAKE) -f CMakeFiles/Animals.dir/build.make CMakeFiles/Animals.dir/Hafta-01/03-Animals/Cat.cpp.s
+	$(MAKE) -f CMakeFiles/Hafta-01-03-Animals.dir/build.make CMakeFiles/Hafta-01-03-Animals.dir/Hafta-01/03-Animals/Cat.cpp.s
 .PHONY : Hafta-01/03-Animals/Cat.cpp.s
 
 Hafta-01/03-Animals/Dog.o: Hafta-01/03-Animals/Dog.cpp.o
@@ -317,7 +317,7 @@ Hafta-01/03-Animals/Dog.o: Hafta-01/03-Animals/Dog.cpp.o
 
 # target to build an object file
 Hafta-01/03-Animals/Dog.cpp.o:
-	$(MAKE) -f CMakeFiles/Animals.dir/build.make CMakeFiles/Animals.dir/Hafta-01/03-Animals/Dog.cpp.o
+	$(MAKE) -f CMakeFiles/Hafta-01-03-Animals.dir/build.make CMakeFiles/Hafta-01-03-Animals.dir/Hafta-01/03-Animals/Dog.cpp.o
 .PHONY : Hafta-01/03-Animals/Dog.cpp.o
 
 Hafta-01/03-Animals/Dog.i: Hafta-01/03-Animals/Dog.cpp.i
@@ -326,7 +326,7 @@ Hafta-01/03-Animals/Dog.i: Hafta-01/03-Animals/Dog.cpp.i
 
 # target to preprocess a source file
 Hafta-01/03-Animals/Dog.cpp.i:
-	$(MAKE) -f CMakeFiles/Animals.dir/build.make CMakeFiles/Animals.dir/Hafta-01/03-Animals/Dog.cpp.i
+	$(MAKE) -f CMakeFiles/Hafta-01-03-Animals.dir/build.make CMakeFiles/Hafta-01-03-Animals.dir/Hafta-01/03-Animals/Dog.cpp.i
 .PHONY : Hafta-01/03-Animals/Dog.cpp.i
 
 Hafta-01/03-Animals/Dog.s: Hafta-01/03-Animals/Dog.cpp.s
@@ -335,7 +335,7 @@ Hafta-01/03-Animals/Dog.s: Hafta-01/03-Animals/Dog.cpp.s
 
 # target to generate assembly for a file
 Hafta-01/03-Animals/Dog.cpp.s:
-	$(MAKE) -f CMakeFiles/Animals.dir/build.make CMakeFiles/Animals.dir/Hafta-01/03-Animals/Dog.cpp.s
+	$(MAKE) -f CMakeFiles/Hafta-01-03-Animals.dir/build.make CMakeFiles/Hafta-01-03-Animals.dir/Hafta-01/03-Animals/Dog.cpp.s
 .PHONY : Hafta-01/03-Animals/Dog.cpp.s
 
 Hafta-01/03-Animals/main.o: Hafta-01/03-Animals/main.cpp.o
@@ -344,7 +344,7 @@ Hafta-01/03-Animals/main.o: Hafta-01/03-Animals/main.cpp.o
 
 # target to build an object file
 Hafta-01/03-Animals/main.cpp.o:
-	$(MAKE) -f CMakeFiles/Animals.dir/build.make CMakeFiles/Animals.dir/Hafta-01/03-Animals/main.cpp.o
+	$(MAKE) -f CMakeFiles/Hafta-01-03-Animals.dir/build.make CMakeFiles/Hafta-01-03-Animals.dir/Hafta-01/03-Animals/main.cpp.o
 .PHONY : Hafta-01/03-Animals/main.cpp.o
 
 Hafta-01/03-Animals/main.i: Hafta-01/03-Animals/main.cpp.i
@@ -353,7 +353,7 @@ Hafta-01/03-Animals/main.i: Hafta-01/03-Animals/main.cpp.i
 
 # target to preprocess a source file
 Hafta-01/03-Animals/main.cpp.i:
-	$(MAKE) -f CMakeFiles/Animals.dir/build.make CMakeFiles/Animals.dir/Hafta-01/03-Animals/main.cpp.i
+	$(MAKE) -f CMakeFiles/Hafta-01-03-Animals.dir/build.make CMakeFiles/Hafta-01-03-Animals.dir/Hafta-01/03-Animals/main.cpp.i
 .PHONY : Hafta-01/03-Animals/main.cpp.i
 
 Hafta-01/03-Animals/main.s: Hafta-01/03-Animals/main.cpp.s
@@ -362,7 +362,7 @@ Hafta-01/03-Animals/main.s: Hafta-01/03-Animals/main.cpp.s
 
 # target to generate assembly for a file
 Hafta-01/03-Animals/main.cpp.s:
-	$(MAKE) -f CMakeFiles/Animals.dir/build.make CMakeFiles/Animals.dir/Hafta-01/03-Animals/main.cpp.s
+	$(MAKE) -f CMakeFiles/Hafta-01-03-Animals.dir/build.make CMakeFiles/Hafta-01-03-Animals.dir/Hafta-01/03-Animals/main.cpp.s
 .PHONY : Hafta-01/03-Animals/main.cpp.s
 
 # Help Target
@@ -371,11 +371,11 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... rebuild_cache"
-	@echo "... Animals"
-	@echo "... vector"
 	@echo "... edit_cache"
-	@echo "... Chat"
+	@echo "... rebuild_cache"
+	@echo "... Hafta-01-03-Animals"
+	@echo "... Hafta-01-01-vector"
+	@echo "... Hafta-01-02-Chat"
 	@echo "... Hafta-01/01-vector/main.o"
 	@echo "... Hafta-01/01-vector/main.i"
 	@echo "... Hafta-01/01-vector/main.s"

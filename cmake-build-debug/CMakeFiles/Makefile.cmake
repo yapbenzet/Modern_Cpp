@@ -48,7 +48,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/Animals.dir/DependInfo.cmake"
-  "CMakeFiles/vector.dir/DependInfo.cmake"
-  "CMakeFiles/Chat.dir/DependInfo.cmake"
+  "CMakeFiles/Hafta-01-03-Animals.dir/DependInfo.cmake"
+  "CMakeFiles/Hafta-01-01-vector.dir/DependInfo.cmake"
+  "CMakeFiles/Hafta-01-02-Chat.dir/DependInfo.cmake"
   )

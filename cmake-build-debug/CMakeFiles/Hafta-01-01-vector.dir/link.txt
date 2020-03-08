@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/Hafta-01-01-vector.dir/Hafta-01/01-vector/main.cpp.o CMakeFiles/Hafta-01-01-vector.dir/Hafta-01/01-vector/sinif.cpp.o  -o Hafta-01-01-vector 
