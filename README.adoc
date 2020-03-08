@@ -6,7 +6,7 @@ Bu depo Tasarım Örüntüleri dersinde gösterilen örnekleri içermektedir.
 
 . *Vector*
     
-Modern C++'ta vector tanımı nedir, nasıl kullanılır sorularını cevaplayan örnektir. Vector değişkeni ile ilgili temel bilgiler anlatılmaktadır.    
+Modern C++ 'ta vector tanımı nedir, nasıl kullanılır sorularını cevaplayan örnektir. Vector değişkeni ile ilgili temel bilgiler anlatılmaktadır.    
     
 . *Chat*
 
