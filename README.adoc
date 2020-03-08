@@ -10,7 +10,7 @@ Modern Cpp'ta vector tanımı nedir, nasıl kullanılır sorularını cevaplayan
     
 . *Chat*
 
-Modern Cpp'ta sınıf oluşturmanın mantığını gösteren örnektir. Sınıfları oluştururken nelere dikkat edilmeli, C++'ta derleme işlemi nasıl yapılır sorularını cevaplamaya yöneliktir. 
+Modern Cpp'ta sınıf oluşturmanın mantığını gösteren örnektir. Sınıfları oluştururken nelere dikkat edilmeli, Cpp'ta derleme işlemi nasıl yapılır sorularını cevaplamaya yöneliktir. 
 
 . *Animals*
 
