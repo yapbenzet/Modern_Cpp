@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/Chat.dir/Hafta-01/02-Chat/main.cpp.o CMakeFiles/Chat.dir/Hafta-01/02-Chat/chat_sinif.cpp.o  -o Chat 

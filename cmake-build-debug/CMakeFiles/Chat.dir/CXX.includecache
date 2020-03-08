@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/atuash/Modern_Cpp/Hafta-01/02-Chat/chat_sinif.cpp
+chat_sinif.h
+/home/atuash/Modern_Cpp/Hafta-01/02-Chat/chat_sinif.h
+
+/home/atuash/Modern_Cpp/Hafta-01/02-Chat/chat_sinif.h
+iostream
+-
+string
+-
+vector
+-
+
+/home/atuash/Modern_Cpp/Hafta-01/02-Chat/main.cpp
+iostream
+-
+chat_sinif.h
+/home/atuash/Modern_Cpp/Hafta-01/02-Chat/chat_sinif.h
+

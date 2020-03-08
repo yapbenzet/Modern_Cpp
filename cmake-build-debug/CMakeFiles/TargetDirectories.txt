@@ -1,0 +1,5 @@
+/home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles/Animals.dir
+/home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles/vector.dir
+/home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles/Chat.dir
