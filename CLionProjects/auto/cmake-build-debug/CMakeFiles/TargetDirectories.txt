@@ -1,3 +1,0 @@
-/home/atuash/CLionProjects/auto/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/atuash/CLionProjects/auto/cmake-build-debug/CMakeFiles/auto.dir
-/home/atuash/CLionProjects/auto/cmake-build-debug/CMakeFiles/edit_cache.dir

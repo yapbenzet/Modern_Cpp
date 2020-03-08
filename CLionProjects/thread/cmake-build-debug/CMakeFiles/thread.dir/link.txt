@@ -1,1 +1,0 @@
-/usr/bin/c++  -g   CMakeFiles/thread.dir/main.cpp.o CMakeFiles/thread.dir/sinif.cpp.o  -o thread -lpthread 

@@ -1,3 +1,0 @@
-/home/atuash/CLionProjects/Animals/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/atuash/CLionProjects/Animals/cmake-build-debug/CMakeFiles/Animals.dir
-/home/atuash/CLionProjects/Animals/cmake-build-debug/CMakeFiles/edit_cache.dir
