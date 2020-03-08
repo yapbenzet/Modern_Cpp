@@ -1,8 +1,6 @@
 #include <iostream>
 
-using namespace std;
-
 int main()
 {
-    cout << "virtual_functions" << endl;
+    std::cout << "virtual_functions" << std::endl;
 }

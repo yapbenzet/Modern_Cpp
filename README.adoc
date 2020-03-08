@@ -4,14 +4,14 @@ Bu depo Tasarım Örüntüleri dersinde gösterilen örnekleri içermektedir.
 
 == Hafta-01
 
-. *Vector*
+* *Vector*
     
 Modern Cpp'ta vector tanımı nedir, nasıl kullanılır sorularını cevaplayan örnektir. Vector değişkeni ile ilgili temel bilgiler anlatılmaktadır.    
     
-. *Chat*
+* *Chat*
 
 Modern Cpp'ta sınıf oluşturmanın mantığını gösteren örnektir. Sınıfları oluştururken nelere dikkat edilmeli, Cpp'ta derleme işlemi nasıl yapılır sorularını cevaplamaya yöneliktir. 
 
-. *Animals*
+* *Animals*
 
 Ders boyunca yapılacak işlenecek konulara bir örnektir. Private, public sınıfların neler olduğu gösterilmektedir.
