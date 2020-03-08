@@ -4,5 +4,5 @@ using namespace std;
 
 int main()
 {
-    cout << "virtual_functions" << endl;
+    cout << "abstract" << endl;
 }
