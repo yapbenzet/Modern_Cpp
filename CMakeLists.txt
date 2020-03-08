@@ -9,6 +9,15 @@ add_executable(Hafta-01-02-Chat Hafta-01/02-Chat/main.cpp Hafta-01/02-Chat/chat_
 
 add_executable(Hafta-01-03-Animals Hafta-01/03-Animals/main.cpp Hafta-01/03-Animals/Animal.cpp Hafta-01/03-Animals/Animal.h Hafta-01/03-Animals/Cat.cpp Hafta-01/03-Animals/Cat.h Hafta-01/03-Animals/Dog.cpp Hafta-01/03-Animals/Dog.h)
 
-add_executable(Hafta-02-01-Virtual_Functions Hafta-02/Virtual_Functions/main.cpp)
+add_executable(Hafta-02-01-Virtual_Functions Hafta-02/01-Virtual_Functions/main.cpp)
 
-add_executable(Hafta-02-02-Abstract Hafta-02/Abstract/main.cpp)
+add_executable(Hafta-02-02-Pure_Virtual_Functions Hafta-02/02-Pure_Virtual_Functions/main.cpp)
+
+add_executable(Hafta-02-03-Abstract Hafta-02/03-Abstract/main.cpp)
+
+add_executable(Hafta-02-04-Templates Hafta-02/04-Templates/main.cpp)
+
+add_executable(Hafta-02-05-Move_Semantics Hafta-02/05-Move_Semantics/main.cpp)
+
+add_executable(Hafta-02-06-Shared_Pointer Hafta-02/06-Shared_Pointer/main.cpp)
+
