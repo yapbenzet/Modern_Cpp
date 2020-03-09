@@ -15,3 +15,5 @@ Modern Cpp'ta sınıf oluşturmanın mantığını gösteren örnektir. Sınıfl
 * *Animals*
 
 Ders boyunca yapılacak işlenecek konulara bir örnektir. Private, public sınıfların neler olduğu gösterilmektedir.
+
+== Hafta-02
