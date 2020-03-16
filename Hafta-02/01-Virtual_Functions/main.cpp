@@ -18,4 +18,8 @@ int main()
     i1->goster();
     i2->goster();
     o1->goster();
+
+    delete i1;
+    delete i2;
+    delete o1;
 }
