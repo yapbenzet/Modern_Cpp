@@ -20,12 +20,24 @@ Ders boyunca yapılacak işlenecek konulara bir örnektir. Private, public sın�
 
 * *Virtual Functions*
 
+Modern Cpp'ta virtual function (sanal fonksiyon) tanımının ne işe yaradığını, nasıl kullanıldığını anlatan örnektir.
+
 * *Pure Virtual Functions*
+
+Modern Cpp'ta pure virtual function (saf sanal fonksiyon) tanımının ne işe yaradığını, nasıl kullanıldığını ve sanal fonksiyon tanımından farkını gösteren örnektir.
 
 * *Abstract*
 
+Pure virual function'ları (saf sanal fonksiyonları) kullanarak basit bir Abstract sınıf oluşturma örneğidir.
+
 * *Templates*
+
+Modern Cpp'ta template tanımını kısaca anlatan, ne işe yaradığını gösteren örnektir.
 
 * *Move Semantics*
 
+Modern Cpp'ta move() fonksiyonun ne iş yaptığını, rvalue tanımını, lvalue tanımını, && operatörünü gösteren örnektir.
+
 * *Shared Pointer*
+
+Modern Cpp'ta shared pointer (paylaşılan işaretçi) tanımını gösteren ve nasıl kullanıldığını anlatan örnektir.
