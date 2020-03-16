@@ -21,3 +21,5 @@ add_executable(Hafta-02-05-Move_Semantics Hafta-02/05-Move_Semantics/main.cpp Ha
 
 add_executable(Hafta-02-06-Shared_Pointer Hafta-02/06-Shared_Pointer/main.cpp)
 
+add_executable(Hafta-03-01-Map Hafta-03/01-Map/main.cpp)
+
