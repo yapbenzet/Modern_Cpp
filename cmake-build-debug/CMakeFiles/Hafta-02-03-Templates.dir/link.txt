@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/Hafta-02-03-Templates.dir/Hafta-02/04-Templates/main.cpp.o  -o Hafta-02-03-Templates 

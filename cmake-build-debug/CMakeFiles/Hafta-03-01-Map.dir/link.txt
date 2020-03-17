@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/Hafta-03-01-Map.dir/Hafta-03/01-Map/main.cpp.o  -o Hafta-03-01-Map 

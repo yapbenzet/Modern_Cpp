@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/atuash/Modern_Cpp/Hafta-02/03-Abstract/sinif.cpp
+sinif.h
+/home/atuash/Modern_Cpp/Hafta-02/03-Abstract/sinif.h
+
+/home/atuash/Modern_Cpp/Hafta-02/03-Abstract/sinif.h
+iostream
+-
+

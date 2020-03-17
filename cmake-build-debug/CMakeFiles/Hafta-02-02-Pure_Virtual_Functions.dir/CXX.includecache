@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/atuash/Modern_Cpp/Hafta-02/02-Pure_Virtual_Functions/insan.cpp
+insan.h
+/home/atuash/Modern_Cpp/Hafta-02/02-Pure_Virtual_Functions/insan.h
+
+/home/atuash/Modern_Cpp/Hafta-02/02-Pure_Virtual_Functions/insan.h
+iostream
+-
+

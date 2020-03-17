@@ -1,6 +1,3 @@
-//
-// Created by atuash on 17.03.2020.
-//
 
 #ifndef MODERN_CPP_KAYDEDICI_H
 #define MODERN_CPP_KAYDEDICI_H

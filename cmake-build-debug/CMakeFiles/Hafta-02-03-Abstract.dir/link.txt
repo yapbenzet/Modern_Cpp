@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/Hafta-02-03-Abstract.dir/Hafta-02/03-Abstract/main.cpp.o CMakeFiles/Hafta-02-03-Abstract.dir/Hafta-02/03-Abstract/sinif.cpp.o  -o Hafta-02-03-Abstract 

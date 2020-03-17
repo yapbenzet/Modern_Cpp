@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/Hafta-02-02-Abstract.dir/Hafta-02/Abstract/main.cpp.o  -o Hafta-02-02-Abstract 

@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/atuash/Modern_Cpp/Hafta-03/02-Single_Responsibility_Principle/gunluk.h
+iostream
+-
+fstream
+-
+string
+-
+vector
+-
+
+/home/atuash/Modern_Cpp/Hafta-03/02-Single_Responsibility_Principle/kaydedici.h
+gunluk.h
+/home/atuash/Modern_Cpp/Hafta-03/02-Single_Responsibility_Principle/gunluk.h
+
+/home/atuash/Modern_Cpp/Hafta-03/02-Single_Responsibility_Principle/main.cpp
+iostream
+-
+fstream
+-
+string
+-
+vector
+-
+gunluk.h
+/home/atuash/Modern_Cpp/Hafta-03/02-Single_Responsibility_Principle/gunluk.h
+kaydedici.h
+/home/atuash/Modern_Cpp/Hafta-03/02-Single_Responsibility_Principle/kaydedici.h
+

@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/Hafta-02-02-Pure_Virtual_Functions.dir/Hafta-02/02-Pure_Virtual_Functions/main.cpp.o CMakeFiles/Hafta-02-02-Pure_Virtual_Functions.dir/Hafta-02/02-Pure_Virtual_Functions/insan.cpp.o  -o Hafta-02-02-Pure_Virtual_Functions 

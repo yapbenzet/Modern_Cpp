@@ -1,6 +1,3 @@
-//
-// Created by atuash on 17.03.2020.
-//
 
 #include "kaydedici.h"
 
