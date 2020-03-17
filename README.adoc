@@ -41,3 +41,9 @@ Modern Cpp'ta move() fonksiyonun ne iş yaptığını, rvalue tanımını, lvalu
 * *Shared Pointer*
 
 Modern Cpp'ta shared pointer (paylaşılan işaretçi) tanımını gösteren ve nasıl kullanıldığını anlatan örnektir.
+
+== Hafta-03
+
+* *Map*
+
+* *Single Responsibility Principle*
