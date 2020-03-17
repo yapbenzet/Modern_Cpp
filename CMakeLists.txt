@@ -23,3 +23,5 @@ add_executable(Hafta-02-06-Shared_Pointer Hafta-02/06-Shared_Pointer/main.cpp)
 
 add_executable(Hafta-03-01-Map Hafta-03/01-Map/main.cpp)
 
+add_executable(Hafta-03-01-Single_Responsibility_Princeple Hafta-03/02-Single_Responsibility_Principle/main.cpp)
+
