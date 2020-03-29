@@ -7,6 +7,10 @@
 // Listeler bitişik olmayan bellek tahsisine izin veren dizi konteynerlardır.
 // Vector'le karşılaştırıldığında, listenin yavaş geçişi vardır, ancak bir konum bulunduğunda ekleme ve silme hızlıdır.
 
+// Node-based
+
+// forward_list dezavantajı, geriye doğru yinelenememesi ve bağımsız öğelerine doğrudan erişilememesidir.
+
 void showlist(std::list <int> g)
 {
     std::list <int> :: iterator it;

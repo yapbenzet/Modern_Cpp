@@ -56,17 +56,6 @@ CMAKE_BINARY_DIR = /home/atuash/Modern_Cpp/cmake-build-debug
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target edit_cache
-edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/home/atuash/Downloads/clion-2019.3.3/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
-.PHONY : edit_cache
-
-# Special rule for the target edit_cache
-edit_cache/fast: edit_cache
-
-.PHONY : edit_cache/fast
-
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
@@ -77,6 +66,17 @@ rebuild_cache:
 rebuild_cache/fast: rebuild_cache
 
 .PHONY : rebuild_cache/fast
+
+# Special rule for the target edit_cache
+edit_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	/home/atuash/Downloads/clion-2019.3.3/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+.PHONY : edit_cache
+
+# Special rule for the target edit_cache
+edit_cache/fast: edit_cache
+
+.PHONY : edit_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -111,160 +111,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named Hafta-04-02-Deque
+# Target rules for targets named Hafta-02-03-Abstract
 
 # Build rule for target.
-Hafta-04-02-Deque: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Hafta-04-02-Deque
-.PHONY : Hafta-04-02-Deque
+Hafta-02-03-Abstract: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Hafta-02-03-Abstract
+.PHONY : Hafta-02-03-Abstract
 
 # fast build rule for target.
-Hafta-04-02-Deque/fast:
-	$(MAKE) -f CMakeFiles/Hafta-04-02-Deque.dir/build.make CMakeFiles/Hafta-04-02-Deque.dir/build
-.PHONY : Hafta-04-02-Deque/fast
-
-#=============================================================================
-# Target rules for targets named Hafta-04-01-Array
-
-# Build rule for target.
-Hafta-04-01-Array: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Hafta-04-01-Array
-.PHONY : Hafta-04-01-Array
-
-# fast build rule for target.
-Hafta-04-01-Array/fast:
-	$(MAKE) -f CMakeFiles/Hafta-04-01-Array.dir/build.make CMakeFiles/Hafta-04-01-Array.dir/build
-.PHONY : Hafta-04-01-Array/fast
-
-#=============================================================================
-# Target rules for targets named Hafta-03-02-Single_Responsibility_Princeple
-
-# Build rule for target.
-Hafta-03-02-Single_Responsibility_Princeple: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Hafta-03-02-Single_Responsibility_Princeple
-.PHONY : Hafta-03-02-Single_Responsibility_Princeple
-
-# fast build rule for target.
-Hafta-03-02-Single_Responsibility_Princeple/fast:
-	$(MAKE) -f CMakeFiles/Hafta-03-02-Single_Responsibility_Princeple.dir/build.make CMakeFiles/Hafta-03-02-Single_Responsibility_Princeple.dir/build
-.PHONY : Hafta-03-02-Single_Responsibility_Princeple/fast
-
-#=============================================================================
-# Target rules for targets named Hafta-02-04-Templates
-
-# Build rule for target.
-Hafta-02-04-Templates: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Hafta-02-04-Templates
-.PHONY : Hafta-02-04-Templates
-
-# fast build rule for target.
-Hafta-02-04-Templates/fast:
-	$(MAKE) -f CMakeFiles/Hafta-02-04-Templates.dir/build.make CMakeFiles/Hafta-02-04-Templates.dir/build
-.PHONY : Hafta-02-04-Templates/fast
-
-#=============================================================================
-# Target rules for targets named Hafta-04-03-List
-
-# Build rule for target.
-Hafta-04-03-List: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Hafta-04-03-List
-.PHONY : Hafta-04-03-List
-
-# fast build rule for target.
-Hafta-04-03-List/fast:
-	$(MAKE) -f CMakeFiles/Hafta-04-03-List.dir/build.make CMakeFiles/Hafta-04-03-List.dir/build
-.PHONY : Hafta-04-03-List/fast
-
-#=============================================================================
-# Target rules for targets named Hafta-01-02-Chat
-
-# Build rule for target.
-Hafta-01-02-Chat: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Hafta-01-02-Chat
-.PHONY : Hafta-01-02-Chat
-
-# fast build rule for target.
-Hafta-01-02-Chat/fast:
-	$(MAKE) -f CMakeFiles/Hafta-01-02-Chat.dir/build.make CMakeFiles/Hafta-01-02-Chat.dir/build
-.PHONY : Hafta-01-02-Chat/fast
-
-#=============================================================================
-# Target rules for targets named Hafta-01-01-Vector
-
-# Build rule for target.
-Hafta-01-01-Vector: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Hafta-01-01-Vector
-.PHONY : Hafta-01-01-Vector
-
-# fast build rule for target.
-Hafta-01-01-Vector/fast:
-	$(MAKE) -f CMakeFiles/Hafta-01-01-Vector.dir/build.make CMakeFiles/Hafta-01-01-Vector.dir/build
-.PHONY : Hafta-01-01-Vector/fast
-
-#=============================================================================
-# Target rules for targets named Hafta-03-01-Map
-
-# Build rule for target.
-Hafta-03-01-Map: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Hafta-03-01-Map
-.PHONY : Hafta-03-01-Map
-
-# fast build rule for target.
-Hafta-03-01-Map/fast:
-	$(MAKE) -f CMakeFiles/Hafta-03-01-Map.dir/build.make CMakeFiles/Hafta-03-01-Map.dir/build
-.PHONY : Hafta-03-01-Map/fast
-
-#=============================================================================
-# Target rules for targets named Hafta-01-03-Animals
-
-# Build rule for target.
-Hafta-01-03-Animals: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Hafta-01-03-Animals
-.PHONY : Hafta-01-03-Animals
-
-# fast build rule for target.
-Hafta-01-03-Animals/fast:
-	$(MAKE) -f CMakeFiles/Hafta-01-03-Animals.dir/build.make CMakeFiles/Hafta-01-03-Animals.dir/build
-.PHONY : Hafta-01-03-Animals/fast
-
-#=============================================================================
-# Target rules for targets named Hafta-02-06-Shared_Pointer
-
-# Build rule for target.
-Hafta-02-06-Shared_Pointer: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Hafta-02-06-Shared_Pointer
-.PHONY : Hafta-02-06-Shared_Pointer
-
-# fast build rule for target.
-Hafta-02-06-Shared_Pointer/fast:
-	$(MAKE) -f CMakeFiles/Hafta-02-06-Shared_Pointer.dir/build.make CMakeFiles/Hafta-02-06-Shared_Pointer.dir/build
-.PHONY : Hafta-02-06-Shared_Pointer/fast
-
-#=============================================================================
-# Target rules for targets named Hafta-02-02-Pure_Virtual_Functions
-
-# Build rule for target.
-Hafta-02-02-Pure_Virtual_Functions: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Hafta-02-02-Pure_Virtual_Functions
-.PHONY : Hafta-02-02-Pure_Virtual_Functions
-
-# fast build rule for target.
-Hafta-02-02-Pure_Virtual_Functions/fast:
-	$(MAKE) -f CMakeFiles/Hafta-02-02-Pure_Virtual_Functions.dir/build.make CMakeFiles/Hafta-02-02-Pure_Virtual_Functions.dir/build
-.PHONY : Hafta-02-02-Pure_Virtual_Functions/fast
-
-#=============================================================================
-# Target rules for targets named Hafta-02-05-Move_Semantics
-
-# Build rule for target.
-Hafta-02-05-Move_Semantics: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Hafta-02-05-Move_Semantics
-.PHONY : Hafta-02-05-Move_Semantics
-
-# fast build rule for target.
-Hafta-02-05-Move_Semantics/fast:
-	$(MAKE) -f CMakeFiles/Hafta-02-05-Move_Semantics.dir/build.make CMakeFiles/Hafta-02-05-Move_Semantics.dir/build
-.PHONY : Hafta-02-05-Move_Semantics/fast
+Hafta-02-03-Abstract/fast:
+	$(MAKE) -f CMakeFiles/Hafta-02-03-Abstract.dir/build.make CMakeFiles/Hafta-02-03-Abstract.dir/build
+.PHONY : Hafta-02-03-Abstract/fast
 
 #=============================================================================
 # Target rules for targets named Hafta-02-01-Virtual_Functions
@@ -280,17 +137,173 @@ Hafta-02-01-Virtual_Functions/fast:
 .PHONY : Hafta-02-01-Virtual_Functions/fast
 
 #=============================================================================
-# Target rules for targets named Hafta-02-03-Abstract
+# Target rules for targets named Hafta-02-05-Move_Semantics
 
 # Build rule for target.
-Hafta-02-03-Abstract: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Hafta-02-03-Abstract
-.PHONY : Hafta-02-03-Abstract
+Hafta-02-05-Move_Semantics: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Hafta-02-05-Move_Semantics
+.PHONY : Hafta-02-05-Move_Semantics
 
 # fast build rule for target.
-Hafta-02-03-Abstract/fast:
-	$(MAKE) -f CMakeFiles/Hafta-02-03-Abstract.dir/build.make CMakeFiles/Hafta-02-03-Abstract.dir/build
-.PHONY : Hafta-02-03-Abstract/fast
+Hafta-02-05-Move_Semantics/fast:
+	$(MAKE) -f CMakeFiles/Hafta-02-05-Move_Semantics.dir/build.make CMakeFiles/Hafta-02-05-Move_Semantics.dir/build
+.PHONY : Hafta-02-05-Move_Semantics/fast
+
+#=============================================================================
+# Target rules for targets named Hafta-02-02-Pure_Virtual_Functions
+
+# Build rule for target.
+Hafta-02-02-Pure_Virtual_Functions: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Hafta-02-02-Pure_Virtual_Functions
+.PHONY : Hafta-02-02-Pure_Virtual_Functions
+
+# fast build rule for target.
+Hafta-02-02-Pure_Virtual_Functions/fast:
+	$(MAKE) -f CMakeFiles/Hafta-02-02-Pure_Virtual_Functions.dir/build.make CMakeFiles/Hafta-02-02-Pure_Virtual_Functions.dir/build
+.PHONY : Hafta-02-02-Pure_Virtual_Functions/fast
+
+#=============================================================================
+# Target rules for targets named Hafta-01-03-Animals
+
+# Build rule for target.
+Hafta-01-03-Animals: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Hafta-01-03-Animals
+.PHONY : Hafta-01-03-Animals
+
+# fast build rule for target.
+Hafta-01-03-Animals/fast:
+	$(MAKE) -f CMakeFiles/Hafta-01-03-Animals.dir/build.make CMakeFiles/Hafta-01-03-Animals.dir/build
+.PHONY : Hafta-01-03-Animals/fast
+
+#=============================================================================
+# Target rules for targets named Hafta-03-01-Map
+
+# Build rule for target.
+Hafta-03-01-Map: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Hafta-03-01-Map
+.PHONY : Hafta-03-01-Map
+
+# fast build rule for target.
+Hafta-03-01-Map/fast:
+	$(MAKE) -f CMakeFiles/Hafta-03-01-Map.dir/build.make CMakeFiles/Hafta-03-01-Map.dir/build
+.PHONY : Hafta-03-01-Map/fast
+
+#=============================================================================
+# Target rules for targets named Hafta-01-01-Vector
+
+# Build rule for target.
+Hafta-01-01-Vector: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Hafta-01-01-Vector
+.PHONY : Hafta-01-01-Vector
+
+# fast build rule for target.
+Hafta-01-01-Vector/fast:
+	$(MAKE) -f CMakeFiles/Hafta-01-01-Vector.dir/build.make CMakeFiles/Hafta-01-01-Vector.dir/build
+.PHONY : Hafta-01-01-Vector/fast
+
+#=============================================================================
+# Target rules for targets named Hafta-01-02-Chat
+
+# Build rule for target.
+Hafta-01-02-Chat: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Hafta-01-02-Chat
+.PHONY : Hafta-01-02-Chat
+
+# fast build rule for target.
+Hafta-01-02-Chat/fast:
+	$(MAKE) -f CMakeFiles/Hafta-01-02-Chat.dir/build.make CMakeFiles/Hafta-01-02-Chat.dir/build
+.PHONY : Hafta-01-02-Chat/fast
+
+#=============================================================================
+# Target rules for targets named Hafta-02-06-Shared_Pointer
+
+# Build rule for target.
+Hafta-02-06-Shared_Pointer: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Hafta-02-06-Shared_Pointer
+.PHONY : Hafta-02-06-Shared_Pointer
+
+# fast build rule for target.
+Hafta-02-06-Shared_Pointer/fast:
+	$(MAKE) -f CMakeFiles/Hafta-02-06-Shared_Pointer.dir/build.make CMakeFiles/Hafta-02-06-Shared_Pointer.dir/build
+.PHONY : Hafta-02-06-Shared_Pointer/fast
+
+#=============================================================================
+# Target rules for targets named Hafta-04-03-List
+
+# Build rule for target.
+Hafta-04-03-List: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Hafta-04-03-List
+.PHONY : Hafta-04-03-List
+
+# fast build rule for target.
+Hafta-04-03-List/fast:
+	$(MAKE) -f CMakeFiles/Hafta-04-03-List.dir/build.make CMakeFiles/Hafta-04-03-List.dir/build
+.PHONY : Hafta-04-03-List/fast
+
+#=============================================================================
+# Target rules for targets named Hafta-02-04-Templates
+
+# Build rule for target.
+Hafta-02-04-Templates: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Hafta-02-04-Templates
+.PHONY : Hafta-02-04-Templates
+
+# fast build rule for target.
+Hafta-02-04-Templates/fast:
+	$(MAKE) -f CMakeFiles/Hafta-02-04-Templates.dir/build.make CMakeFiles/Hafta-02-04-Templates.dir/build
+.PHONY : Hafta-02-04-Templates/fast
+
+#=============================================================================
+# Target rules for targets named Hafta-03-02-Single_Responsibility_Princeple
+
+# Build rule for target.
+Hafta-03-02-Single_Responsibility_Princeple: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Hafta-03-02-Single_Responsibility_Princeple
+.PHONY : Hafta-03-02-Single_Responsibility_Princeple
+
+# fast build rule for target.
+Hafta-03-02-Single_Responsibility_Princeple/fast:
+	$(MAKE) -f CMakeFiles/Hafta-03-02-Single_Responsibility_Princeple.dir/build.make CMakeFiles/Hafta-03-02-Single_Responsibility_Princeple.dir/build
+.PHONY : Hafta-03-02-Single_Responsibility_Princeple/fast
+
+#=============================================================================
+# Target rules for targets named Hafta-04-01-Array
+
+# Build rule for target.
+Hafta-04-01-Array: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Hafta-04-01-Array
+.PHONY : Hafta-04-01-Array
+
+# fast build rule for target.
+Hafta-04-01-Array/fast:
+	$(MAKE) -f CMakeFiles/Hafta-04-01-Array.dir/build.make CMakeFiles/Hafta-04-01-Array.dir/build
+.PHONY : Hafta-04-01-Array/fast
+
+#=============================================================================
+# Target rules for targets named Hafta-04-02-Deque
+
+# Build rule for target.
+Hafta-04-02-Deque: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Hafta-04-02-Deque
+.PHONY : Hafta-04-02-Deque
+
+# fast build rule for target.
+Hafta-04-02-Deque/fast:
+	$(MAKE) -f CMakeFiles/Hafta-04-02-Deque.dir/build.make CMakeFiles/Hafta-04-02-Deque.dir/build
+.PHONY : Hafta-04-02-Deque/fast
+
+#=============================================================================
+# Target rules for targets named Hafta-04-04-Multimap
+
+# Build rule for target.
+Hafta-04-04-Multimap: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Hafta-04-04-Multimap
+.PHONY : Hafta-04-04-Multimap
+
+# fast build rule for target.
+Hafta-04-04-Multimap/fast:
+	$(MAKE) -f CMakeFiles/Hafta-04-04-Multimap.dir/build.make CMakeFiles/Hafta-04-04-Multimap.dir/build
+.PHONY : Hafta-04-04-Multimap/fast
 
 Hafta-01/01-vector/main.o: Hafta-01/01-vector/main.cpp.o
 
@@ -967,28 +980,56 @@ Hafta-04/03-List/main.cpp.s:
 	$(MAKE) -f CMakeFiles/Hafta-04-03-List.dir/build.make CMakeFiles/Hafta-04-03-List.dir/Hafta-04/03-List/main.cpp.s
 .PHONY : Hafta-04/03-List/main.cpp.s
 
+Hafta-04/04-Multimap/main.o: Hafta-04/04-Multimap/main.cpp.o
+
+.PHONY : Hafta-04/04-Multimap/main.o
+
+# target to build an object file
+Hafta-04/04-Multimap/main.cpp.o:
+	$(MAKE) -f CMakeFiles/Hafta-04-04-Multimap.dir/build.make CMakeFiles/Hafta-04-04-Multimap.dir/Hafta-04/04-Multimap/main.cpp.o
+.PHONY : Hafta-04/04-Multimap/main.cpp.o
+
+Hafta-04/04-Multimap/main.i: Hafta-04/04-Multimap/main.cpp.i
+
+.PHONY : Hafta-04/04-Multimap/main.i
+
+# target to preprocess a source file
+Hafta-04/04-Multimap/main.cpp.i:
+	$(MAKE) -f CMakeFiles/Hafta-04-04-Multimap.dir/build.make CMakeFiles/Hafta-04-04-Multimap.dir/Hafta-04/04-Multimap/main.cpp.i
+.PHONY : Hafta-04/04-Multimap/main.cpp.i
+
+Hafta-04/04-Multimap/main.s: Hafta-04/04-Multimap/main.cpp.s
+
+.PHONY : Hafta-04/04-Multimap/main.s
+
+# target to generate assembly for a file
+Hafta-04/04-Multimap/main.cpp.s:
+	$(MAKE) -f CMakeFiles/Hafta-04-04-Multimap.dir/build.make CMakeFiles/Hafta-04-04-Multimap.dir/Hafta-04/04-Multimap/main.cpp.s
+.PHONY : Hafta-04/04-Multimap/main.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... Hafta-04-02-Deque"
-	@echo "... edit_cache"
-	@echo "... Hafta-04-01-Array"
-	@echo "... Hafta-03-02-Single_Responsibility_Princeple"
-	@echo "... Hafta-02-04-Templates"
-	@echo "... Hafta-04-03-List"
-	@echo "... Hafta-01-02-Chat"
-	@echo "... Hafta-01-01-Vector"
-	@echo "... Hafta-03-01-Map"
-	@echo "... Hafta-01-03-Animals"
-	@echo "... Hafta-02-06-Shared_Pointer"
-	@echo "... Hafta-02-02-Pure_Virtual_Functions"
-	@echo "... rebuild_cache"
-	@echo "... Hafta-02-05-Move_Semantics"
-	@echo "... Hafta-02-01-Virtual_Functions"
 	@echo "... Hafta-02-03-Abstract"
+	@echo "... rebuild_cache"
+	@echo "... Hafta-02-01-Virtual_Functions"
+	@echo "... Hafta-02-05-Move_Semantics"
+	@echo "... Hafta-02-02-Pure_Virtual_Functions"
+	@echo "... Hafta-01-03-Animals"
+	@echo "... Hafta-03-01-Map"
+	@echo "... Hafta-01-01-Vector"
+	@echo "... Hafta-01-02-Chat"
+	@echo "... Hafta-02-06-Shared_Pointer"
+	@echo "... Hafta-04-03-List"
+	@echo "... Hafta-02-04-Templates"
+	@echo "... Hafta-03-02-Single_Responsibility_Princeple"
+	@echo "... Hafta-04-01-Array"
+	@echo "... edit_cache"
+	@echo "... Hafta-04-02-Deque"
+	@echo "... Hafta-04-04-Multimap"
 	@echo "... Hafta-01/01-vector/main.o"
 	@echo "... Hafta-01/01-vector/main.i"
 	@echo "... Hafta-01/01-vector/main.s"
@@ -1064,6 +1105,9 @@ help:
 	@echo "... Hafta-04/03-List/main.o"
 	@echo "... Hafta-04/03-List/main.i"
 	@echo "... Hafta-04/03-List/main.s"
+	@echo "... Hafta-04/04-Multimap/main.o"
+	@echo "... Hafta-04/04-Multimap/main.i"
+	@echo "... Hafta-04/04-Multimap/main.s"
 .PHONY : help
 
 

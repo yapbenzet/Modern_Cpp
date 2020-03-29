@@ -53,38 +53,40 @@ CMAKE_BINARY_DIR = /home/atuash/Modern_Cpp/cmake-build-debug
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/Hafta-04-02-Deque.dir/all
-all: CMakeFiles/Hafta-04-01-Array.dir/all
-all: CMakeFiles/Hafta-03-02-Single_Responsibility_Princeple.dir/all
-all: CMakeFiles/Hafta-02-04-Templates.dir/all
-all: CMakeFiles/Hafta-04-03-List.dir/all
-all: CMakeFiles/Hafta-01-02-Chat.dir/all
-all: CMakeFiles/Hafta-01-01-Vector.dir/all
-all: CMakeFiles/Hafta-03-01-Map.dir/all
-all: CMakeFiles/Hafta-01-03-Animals.dir/all
-all: CMakeFiles/Hafta-02-06-Shared_Pointer.dir/all
-all: CMakeFiles/Hafta-02-02-Pure_Virtual_Functions.dir/all
-all: CMakeFiles/Hafta-02-05-Move_Semantics.dir/all
-all: CMakeFiles/Hafta-02-01-Virtual_Functions.dir/all
 all: CMakeFiles/Hafta-02-03-Abstract.dir/all
+all: CMakeFiles/Hafta-02-01-Virtual_Functions.dir/all
+all: CMakeFiles/Hafta-02-05-Move_Semantics.dir/all
+all: CMakeFiles/Hafta-02-02-Pure_Virtual_Functions.dir/all
+all: CMakeFiles/Hafta-01-03-Animals.dir/all
+all: CMakeFiles/Hafta-03-01-Map.dir/all
+all: CMakeFiles/Hafta-01-01-Vector.dir/all
+all: CMakeFiles/Hafta-01-02-Chat.dir/all
+all: CMakeFiles/Hafta-02-06-Shared_Pointer.dir/all
+all: CMakeFiles/Hafta-04-03-List.dir/all
+all: CMakeFiles/Hafta-02-04-Templates.dir/all
+all: CMakeFiles/Hafta-03-02-Single_Responsibility_Princeple.dir/all
+all: CMakeFiles/Hafta-04-01-Array.dir/all
+all: CMakeFiles/Hafta-04-02-Deque.dir/all
+all: CMakeFiles/Hafta-04-04-Multimap.dir/all
 
 .PHONY : all
 
 # The main recursive "clean" target.
-clean: CMakeFiles/Hafta-04-02-Deque.dir/clean
-clean: CMakeFiles/Hafta-04-01-Array.dir/clean
-clean: CMakeFiles/Hafta-03-02-Single_Responsibility_Princeple.dir/clean
-clean: CMakeFiles/Hafta-02-04-Templates.dir/clean
-clean: CMakeFiles/Hafta-04-03-List.dir/clean
-clean: CMakeFiles/Hafta-01-02-Chat.dir/clean
-clean: CMakeFiles/Hafta-01-01-Vector.dir/clean
-clean: CMakeFiles/Hafta-03-01-Map.dir/clean
-clean: CMakeFiles/Hafta-01-03-Animals.dir/clean
-clean: CMakeFiles/Hafta-02-06-Shared_Pointer.dir/clean
-clean: CMakeFiles/Hafta-02-02-Pure_Virtual_Functions.dir/clean
-clean: CMakeFiles/Hafta-02-05-Move_Semantics.dir/clean
-clean: CMakeFiles/Hafta-02-01-Virtual_Functions.dir/clean
 clean: CMakeFiles/Hafta-02-03-Abstract.dir/clean
+clean: CMakeFiles/Hafta-02-01-Virtual_Functions.dir/clean
+clean: CMakeFiles/Hafta-02-05-Move_Semantics.dir/clean
+clean: CMakeFiles/Hafta-02-02-Pure_Virtual_Functions.dir/clean
+clean: CMakeFiles/Hafta-01-03-Animals.dir/clean
+clean: CMakeFiles/Hafta-03-01-Map.dir/clean
+clean: CMakeFiles/Hafta-01-01-Vector.dir/clean
+clean: CMakeFiles/Hafta-01-02-Chat.dir/clean
+clean: CMakeFiles/Hafta-02-06-Shared_Pointer.dir/clean
+clean: CMakeFiles/Hafta-04-03-List.dir/clean
+clean: CMakeFiles/Hafta-02-04-Templates.dir/clean
+clean: CMakeFiles/Hafta-03-02-Single_Responsibility_Princeple.dir/clean
+clean: CMakeFiles/Hafta-04-01-Array.dir/clean
+clean: CMakeFiles/Hafta-04-02-Deque.dir/clean
+clean: CMakeFiles/Hafta-04-04-Multimap.dir/clean
 
 .PHONY : clean
 
@@ -94,328 +96,31 @@ preinstall:
 .PHONY : preinstall
 
 #=============================================================================
-# Target rules for target CMakeFiles/Hafta-04-02-Deque.dir
+# Target rules for target CMakeFiles/Hafta-02-03-Abstract.dir
 
 # All Build rule for target.
-CMakeFiles/Hafta-04-02-Deque.dir/all:
-	$(MAKE) -f CMakeFiles/Hafta-04-02-Deque.dir/build.make CMakeFiles/Hafta-04-02-Deque.dir/depend
-	$(MAKE) -f CMakeFiles/Hafta-04-02-Deque.dir/build.make CMakeFiles/Hafta-04-02-Deque.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles --progress-num=36,37 "Built target Hafta-04-02-Deque"
-.PHONY : CMakeFiles/Hafta-04-02-Deque.dir/all
+CMakeFiles/Hafta-02-03-Abstract.dir/all:
+	$(MAKE) -f CMakeFiles/Hafta-02-03-Abstract.dir/build.make CMakeFiles/Hafta-02-03-Abstract.dir/depend
+	$(MAKE) -f CMakeFiles/Hafta-02-03-Abstract.dir/build.make CMakeFiles/Hafta-02-03-Abstract.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles --progress-num=18,19,20 "Built target Hafta-02-03-Abstract"
+.PHONY : CMakeFiles/Hafta-02-03-Abstract.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/Hafta-04-02-Deque.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Hafta-04-02-Deque.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/Hafta-04-02-Deque.dir/rule
-
-# Convenience name for target.
-Hafta-04-02-Deque: CMakeFiles/Hafta-04-02-Deque.dir/rule
-
-.PHONY : Hafta-04-02-Deque
-
-# clean rule for target.
-CMakeFiles/Hafta-04-02-Deque.dir/clean:
-	$(MAKE) -f CMakeFiles/Hafta-04-02-Deque.dir/build.make CMakeFiles/Hafta-04-02-Deque.dir/clean
-.PHONY : CMakeFiles/Hafta-04-02-Deque.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/Hafta-04-01-Array.dir
-
-# All Build rule for target.
-CMakeFiles/Hafta-04-01-Array.dir/all:
-	$(MAKE) -f CMakeFiles/Hafta-04-01-Array.dir/build.make CMakeFiles/Hafta-04-01-Array.dir/depend
-	$(MAKE) -f CMakeFiles/Hafta-04-01-Array.dir/build.make CMakeFiles/Hafta-04-01-Array.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles --progress-num=34,35 "Built target Hafta-04-01-Array"
-.PHONY : CMakeFiles/Hafta-04-01-Array.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/Hafta-04-01-Array.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Hafta-04-01-Array.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/Hafta-04-01-Array.dir/rule
-
-# Convenience name for target.
-Hafta-04-01-Array: CMakeFiles/Hafta-04-01-Array.dir/rule
-
-.PHONY : Hafta-04-01-Array
-
-# clean rule for target.
-CMakeFiles/Hafta-04-01-Array.dir/clean:
-	$(MAKE) -f CMakeFiles/Hafta-04-01-Array.dir/build.make CMakeFiles/Hafta-04-01-Array.dir/clean
-.PHONY : CMakeFiles/Hafta-04-01-Array.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/Hafta-03-02-Single_Responsibility_Princeple.dir
-
-# All Build rule for target.
-CMakeFiles/Hafta-03-02-Single_Responsibility_Princeple.dir/all:
-	$(MAKE) -f CMakeFiles/Hafta-03-02-Single_Responsibility_Princeple.dir/build.make CMakeFiles/Hafta-03-02-Single_Responsibility_Princeple.dir/depend
-	$(MAKE) -f CMakeFiles/Hafta-03-02-Single_Responsibility_Princeple.dir/build.make CMakeFiles/Hafta-03-02-Single_Responsibility_Princeple.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles --progress-num=30,31,32,33 "Built target Hafta-03-02-Single_Responsibility_Princeple"
-.PHONY : CMakeFiles/Hafta-03-02-Single_Responsibility_Princeple.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/Hafta-03-02-Single_Responsibility_Princeple.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles 4
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Hafta-03-02-Single_Responsibility_Princeple.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/Hafta-03-02-Single_Responsibility_Princeple.dir/rule
-
-# Convenience name for target.
-Hafta-03-02-Single_Responsibility_Princeple: CMakeFiles/Hafta-03-02-Single_Responsibility_Princeple.dir/rule
-
-.PHONY : Hafta-03-02-Single_Responsibility_Princeple
-
-# clean rule for target.
-CMakeFiles/Hafta-03-02-Single_Responsibility_Princeple.dir/clean:
-	$(MAKE) -f CMakeFiles/Hafta-03-02-Single_Responsibility_Princeple.dir/build.make CMakeFiles/Hafta-03-02-Single_Responsibility_Princeple.dir/clean
-.PHONY : CMakeFiles/Hafta-03-02-Single_Responsibility_Princeple.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/Hafta-02-04-Templates.dir
-
-# All Build rule for target.
-CMakeFiles/Hafta-02-04-Templates.dir/all:
-	$(MAKE) -f CMakeFiles/Hafta-02-04-Templates.dir/build.make CMakeFiles/Hafta-02-04-Templates.dir/depend
-	$(MAKE) -f CMakeFiles/Hafta-02-04-Templates.dir/build.make CMakeFiles/Hafta-02-04-Templates.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles --progress-num=21,22 "Built target Hafta-02-04-Templates"
-.PHONY : CMakeFiles/Hafta-02-04-Templates.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/Hafta-02-04-Templates.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Hafta-02-04-Templates.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/Hafta-02-04-Templates.dir/rule
-
-# Convenience name for target.
-Hafta-02-04-Templates: CMakeFiles/Hafta-02-04-Templates.dir/rule
-
-.PHONY : Hafta-02-04-Templates
-
-# clean rule for target.
-CMakeFiles/Hafta-02-04-Templates.dir/clean:
-	$(MAKE) -f CMakeFiles/Hafta-02-04-Templates.dir/build.make CMakeFiles/Hafta-02-04-Templates.dir/clean
-.PHONY : CMakeFiles/Hafta-02-04-Templates.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/Hafta-04-03-List.dir
-
-# All Build rule for target.
-CMakeFiles/Hafta-04-03-List.dir/all:
-	$(MAKE) -f CMakeFiles/Hafta-04-03-List.dir/build.make CMakeFiles/Hafta-04-03-List.dir/depend
-	$(MAKE) -f CMakeFiles/Hafta-04-03-List.dir/build.make CMakeFiles/Hafta-04-03-List.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles --progress-num=38,39 "Built target Hafta-04-03-List"
-.PHONY : CMakeFiles/Hafta-04-03-List.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/Hafta-04-03-List.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Hafta-04-03-List.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/Hafta-04-03-List.dir/rule
-
-# Convenience name for target.
-Hafta-04-03-List: CMakeFiles/Hafta-04-03-List.dir/rule
-
-.PHONY : Hafta-04-03-List
-
-# clean rule for target.
-CMakeFiles/Hafta-04-03-List.dir/clean:
-	$(MAKE) -f CMakeFiles/Hafta-04-03-List.dir/build.make CMakeFiles/Hafta-04-03-List.dir/clean
-.PHONY : CMakeFiles/Hafta-04-03-List.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/Hafta-01-02-Chat.dir
-
-# All Build rule for target.
-CMakeFiles/Hafta-01-02-Chat.dir/all:
-	$(MAKE) -f CMakeFiles/Hafta-01-02-Chat.dir/build.make CMakeFiles/Hafta-01-02-Chat.dir/depend
-	$(MAKE) -f CMakeFiles/Hafta-01-02-Chat.dir/build.make CMakeFiles/Hafta-01-02-Chat.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles --progress-num=4,5,6 "Built target Hafta-01-02-Chat"
-.PHONY : CMakeFiles/Hafta-01-02-Chat.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/Hafta-01-02-Chat.dir/rule: cmake_check_build_system
+CMakeFiles/Hafta-02-03-Abstract.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles 3
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Hafta-01-02-Chat.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Hafta-02-03-Abstract.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/Hafta-01-02-Chat.dir/rule
+.PHONY : CMakeFiles/Hafta-02-03-Abstract.dir/rule
 
 # Convenience name for target.
-Hafta-01-02-Chat: CMakeFiles/Hafta-01-02-Chat.dir/rule
+Hafta-02-03-Abstract: CMakeFiles/Hafta-02-03-Abstract.dir/rule
 
-.PHONY : Hafta-01-02-Chat
-
-# clean rule for target.
-CMakeFiles/Hafta-01-02-Chat.dir/clean:
-	$(MAKE) -f CMakeFiles/Hafta-01-02-Chat.dir/build.make CMakeFiles/Hafta-01-02-Chat.dir/clean
-.PHONY : CMakeFiles/Hafta-01-02-Chat.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/Hafta-01-01-Vector.dir
-
-# All Build rule for target.
-CMakeFiles/Hafta-01-01-Vector.dir/all:
-	$(MAKE) -f CMakeFiles/Hafta-01-01-Vector.dir/build.make CMakeFiles/Hafta-01-01-Vector.dir/depend
-	$(MAKE) -f CMakeFiles/Hafta-01-01-Vector.dir/build.make CMakeFiles/Hafta-01-01-Vector.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles --progress-num=1,2,3 "Built target Hafta-01-01-Vector"
-.PHONY : CMakeFiles/Hafta-01-01-Vector.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/Hafta-01-01-Vector.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles 3
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Hafta-01-01-Vector.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/Hafta-01-01-Vector.dir/rule
-
-# Convenience name for target.
-Hafta-01-01-Vector: CMakeFiles/Hafta-01-01-Vector.dir/rule
-
-.PHONY : Hafta-01-01-Vector
+.PHONY : Hafta-02-03-Abstract
 
 # clean rule for target.
-CMakeFiles/Hafta-01-01-Vector.dir/clean:
-	$(MAKE) -f CMakeFiles/Hafta-01-01-Vector.dir/build.make CMakeFiles/Hafta-01-01-Vector.dir/clean
-.PHONY : CMakeFiles/Hafta-01-01-Vector.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/Hafta-03-01-Map.dir
-
-# All Build rule for target.
-CMakeFiles/Hafta-03-01-Map.dir/all:
-	$(MAKE) -f CMakeFiles/Hafta-03-01-Map.dir/build.make CMakeFiles/Hafta-03-01-Map.dir/depend
-	$(MAKE) -f CMakeFiles/Hafta-03-01-Map.dir/build.make CMakeFiles/Hafta-03-01-Map.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles --progress-num=28,29 "Built target Hafta-03-01-Map"
-.PHONY : CMakeFiles/Hafta-03-01-Map.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/Hafta-03-01-Map.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Hafta-03-01-Map.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/Hafta-03-01-Map.dir/rule
-
-# Convenience name for target.
-Hafta-03-01-Map: CMakeFiles/Hafta-03-01-Map.dir/rule
-
-.PHONY : Hafta-03-01-Map
-
-# clean rule for target.
-CMakeFiles/Hafta-03-01-Map.dir/clean:
-	$(MAKE) -f CMakeFiles/Hafta-03-01-Map.dir/build.make CMakeFiles/Hafta-03-01-Map.dir/clean
-.PHONY : CMakeFiles/Hafta-03-01-Map.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/Hafta-01-03-Animals.dir
-
-# All Build rule for target.
-CMakeFiles/Hafta-01-03-Animals.dir/all:
-	$(MAKE) -f CMakeFiles/Hafta-01-03-Animals.dir/build.make CMakeFiles/Hafta-01-03-Animals.dir/depend
-	$(MAKE) -f CMakeFiles/Hafta-01-03-Animals.dir/build.make CMakeFiles/Hafta-01-03-Animals.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles --progress-num=7,8,9,10,11 "Built target Hafta-01-03-Animals"
-.PHONY : CMakeFiles/Hafta-01-03-Animals.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/Hafta-01-03-Animals.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles 5
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Hafta-01-03-Animals.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/Hafta-01-03-Animals.dir/rule
-
-# Convenience name for target.
-Hafta-01-03-Animals: CMakeFiles/Hafta-01-03-Animals.dir/rule
-
-.PHONY : Hafta-01-03-Animals
-
-# clean rule for target.
-CMakeFiles/Hafta-01-03-Animals.dir/clean:
-	$(MAKE) -f CMakeFiles/Hafta-01-03-Animals.dir/build.make CMakeFiles/Hafta-01-03-Animals.dir/clean
-.PHONY : CMakeFiles/Hafta-01-03-Animals.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/Hafta-02-06-Shared_Pointer.dir
-
-# All Build rule for target.
-CMakeFiles/Hafta-02-06-Shared_Pointer.dir/all:
-	$(MAKE) -f CMakeFiles/Hafta-02-06-Shared_Pointer.dir/build.make CMakeFiles/Hafta-02-06-Shared_Pointer.dir/depend
-	$(MAKE) -f CMakeFiles/Hafta-02-06-Shared_Pointer.dir/build.make CMakeFiles/Hafta-02-06-Shared_Pointer.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles --progress-num=26,27 "Built target Hafta-02-06-Shared_Pointer"
-.PHONY : CMakeFiles/Hafta-02-06-Shared_Pointer.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/Hafta-02-06-Shared_Pointer.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Hafta-02-06-Shared_Pointer.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/Hafta-02-06-Shared_Pointer.dir/rule
-
-# Convenience name for target.
-Hafta-02-06-Shared_Pointer: CMakeFiles/Hafta-02-06-Shared_Pointer.dir/rule
-
-.PHONY : Hafta-02-06-Shared_Pointer
-
-# clean rule for target.
-CMakeFiles/Hafta-02-06-Shared_Pointer.dir/clean:
-	$(MAKE) -f CMakeFiles/Hafta-02-06-Shared_Pointer.dir/build.make CMakeFiles/Hafta-02-06-Shared_Pointer.dir/clean
-.PHONY : CMakeFiles/Hafta-02-06-Shared_Pointer.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/Hafta-02-02-Pure_Virtual_Functions.dir
-
-# All Build rule for target.
-CMakeFiles/Hafta-02-02-Pure_Virtual_Functions.dir/all:
-	$(MAKE) -f CMakeFiles/Hafta-02-02-Pure_Virtual_Functions.dir/build.make CMakeFiles/Hafta-02-02-Pure_Virtual_Functions.dir/depend
-	$(MAKE) -f CMakeFiles/Hafta-02-02-Pure_Virtual_Functions.dir/build.make CMakeFiles/Hafta-02-02-Pure_Virtual_Functions.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles --progress-num=15,16,17 "Built target Hafta-02-02-Pure_Virtual_Functions"
-.PHONY : CMakeFiles/Hafta-02-02-Pure_Virtual_Functions.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/Hafta-02-02-Pure_Virtual_Functions.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles 3
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Hafta-02-02-Pure_Virtual_Functions.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/Hafta-02-02-Pure_Virtual_Functions.dir/rule
-
-# Convenience name for target.
-Hafta-02-02-Pure_Virtual_Functions: CMakeFiles/Hafta-02-02-Pure_Virtual_Functions.dir/rule
-
-.PHONY : Hafta-02-02-Pure_Virtual_Functions
-
-# clean rule for target.
-CMakeFiles/Hafta-02-02-Pure_Virtual_Functions.dir/clean:
-	$(MAKE) -f CMakeFiles/Hafta-02-02-Pure_Virtual_Functions.dir/build.make CMakeFiles/Hafta-02-02-Pure_Virtual_Functions.dir/clean
-.PHONY : CMakeFiles/Hafta-02-02-Pure_Virtual_Functions.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/Hafta-02-05-Move_Semantics.dir
-
-# All Build rule for target.
-CMakeFiles/Hafta-02-05-Move_Semantics.dir/all:
-	$(MAKE) -f CMakeFiles/Hafta-02-05-Move_Semantics.dir/build.make CMakeFiles/Hafta-02-05-Move_Semantics.dir/depend
-	$(MAKE) -f CMakeFiles/Hafta-02-05-Move_Semantics.dir/build.make CMakeFiles/Hafta-02-05-Move_Semantics.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles --progress-num=23,24,25 "Built target Hafta-02-05-Move_Semantics"
-.PHONY : CMakeFiles/Hafta-02-05-Move_Semantics.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/Hafta-02-05-Move_Semantics.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles 3
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Hafta-02-05-Move_Semantics.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/Hafta-02-05-Move_Semantics.dir/rule
-
-# Convenience name for target.
-Hafta-02-05-Move_Semantics: CMakeFiles/Hafta-02-05-Move_Semantics.dir/rule
-
-.PHONY : Hafta-02-05-Move_Semantics
-
-# clean rule for target.
-CMakeFiles/Hafta-02-05-Move_Semantics.dir/clean:
-	$(MAKE) -f CMakeFiles/Hafta-02-05-Move_Semantics.dir/build.make CMakeFiles/Hafta-02-05-Move_Semantics.dir/clean
-.PHONY : CMakeFiles/Hafta-02-05-Move_Semantics.dir/clean
+CMakeFiles/Hafta-02-03-Abstract.dir/clean:
+	$(MAKE) -f CMakeFiles/Hafta-02-03-Abstract.dir/build.make CMakeFiles/Hafta-02-03-Abstract.dir/clean
+.PHONY : CMakeFiles/Hafta-02-03-Abstract.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/Hafta-02-01-Virtual_Functions.dir
@@ -445,31 +150,355 @@ CMakeFiles/Hafta-02-01-Virtual_Functions.dir/clean:
 .PHONY : CMakeFiles/Hafta-02-01-Virtual_Functions.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/Hafta-02-03-Abstract.dir
+# Target rules for target CMakeFiles/Hafta-02-05-Move_Semantics.dir
 
 # All Build rule for target.
-CMakeFiles/Hafta-02-03-Abstract.dir/all:
-	$(MAKE) -f CMakeFiles/Hafta-02-03-Abstract.dir/build.make CMakeFiles/Hafta-02-03-Abstract.dir/depend
-	$(MAKE) -f CMakeFiles/Hafta-02-03-Abstract.dir/build.make CMakeFiles/Hafta-02-03-Abstract.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles --progress-num=18,19,20 "Built target Hafta-02-03-Abstract"
-.PHONY : CMakeFiles/Hafta-02-03-Abstract.dir/all
+CMakeFiles/Hafta-02-05-Move_Semantics.dir/all:
+	$(MAKE) -f CMakeFiles/Hafta-02-05-Move_Semantics.dir/build.make CMakeFiles/Hafta-02-05-Move_Semantics.dir/depend
+	$(MAKE) -f CMakeFiles/Hafta-02-05-Move_Semantics.dir/build.make CMakeFiles/Hafta-02-05-Move_Semantics.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles --progress-num=23,24,25 "Built target Hafta-02-05-Move_Semantics"
+.PHONY : CMakeFiles/Hafta-02-05-Move_Semantics.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/Hafta-02-03-Abstract.dir/rule: cmake_check_build_system
+CMakeFiles/Hafta-02-05-Move_Semantics.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles 3
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Hafta-02-03-Abstract.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Hafta-02-05-Move_Semantics.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/Hafta-02-03-Abstract.dir/rule
+.PHONY : CMakeFiles/Hafta-02-05-Move_Semantics.dir/rule
 
 # Convenience name for target.
-Hafta-02-03-Abstract: CMakeFiles/Hafta-02-03-Abstract.dir/rule
+Hafta-02-05-Move_Semantics: CMakeFiles/Hafta-02-05-Move_Semantics.dir/rule
 
-.PHONY : Hafta-02-03-Abstract
+.PHONY : Hafta-02-05-Move_Semantics
 
 # clean rule for target.
-CMakeFiles/Hafta-02-03-Abstract.dir/clean:
-	$(MAKE) -f CMakeFiles/Hafta-02-03-Abstract.dir/build.make CMakeFiles/Hafta-02-03-Abstract.dir/clean
-.PHONY : CMakeFiles/Hafta-02-03-Abstract.dir/clean
+CMakeFiles/Hafta-02-05-Move_Semantics.dir/clean:
+	$(MAKE) -f CMakeFiles/Hafta-02-05-Move_Semantics.dir/build.make CMakeFiles/Hafta-02-05-Move_Semantics.dir/clean
+.PHONY : CMakeFiles/Hafta-02-05-Move_Semantics.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/Hafta-02-02-Pure_Virtual_Functions.dir
+
+# All Build rule for target.
+CMakeFiles/Hafta-02-02-Pure_Virtual_Functions.dir/all:
+	$(MAKE) -f CMakeFiles/Hafta-02-02-Pure_Virtual_Functions.dir/build.make CMakeFiles/Hafta-02-02-Pure_Virtual_Functions.dir/depend
+	$(MAKE) -f CMakeFiles/Hafta-02-02-Pure_Virtual_Functions.dir/build.make CMakeFiles/Hafta-02-02-Pure_Virtual_Functions.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles --progress-num=15,16,17 "Built target Hafta-02-02-Pure_Virtual_Functions"
+.PHONY : CMakeFiles/Hafta-02-02-Pure_Virtual_Functions.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Hafta-02-02-Pure_Virtual_Functions.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles 3
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Hafta-02-02-Pure_Virtual_Functions.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/Hafta-02-02-Pure_Virtual_Functions.dir/rule
+
+# Convenience name for target.
+Hafta-02-02-Pure_Virtual_Functions: CMakeFiles/Hafta-02-02-Pure_Virtual_Functions.dir/rule
+
+.PHONY : Hafta-02-02-Pure_Virtual_Functions
+
+# clean rule for target.
+CMakeFiles/Hafta-02-02-Pure_Virtual_Functions.dir/clean:
+	$(MAKE) -f CMakeFiles/Hafta-02-02-Pure_Virtual_Functions.dir/build.make CMakeFiles/Hafta-02-02-Pure_Virtual_Functions.dir/clean
+.PHONY : CMakeFiles/Hafta-02-02-Pure_Virtual_Functions.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/Hafta-01-03-Animals.dir
+
+# All Build rule for target.
+CMakeFiles/Hafta-01-03-Animals.dir/all:
+	$(MAKE) -f CMakeFiles/Hafta-01-03-Animals.dir/build.make CMakeFiles/Hafta-01-03-Animals.dir/depend
+	$(MAKE) -f CMakeFiles/Hafta-01-03-Animals.dir/build.make CMakeFiles/Hafta-01-03-Animals.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles --progress-num=7,8,9,10,11 "Built target Hafta-01-03-Animals"
+.PHONY : CMakeFiles/Hafta-01-03-Animals.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Hafta-01-03-Animals.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles 5
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Hafta-01-03-Animals.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/Hafta-01-03-Animals.dir/rule
+
+# Convenience name for target.
+Hafta-01-03-Animals: CMakeFiles/Hafta-01-03-Animals.dir/rule
+
+.PHONY : Hafta-01-03-Animals
+
+# clean rule for target.
+CMakeFiles/Hafta-01-03-Animals.dir/clean:
+	$(MAKE) -f CMakeFiles/Hafta-01-03-Animals.dir/build.make CMakeFiles/Hafta-01-03-Animals.dir/clean
+.PHONY : CMakeFiles/Hafta-01-03-Animals.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/Hafta-03-01-Map.dir
+
+# All Build rule for target.
+CMakeFiles/Hafta-03-01-Map.dir/all:
+	$(MAKE) -f CMakeFiles/Hafta-03-01-Map.dir/build.make CMakeFiles/Hafta-03-01-Map.dir/depend
+	$(MAKE) -f CMakeFiles/Hafta-03-01-Map.dir/build.make CMakeFiles/Hafta-03-01-Map.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles --progress-num=28,29 "Built target Hafta-03-01-Map"
+.PHONY : CMakeFiles/Hafta-03-01-Map.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Hafta-03-01-Map.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Hafta-03-01-Map.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/Hafta-03-01-Map.dir/rule
+
+# Convenience name for target.
+Hafta-03-01-Map: CMakeFiles/Hafta-03-01-Map.dir/rule
+
+.PHONY : Hafta-03-01-Map
+
+# clean rule for target.
+CMakeFiles/Hafta-03-01-Map.dir/clean:
+	$(MAKE) -f CMakeFiles/Hafta-03-01-Map.dir/build.make CMakeFiles/Hafta-03-01-Map.dir/clean
+.PHONY : CMakeFiles/Hafta-03-01-Map.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/Hafta-01-01-Vector.dir
+
+# All Build rule for target.
+CMakeFiles/Hafta-01-01-Vector.dir/all:
+	$(MAKE) -f CMakeFiles/Hafta-01-01-Vector.dir/build.make CMakeFiles/Hafta-01-01-Vector.dir/depend
+	$(MAKE) -f CMakeFiles/Hafta-01-01-Vector.dir/build.make CMakeFiles/Hafta-01-01-Vector.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles --progress-num=1,2,3 "Built target Hafta-01-01-Vector"
+.PHONY : CMakeFiles/Hafta-01-01-Vector.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Hafta-01-01-Vector.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles 3
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Hafta-01-01-Vector.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/Hafta-01-01-Vector.dir/rule
+
+# Convenience name for target.
+Hafta-01-01-Vector: CMakeFiles/Hafta-01-01-Vector.dir/rule
+
+.PHONY : Hafta-01-01-Vector
+
+# clean rule for target.
+CMakeFiles/Hafta-01-01-Vector.dir/clean:
+	$(MAKE) -f CMakeFiles/Hafta-01-01-Vector.dir/build.make CMakeFiles/Hafta-01-01-Vector.dir/clean
+.PHONY : CMakeFiles/Hafta-01-01-Vector.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/Hafta-01-02-Chat.dir
+
+# All Build rule for target.
+CMakeFiles/Hafta-01-02-Chat.dir/all:
+	$(MAKE) -f CMakeFiles/Hafta-01-02-Chat.dir/build.make CMakeFiles/Hafta-01-02-Chat.dir/depend
+	$(MAKE) -f CMakeFiles/Hafta-01-02-Chat.dir/build.make CMakeFiles/Hafta-01-02-Chat.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles --progress-num=4,5,6 "Built target Hafta-01-02-Chat"
+.PHONY : CMakeFiles/Hafta-01-02-Chat.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Hafta-01-02-Chat.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles 3
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Hafta-01-02-Chat.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/Hafta-01-02-Chat.dir/rule
+
+# Convenience name for target.
+Hafta-01-02-Chat: CMakeFiles/Hafta-01-02-Chat.dir/rule
+
+.PHONY : Hafta-01-02-Chat
+
+# clean rule for target.
+CMakeFiles/Hafta-01-02-Chat.dir/clean:
+	$(MAKE) -f CMakeFiles/Hafta-01-02-Chat.dir/build.make CMakeFiles/Hafta-01-02-Chat.dir/clean
+.PHONY : CMakeFiles/Hafta-01-02-Chat.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/Hafta-02-06-Shared_Pointer.dir
+
+# All Build rule for target.
+CMakeFiles/Hafta-02-06-Shared_Pointer.dir/all:
+	$(MAKE) -f CMakeFiles/Hafta-02-06-Shared_Pointer.dir/build.make CMakeFiles/Hafta-02-06-Shared_Pointer.dir/depend
+	$(MAKE) -f CMakeFiles/Hafta-02-06-Shared_Pointer.dir/build.make CMakeFiles/Hafta-02-06-Shared_Pointer.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles --progress-num=26,27 "Built target Hafta-02-06-Shared_Pointer"
+.PHONY : CMakeFiles/Hafta-02-06-Shared_Pointer.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Hafta-02-06-Shared_Pointer.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Hafta-02-06-Shared_Pointer.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/Hafta-02-06-Shared_Pointer.dir/rule
+
+# Convenience name for target.
+Hafta-02-06-Shared_Pointer: CMakeFiles/Hafta-02-06-Shared_Pointer.dir/rule
+
+.PHONY : Hafta-02-06-Shared_Pointer
+
+# clean rule for target.
+CMakeFiles/Hafta-02-06-Shared_Pointer.dir/clean:
+	$(MAKE) -f CMakeFiles/Hafta-02-06-Shared_Pointer.dir/build.make CMakeFiles/Hafta-02-06-Shared_Pointer.dir/clean
+.PHONY : CMakeFiles/Hafta-02-06-Shared_Pointer.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/Hafta-04-03-List.dir
+
+# All Build rule for target.
+CMakeFiles/Hafta-04-03-List.dir/all:
+	$(MAKE) -f CMakeFiles/Hafta-04-03-List.dir/build.make CMakeFiles/Hafta-04-03-List.dir/depend
+	$(MAKE) -f CMakeFiles/Hafta-04-03-List.dir/build.make CMakeFiles/Hafta-04-03-List.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles --progress-num=38,39 "Built target Hafta-04-03-List"
+.PHONY : CMakeFiles/Hafta-04-03-List.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Hafta-04-03-List.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Hafta-04-03-List.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/Hafta-04-03-List.dir/rule
+
+# Convenience name for target.
+Hafta-04-03-List: CMakeFiles/Hafta-04-03-List.dir/rule
+
+.PHONY : Hafta-04-03-List
+
+# clean rule for target.
+CMakeFiles/Hafta-04-03-List.dir/clean:
+	$(MAKE) -f CMakeFiles/Hafta-04-03-List.dir/build.make CMakeFiles/Hafta-04-03-List.dir/clean
+.PHONY : CMakeFiles/Hafta-04-03-List.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/Hafta-02-04-Templates.dir
+
+# All Build rule for target.
+CMakeFiles/Hafta-02-04-Templates.dir/all:
+	$(MAKE) -f CMakeFiles/Hafta-02-04-Templates.dir/build.make CMakeFiles/Hafta-02-04-Templates.dir/depend
+	$(MAKE) -f CMakeFiles/Hafta-02-04-Templates.dir/build.make CMakeFiles/Hafta-02-04-Templates.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles --progress-num=21,22 "Built target Hafta-02-04-Templates"
+.PHONY : CMakeFiles/Hafta-02-04-Templates.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Hafta-02-04-Templates.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Hafta-02-04-Templates.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/Hafta-02-04-Templates.dir/rule
+
+# Convenience name for target.
+Hafta-02-04-Templates: CMakeFiles/Hafta-02-04-Templates.dir/rule
+
+.PHONY : Hafta-02-04-Templates
+
+# clean rule for target.
+CMakeFiles/Hafta-02-04-Templates.dir/clean:
+	$(MAKE) -f CMakeFiles/Hafta-02-04-Templates.dir/build.make CMakeFiles/Hafta-02-04-Templates.dir/clean
+.PHONY : CMakeFiles/Hafta-02-04-Templates.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/Hafta-03-02-Single_Responsibility_Princeple.dir
+
+# All Build rule for target.
+CMakeFiles/Hafta-03-02-Single_Responsibility_Princeple.dir/all:
+	$(MAKE) -f CMakeFiles/Hafta-03-02-Single_Responsibility_Princeple.dir/build.make CMakeFiles/Hafta-03-02-Single_Responsibility_Princeple.dir/depend
+	$(MAKE) -f CMakeFiles/Hafta-03-02-Single_Responsibility_Princeple.dir/build.make CMakeFiles/Hafta-03-02-Single_Responsibility_Princeple.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles --progress-num=30,31,32,33 "Built target Hafta-03-02-Single_Responsibility_Princeple"
+.PHONY : CMakeFiles/Hafta-03-02-Single_Responsibility_Princeple.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Hafta-03-02-Single_Responsibility_Princeple.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles 4
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Hafta-03-02-Single_Responsibility_Princeple.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/Hafta-03-02-Single_Responsibility_Princeple.dir/rule
+
+# Convenience name for target.
+Hafta-03-02-Single_Responsibility_Princeple: CMakeFiles/Hafta-03-02-Single_Responsibility_Princeple.dir/rule
+
+.PHONY : Hafta-03-02-Single_Responsibility_Princeple
+
+# clean rule for target.
+CMakeFiles/Hafta-03-02-Single_Responsibility_Princeple.dir/clean:
+	$(MAKE) -f CMakeFiles/Hafta-03-02-Single_Responsibility_Princeple.dir/build.make CMakeFiles/Hafta-03-02-Single_Responsibility_Princeple.dir/clean
+.PHONY : CMakeFiles/Hafta-03-02-Single_Responsibility_Princeple.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/Hafta-04-01-Array.dir
+
+# All Build rule for target.
+CMakeFiles/Hafta-04-01-Array.dir/all:
+	$(MAKE) -f CMakeFiles/Hafta-04-01-Array.dir/build.make CMakeFiles/Hafta-04-01-Array.dir/depend
+	$(MAKE) -f CMakeFiles/Hafta-04-01-Array.dir/build.make CMakeFiles/Hafta-04-01-Array.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles --progress-num=34,35 "Built target Hafta-04-01-Array"
+.PHONY : CMakeFiles/Hafta-04-01-Array.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Hafta-04-01-Array.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Hafta-04-01-Array.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/Hafta-04-01-Array.dir/rule
+
+# Convenience name for target.
+Hafta-04-01-Array: CMakeFiles/Hafta-04-01-Array.dir/rule
+
+.PHONY : Hafta-04-01-Array
+
+# clean rule for target.
+CMakeFiles/Hafta-04-01-Array.dir/clean:
+	$(MAKE) -f CMakeFiles/Hafta-04-01-Array.dir/build.make CMakeFiles/Hafta-04-01-Array.dir/clean
+.PHONY : CMakeFiles/Hafta-04-01-Array.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/Hafta-04-02-Deque.dir
+
+# All Build rule for target.
+CMakeFiles/Hafta-04-02-Deque.dir/all:
+	$(MAKE) -f CMakeFiles/Hafta-04-02-Deque.dir/build.make CMakeFiles/Hafta-04-02-Deque.dir/depend
+	$(MAKE) -f CMakeFiles/Hafta-04-02-Deque.dir/build.make CMakeFiles/Hafta-04-02-Deque.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles --progress-num=36,37 "Built target Hafta-04-02-Deque"
+.PHONY : CMakeFiles/Hafta-04-02-Deque.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Hafta-04-02-Deque.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Hafta-04-02-Deque.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/Hafta-04-02-Deque.dir/rule
+
+# Convenience name for target.
+Hafta-04-02-Deque: CMakeFiles/Hafta-04-02-Deque.dir/rule
+
+.PHONY : Hafta-04-02-Deque
+
+# clean rule for target.
+CMakeFiles/Hafta-04-02-Deque.dir/clean:
+	$(MAKE) -f CMakeFiles/Hafta-04-02-Deque.dir/build.make CMakeFiles/Hafta-04-02-Deque.dir/clean
+.PHONY : CMakeFiles/Hafta-04-02-Deque.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/Hafta-04-04-Multimap.dir
+
+# All Build rule for target.
+CMakeFiles/Hafta-04-04-Multimap.dir/all:
+	$(MAKE) -f CMakeFiles/Hafta-04-04-Multimap.dir/build.make CMakeFiles/Hafta-04-04-Multimap.dir/depend
+	$(MAKE) -f CMakeFiles/Hafta-04-04-Multimap.dir/build.make CMakeFiles/Hafta-04-04-Multimap.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles --progress-num=40,41 "Built target Hafta-04-04-Multimap"
+.PHONY : CMakeFiles/Hafta-04-04-Multimap.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Hafta-04-04-Multimap.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Hafta-04-04-Multimap.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/Hafta-04-04-Multimap.dir/rule
+
+# Convenience name for target.
+Hafta-04-04-Multimap: CMakeFiles/Hafta-04-04-Multimap.dir/rule
+
+.PHONY : Hafta-04-04-Multimap
+
+# clean rule for target.
+CMakeFiles/Hafta-04-04-Multimap.dir/clean:
+	$(MAKE) -f CMakeFiles/Hafta-04-04-Multimap.dir/build.make CMakeFiles/Hafta-04-04-Multimap.dir/clean
+.PHONY : CMakeFiles/Hafta-04-04-Multimap.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

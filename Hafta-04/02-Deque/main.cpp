@@ -14,6 +14,8 @@
 
 // Deque'deki rasgele erişim performansı (at() fonksiyonu veya [] operatörü) vektörden biraz daha yavaş olacaktır.
 
+// Node-based
+
 void showdq(std::deque<int> g)
 {
     std::deque<int>::iterator it;

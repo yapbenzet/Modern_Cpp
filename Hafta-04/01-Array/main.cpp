@@ -9,6 +9,8 @@
 // Array, sabit boyutlu diziler için kullanılır.
 // Array ile sabit boyutlu dizilerin uzunluk bilgisi size() fonksiyonu kullanılarak elde edilebilir.
 
+// Continous
+
 int main() {
 
     std::array<int, 5> ar1{3, 4, 5, 1, 2};

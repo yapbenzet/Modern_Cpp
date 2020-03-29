@@ -30,3 +30,5 @@ add_executable(Hafta-04-01-Array Hafta-04/01-Array/main.cpp)
 add_executable(Hafta-04-02-Deque Hafta-04/02-Deque/main.cpp)
 
 add_executable(Hafta-04-03-List Hafta-04/03-List/main.cpp)
+
+add_executable(Hafta-04-04-Multimap Hafta-04/04-Multimap/main.cpp)
