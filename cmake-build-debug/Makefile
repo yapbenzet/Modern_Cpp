@@ -111,6 +111,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named Hafta-04-05-Multiset
+
+# Build rule for target.
+Hafta-04-05-Multiset: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Hafta-04-05-Multiset
+.PHONY : Hafta-04-05-Multiset
+
+# fast build rule for target.
+Hafta-04-05-Multiset/fast:
+	$(MAKE) -f CMakeFiles/Hafta-04-05-Multiset.dir/build.make CMakeFiles/Hafta-04-05-Multiset.dir/build
+.PHONY : Hafta-04-05-Multiset/fast
+
+#=============================================================================
 # Target rules for targets named Hafta-02-03-Abstract
 
 # Build rule for target.
@@ -1047,6 +1060,33 @@ Hafta-04/05-Set/main.cpp.s:
 	$(MAKE) -f CMakeFiles/Hafta-04-05-Set.dir/build.make CMakeFiles/Hafta-04-05-Set.dir/Hafta-04/05-Set/main.cpp.s
 .PHONY : Hafta-04/05-Set/main.cpp.s
 
+Hafta-04/06-Multiset/main.o: Hafta-04/06-Multiset/main.cpp.o
+
+.PHONY : Hafta-04/06-Multiset/main.o
+
+# target to build an object file
+Hafta-04/06-Multiset/main.cpp.o:
+	$(MAKE) -f CMakeFiles/Hafta-04-05-Multiset.dir/build.make CMakeFiles/Hafta-04-05-Multiset.dir/Hafta-04/06-Multiset/main.cpp.o
+.PHONY : Hafta-04/06-Multiset/main.cpp.o
+
+Hafta-04/06-Multiset/main.i: Hafta-04/06-Multiset/main.cpp.i
+
+.PHONY : Hafta-04/06-Multiset/main.i
+
+# target to preprocess a source file
+Hafta-04/06-Multiset/main.cpp.i:
+	$(MAKE) -f CMakeFiles/Hafta-04-05-Multiset.dir/build.make CMakeFiles/Hafta-04-05-Multiset.dir/Hafta-04/06-Multiset/main.cpp.i
+.PHONY : Hafta-04/06-Multiset/main.cpp.i
+
+Hafta-04/06-Multiset/main.s: Hafta-04/06-Multiset/main.cpp.s
+
+.PHONY : Hafta-04/06-Multiset/main.s
+
+# target to generate assembly for a file
+Hafta-04/06-Multiset/main.cpp.s:
+	$(MAKE) -f CMakeFiles/Hafta-04-05-Multiset.dir/build.make CMakeFiles/Hafta-04-05-Multiset.dir/Hafta-04/06-Multiset/main.cpp.s
+.PHONY : Hafta-04/06-Multiset/main.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -1054,6 +1094,7 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... edit_cache"
+	@echo "... Hafta-04-05-Multiset"
 	@echo "... Hafta-02-03-Abstract"
 	@echo "... rebuild_cache"
 	@echo "... Hafta-02-01-Virtual_Functions"
@@ -1152,6 +1193,9 @@ help:
 	@echo "... Hafta-04/05-Set/main.o"
 	@echo "... Hafta-04/05-Set/main.i"
 	@echo "... Hafta-04/05-Set/main.s"
+	@echo "... Hafta-04/06-Multiset/main.o"
+	@echo "... Hafta-04/06-Multiset/main.i"
+	@echo "... Hafta-04/06-Multiset/main.s"
 .PHONY : help
 
 

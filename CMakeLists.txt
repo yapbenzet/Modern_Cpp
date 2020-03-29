@@ -34,3 +34,5 @@ add_executable(Hafta-04-03-List Hafta-04/03-List/main.cpp)
 add_executable(Hafta-04-04-Multimap Hafta-04/04-Multimap/main.cpp)
 
 add_executable(Hafta-04-05-Set Hafta-04/05-Set/main.cpp)
+
+add_executable(Hafta-04-05-Multiset Hafta-04/06-Multiset/main.cpp)
