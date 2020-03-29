@@ -2,7 +2,11 @@
 #include <list>
 #include <iterator>
 
-//function for printing the elements in a list
+// https://www.geeksforgeeks.org/list-cpp-stl/
+
+// Listeler bitişik olmayan bellek tahsisine izin veren dizi konteynerlardır.
+// Vector'le karşılaştırıldığında, listenin yavaş geçişi vardır, ancak bir konum bulunduğunda ekleme ve silme hızlıdır.
+
 void showlist(std::list <int> g)
 {
     std::list <int> :: iterator it;
@@ -13,40 +17,37 @@ void showlist(std::list <int> g)
 
 int main()
 {
-
     std::list <int> gqlist1, gqlist2;
-
 
     for (int i = 0; i < 10; ++i)
     {
         gqlist1.push_back(i * 2);
         gqlist2.push_front(i * 3);
     }
-    std::cout << "\nList 1 (gqlist1) is : ";
+    std::cout << std:: endl << "List 1 (gqlist1): ";
     showlist(gqlist1);
 
-    std::cout << "\nList 2 (gqlist2) is : ";
+    std::cout << std:: endl  << "List 2 (gqlist2): ";
     showlist(gqlist2);
 
-    std::cout << "\ngqlist1.front() : " << gqlist1.front();
-    std::cout << "\ngqlist1.back() : " << gqlist1.back();
+    std::cout << std:: endl  << "gqlist1.front() : " << gqlist1.front();
+    std::cout << std:: endl  << "gqlist1.back() : " << gqlist1.back();
 
-    std::cout << "\ngqlist1.pop_front() : ";
+    std::cout << std:: endl  << "gqlist1.pop_front() : ";
     gqlist1.pop_front();
     showlist(gqlist1);
 
-    std::cout << "\ngqlist2.pop_back() : ";
+    std::cout << std:: endl  << "gqlist2.pop_back() : ";
     gqlist2.pop_back();
     showlist(gqlist2);
 
-    std::cout << "\ngqlist1.reverse() : ";
+    std::cout << std:: endl << "gqlist1.reverse() : ";
     gqlist1.reverse();
     showlist(gqlist1);
 
-    std::cout << "\ngqlist2.sort(): ";
+    std::cout << std:: endl  << "gqlist2.sort(): ";
     gqlist2.sort();
     showlist(gqlist2);
 
     return 0;
-
 }
