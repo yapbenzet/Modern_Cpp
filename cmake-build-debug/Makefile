@@ -56,17 +56,6 @@ CMAKE_BINARY_DIR = /home/atuash/Modern_Cpp/cmake-build-debug
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/home/atuash/Downloads/clion-2019.3.3/bin/cmake/linux/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
-
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
-
-.PHONY : rebuild_cache/fast
-
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
@@ -77,6 +66,17 @@ edit_cache:
 edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
+
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	/home/atuash/Downloads/clion-2019.3.3/bin/cmake/linux/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
+
+# Special rule for the target rebuild_cache
+rebuild_cache/fast: rebuild_cache
+
+.PHONY : rebuild_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -265,6 +265,19 @@ Hafta-03-02-Single_Responsibility_Princeple: cmake_check_build_system
 Hafta-03-02-Single_Responsibility_Princeple/fast:
 	$(MAKE) -f CMakeFiles/Hafta-03-02-Single_Responsibility_Princeple.dir/build.make CMakeFiles/Hafta-03-02-Single_Responsibility_Princeple.dir/build
 .PHONY : Hafta-03-02-Single_Responsibility_Princeple/fast
+
+#=============================================================================
+# Target rules for targets named Hafta-04-05-Set
+
+# Build rule for target.
+Hafta-04-05-Set: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Hafta-04-05-Set
+.PHONY : Hafta-04-05-Set
+
+# fast build rule for target.
+Hafta-04-05-Set/fast:
+	$(MAKE) -f CMakeFiles/Hafta-04-05-Set.dir/build.make CMakeFiles/Hafta-04-05-Set.dir/build
+.PHONY : Hafta-04-05-Set/fast
 
 #=============================================================================
 # Target rules for targets named Hafta-04-01-Array
@@ -1007,12 +1020,40 @@ Hafta-04/04-Multimap/main.cpp.s:
 	$(MAKE) -f CMakeFiles/Hafta-04-04-Multimap.dir/build.make CMakeFiles/Hafta-04-04-Multimap.dir/Hafta-04/04-Multimap/main.cpp.s
 .PHONY : Hafta-04/04-Multimap/main.cpp.s
 
+Hafta-04/05-Set/main.o: Hafta-04/05-Set/main.cpp.o
+
+.PHONY : Hafta-04/05-Set/main.o
+
+# target to build an object file
+Hafta-04/05-Set/main.cpp.o:
+	$(MAKE) -f CMakeFiles/Hafta-04-05-Set.dir/build.make CMakeFiles/Hafta-04-05-Set.dir/Hafta-04/05-Set/main.cpp.o
+.PHONY : Hafta-04/05-Set/main.cpp.o
+
+Hafta-04/05-Set/main.i: Hafta-04/05-Set/main.cpp.i
+
+.PHONY : Hafta-04/05-Set/main.i
+
+# target to preprocess a source file
+Hafta-04/05-Set/main.cpp.i:
+	$(MAKE) -f CMakeFiles/Hafta-04-05-Set.dir/build.make CMakeFiles/Hafta-04-05-Set.dir/Hafta-04/05-Set/main.cpp.i
+.PHONY : Hafta-04/05-Set/main.cpp.i
+
+Hafta-04/05-Set/main.s: Hafta-04/05-Set/main.cpp.s
+
+.PHONY : Hafta-04/05-Set/main.s
+
+# target to generate assembly for a file
+Hafta-04/05-Set/main.cpp.s:
+	$(MAKE) -f CMakeFiles/Hafta-04-05-Set.dir/build.make CMakeFiles/Hafta-04-05-Set.dir/Hafta-04/05-Set/main.cpp.s
+.PHONY : Hafta-04/05-Set/main.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
+	@echo "... edit_cache"
 	@echo "... Hafta-02-03-Abstract"
 	@echo "... rebuild_cache"
 	@echo "... Hafta-02-01-Virtual_Functions"
@@ -1026,8 +1067,8 @@ help:
 	@echo "... Hafta-04-03-List"
 	@echo "... Hafta-02-04-Templates"
 	@echo "... Hafta-03-02-Single_Responsibility_Princeple"
+	@echo "... Hafta-04-05-Set"
 	@echo "... Hafta-04-01-Array"
-	@echo "... edit_cache"
 	@echo "... Hafta-04-02-Deque"
 	@echo "... Hafta-04-04-Multimap"
 	@echo "... Hafta-01/01-vector/main.o"
@@ -1108,6 +1149,9 @@ help:
 	@echo "... Hafta-04/04-Multimap/main.o"
 	@echo "... Hafta-04/04-Multimap/main.i"
 	@echo "... Hafta-04/04-Multimap/main.s"
+	@echo "... Hafta-04/05-Set/main.o"
+	@echo "... Hafta-04/05-Set/main.i"
+	@echo "... Hafta-04/05-Set/main.s"
 .PHONY : help
 
 

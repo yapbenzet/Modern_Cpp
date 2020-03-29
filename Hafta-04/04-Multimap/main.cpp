@@ -2,6 +2,8 @@
 #include <map>
 #include <iterator>
 
+// https://www.geeksforgeeks.org/multimap-associative-containers-the-c-standard-template-library-stl/
+
 // Multimap, map'e benzer, ayrıca birden fazla öğe aynı anahtara sahip olabilir.
 // Her bir öğenin benzersiz olmasından ziyade, anahtar değer ve eşlenmiş değer çifti bu durumda benzersiz olmalıdır.
 

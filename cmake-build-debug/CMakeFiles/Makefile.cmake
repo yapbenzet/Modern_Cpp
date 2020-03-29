@@ -60,6 +60,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/Hafta-04-03-List.dir/DependInfo.cmake"
   "CMakeFiles/Hafta-02-04-Templates.dir/DependInfo.cmake"
   "CMakeFiles/Hafta-03-02-Single_Responsibility_Princeple.dir/DependInfo.cmake"
+  "CMakeFiles/Hafta-04-05-Set.dir/DependInfo.cmake"
   "CMakeFiles/Hafta-04-01-Array.dir/DependInfo.cmake"
   "CMakeFiles/Hafta-04-02-Deque.dir/DependInfo.cmake"
   "CMakeFiles/Hafta-04-04-Multimap.dir/DependInfo.cmake"
