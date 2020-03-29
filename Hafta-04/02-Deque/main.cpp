@@ -7,8 +7,8 @@
 // Vector'lere benzerler, ancak elemanların eklenmesi ve silinmesi durumunda daha verimlidir.
 // Vector'lerden farklı olarak, bitişik depolama alanı tahsisi garanti edilemeyebilir.
 
-// Vector yalnızca orta ve sonda ekleme ve silme sağlar.
-// Oysa deque, ilk, orta ve sonda ekleme ve silme işlemleri sağlar.
+// Vector yalnızca orta ve sonda ekleme ve silme işlemlerini sağlar.
+// Oysa deque, ilk, orta ve sonda ekleme ve silme işlemlerini sağlar.
 
 // Vector için ekleme ve silme işlemlerinin performansı deque'den daha iyidir.
 

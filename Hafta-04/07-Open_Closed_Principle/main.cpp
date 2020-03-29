@@ -161,7 +161,5 @@ int main()
 
     getchar();
     return 0;
-}//
-// Created by atuash on 29.03.2020.
-//
+}
 
