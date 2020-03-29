@@ -738,9 +738,6 @@
 		<Unit filename="/home/atuash/Modern_Cpp/Hafta-04/02-Deque/main.cpp">
 			<Option target="Hafta-04-02-Deque"/>
 		</Unit>
-		<Unit filename="/home/atuash/Modern_Cpp/Hafta-04/02-Deque/main.h">
-			<Option target="Hafta-04-02-Deque"/>
-		</Unit>
 		<Unit filename="/home/atuash/Modern_Cpp/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

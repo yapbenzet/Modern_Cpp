@@ -27,4 +27,4 @@ add_executable(Hafta-03-02-Single_Responsibility_Princeple Hafta-03/02-Single_Re
 
 add_executable(Hafta-04-01-Array Hafta-04/01-Array/main.cpp)
 
-add_executable(Hafta-04-02-Deque Hafta-04/02-Deque/main.cpp Hafta-04/02-Deque/main.h Hafta-04/02-Deque/main.cpp)
+add_executable(Hafta-04-02-Deque Hafta-04/02-Deque/main.cpp)
