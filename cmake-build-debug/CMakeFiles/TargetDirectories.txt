@@ -1,5 +1,6 @@
 /home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles/Hafta-04-05-Multiset.dir
+/home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles/Hafta-04-07-Open_Closed_Principle.dir
+/home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles/Hafta-04-06-Multiset.dir
 /home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles/Hafta-02-03-Abstract.dir
 /home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles/rebuild_cache.dir
 /home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles/Hafta-02-01-Virtual_Functions.dir

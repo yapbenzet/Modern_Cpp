@@ -53,7 +53,8 @@ CMAKE_BINARY_DIR = /home/atuash/Modern_Cpp/cmake-build-debug
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/Hafta-04-05-Multiset.dir/all
+all: CMakeFiles/Hafta-04-07-Open_Closed_Principle.dir/all
+all: CMakeFiles/Hafta-04-06-Multiset.dir/all
 all: CMakeFiles/Hafta-02-03-Abstract.dir/all
 all: CMakeFiles/Hafta-02-01-Virtual_Functions.dir/all
 all: CMakeFiles/Hafta-02-05-Move_Semantics.dir/all
@@ -74,7 +75,8 @@ all: CMakeFiles/Hafta-04-04-Multimap.dir/all
 .PHONY : all
 
 # The main recursive "clean" target.
-clean: CMakeFiles/Hafta-04-05-Multiset.dir/clean
+clean: CMakeFiles/Hafta-04-07-Open_Closed_Principle.dir/clean
+clean: CMakeFiles/Hafta-04-06-Multiset.dir/clean
 clean: CMakeFiles/Hafta-02-03-Abstract.dir/clean
 clean: CMakeFiles/Hafta-02-01-Virtual_Functions.dir/clean
 clean: CMakeFiles/Hafta-02-05-Move_Semantics.dir/clean
@@ -100,31 +102,58 @@ preinstall:
 .PHONY : preinstall
 
 #=============================================================================
-# Target rules for target CMakeFiles/Hafta-04-05-Multiset.dir
+# Target rules for target CMakeFiles/Hafta-04-07-Open_Closed_Principle.dir
 
 # All Build rule for target.
-CMakeFiles/Hafta-04-05-Multiset.dir/all:
-	$(MAKE) -f CMakeFiles/Hafta-04-05-Multiset.dir/build.make CMakeFiles/Hafta-04-05-Multiset.dir/depend
-	$(MAKE) -f CMakeFiles/Hafta-04-05-Multiset.dir/build.make CMakeFiles/Hafta-04-05-Multiset.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles --progress-num=42,43 "Built target Hafta-04-05-Multiset"
-.PHONY : CMakeFiles/Hafta-04-05-Multiset.dir/all
+CMakeFiles/Hafta-04-07-Open_Closed_Principle.dir/all:
+	$(MAKE) -f CMakeFiles/Hafta-04-07-Open_Closed_Principle.dir/build.make CMakeFiles/Hafta-04-07-Open_Closed_Principle.dir/depend
+	$(MAKE) -f CMakeFiles/Hafta-04-07-Open_Closed_Principle.dir/build.make CMakeFiles/Hafta-04-07-Open_Closed_Principle.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles --progress-num=46,47 "Built target Hafta-04-07-Open_Closed_Principle"
+.PHONY : CMakeFiles/Hafta-04-07-Open_Closed_Principle.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/Hafta-04-05-Multiset.dir/rule: cmake_check_build_system
+CMakeFiles/Hafta-04-07-Open_Closed_Principle.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Hafta-04-05-Multiset.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Hafta-04-07-Open_Closed_Principle.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/Hafta-04-05-Multiset.dir/rule
+.PHONY : CMakeFiles/Hafta-04-07-Open_Closed_Principle.dir/rule
 
 # Convenience name for target.
-Hafta-04-05-Multiset: CMakeFiles/Hafta-04-05-Multiset.dir/rule
+Hafta-04-07-Open_Closed_Principle: CMakeFiles/Hafta-04-07-Open_Closed_Principle.dir/rule
 
-.PHONY : Hafta-04-05-Multiset
+.PHONY : Hafta-04-07-Open_Closed_Principle
 
 # clean rule for target.
-CMakeFiles/Hafta-04-05-Multiset.dir/clean:
-	$(MAKE) -f CMakeFiles/Hafta-04-05-Multiset.dir/build.make CMakeFiles/Hafta-04-05-Multiset.dir/clean
-.PHONY : CMakeFiles/Hafta-04-05-Multiset.dir/clean
+CMakeFiles/Hafta-04-07-Open_Closed_Principle.dir/clean:
+	$(MAKE) -f CMakeFiles/Hafta-04-07-Open_Closed_Principle.dir/build.make CMakeFiles/Hafta-04-07-Open_Closed_Principle.dir/clean
+.PHONY : CMakeFiles/Hafta-04-07-Open_Closed_Principle.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/Hafta-04-06-Multiset.dir
+
+# All Build rule for target.
+CMakeFiles/Hafta-04-06-Multiset.dir/all:
+	$(MAKE) -f CMakeFiles/Hafta-04-06-Multiset.dir/build.make CMakeFiles/Hafta-04-06-Multiset.dir/depend
+	$(MAKE) -f CMakeFiles/Hafta-04-06-Multiset.dir/build.make CMakeFiles/Hafta-04-06-Multiset.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles --progress-num=44,45 "Built target Hafta-04-06-Multiset"
+.PHONY : CMakeFiles/Hafta-04-06-Multiset.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Hafta-04-06-Multiset.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Hafta-04-06-Multiset.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/Hafta-04-06-Multiset.dir/rule
+
+# Convenience name for target.
+Hafta-04-06-Multiset: CMakeFiles/Hafta-04-06-Multiset.dir/rule
+
+.PHONY : Hafta-04-06-Multiset
+
+# clean rule for target.
+CMakeFiles/Hafta-04-06-Multiset.dir/clean:
+	$(MAKE) -f CMakeFiles/Hafta-04-06-Multiset.dir/build.make CMakeFiles/Hafta-04-06-Multiset.dir/clean
+.PHONY : CMakeFiles/Hafta-04-06-Multiset.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/Hafta-02-03-Abstract.dir
@@ -457,7 +486,7 @@ CMakeFiles/Hafta-03-02-Single_Responsibility_Princeple.dir/clean:
 CMakeFiles/Hafta-04-05-Set.dir/all:
 	$(MAKE) -f CMakeFiles/Hafta-04-05-Set.dir/build.make CMakeFiles/Hafta-04-05-Set.dir/depend
 	$(MAKE) -f CMakeFiles/Hafta-04-05-Set.dir/build.make CMakeFiles/Hafta-04-05-Set.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles --progress-num=44,45 "Built target Hafta-04-05-Set"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles --progress-num=42,43 "Built target Hafta-04-05-Set"
 .PHONY : CMakeFiles/Hafta-04-05-Set.dir/all
 
 # Build rule for subdir invocation for target.

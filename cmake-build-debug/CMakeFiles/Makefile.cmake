@@ -48,7 +48,8 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/Hafta-04-05-Multiset.dir/DependInfo.cmake"
+  "CMakeFiles/Hafta-04-07-Open_Closed_Principle.dir/DependInfo.cmake"
+  "CMakeFiles/Hafta-04-06-Multiset.dir/DependInfo.cmake"
   "CMakeFiles/Hafta-02-03-Abstract.dir/DependInfo.cmake"
   "CMakeFiles/Hafta-02-01-Virtual_Functions.dir/DependInfo.cmake"
   "CMakeFiles/Hafta-02-05-Move_Semantics.dir/DependInfo.cmake"

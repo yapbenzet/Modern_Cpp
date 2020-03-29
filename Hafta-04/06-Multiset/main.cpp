@@ -4,12 +4,10 @@
 
 // https://www.geeksforgeeks.org/multiset-in-cpp-stl/
 
-using namespace std;
-
 int main()
 {
     // empty multiset container 
-    multiset <int, greater <int> > gquiz1;
+    std::multiset <int, std::greater <int> > gquiz1;
 
     // insert elements in random order 
     gquiz1.insert(40);
@@ -21,56 +19,56 @@ int main()
     gquiz1.insert(10);
 
     // printing multiset gquiz1 
-    multiset <int, greater <int> > :: iterator itr;
-    cout << "\nThe multiset gquiz1 is : ";
+    std::multiset <int, std::greater <int> > :: iterator itr;
+    std::cout << "\nThe multiset gquiz1 is : ";
     for (itr = gquiz1.begin(); itr != gquiz1.end(); ++itr)
     {
-        cout << '\t' << *itr;
+        std::cout << '\t' << *itr;
     }
-    cout << endl;
+    std::cout << std::endl;
 
     // assigning the elements from gquiz1 to gquiz2 
-    multiset <int> gquiz2(gquiz1.begin(), gquiz1.end());
+    std::multiset <int> gquiz2(gquiz1.begin(), gquiz1.end());
 
     // print all elements of the multiset gquiz2 
-    cout << "\nThe multiset gquiz2 after assign from gquiz1 is : ";
+    std::cout << "\nThe multiset gquiz2 after assign from gquiz1 is : ";
     for (itr = gquiz2.begin(); itr != gquiz2.end(); ++itr)
     {
-        cout << '\t' << *itr;
+        std::cout << '\t' << *itr;
     }
-    cout << endl;
+    std::cout << std::endl;
 
     // remove all elements up to element with value 30 in gquiz2 
-    cout << "\ngquiz2 after removal of elements less than 30 : ";
+    std::cout << "\ngquiz2 after removal of elements less than 30 : ";
     gquiz2.erase(gquiz2.begin(), gquiz2.find(30));
     for (itr = gquiz2.begin(); itr != gquiz2.end(); ++itr)
     {
-        cout << '\t' << *itr;
+        std::cout << '\t' << *itr;
     }
 
     // remove all elements with value 50 in gquiz2 
     int num;
     num = gquiz2.erase(50);
-    cout << "\ngquiz2.erase(50) : ";
-    cout << num << " removed \t" ;
+    std::cout << "\ngquiz2.erase(50) : ";
+    std::cout << num << " removed \t" ;
     for (itr = gquiz2.begin(); itr != gquiz2.end(); ++itr)
     {
-        cout << '\t' << *itr;
+        std::cout << '\t' << *itr;
     }
 
-    cout << endl;
+    std::cout << std::endl;
 
     //lower bound and upper bound for multiset gquiz1 
-    cout << "gquiz1.lower_bound(40) : "
-         << *gquiz1.lower_bound(40) << endl;
-    cout << "gquiz1.upper_bound(40) : "
-         << *gquiz1.upper_bound(40) << endl;
+    std::cout << "gquiz1.lower_bound(40) : "
+         << *gquiz1.lower_bound(40) << std::endl;
+    std::cout << "gquiz1.upper_bound(40) : "
+         << *gquiz1.upper_bound(40) << std::endl;
 
     //lower bound and upper bound for multiset gquiz2 
-    cout << "gquiz2.lower_bound(40) : "
-         << *gquiz2.lower_bound(40) << endl;
-    cout << "gquiz2.upper_bound(40) : "
-         << *gquiz2.upper_bound(40) << endl;
+    std::cout << "gquiz2.lower_bound(40) : "
+         << *gquiz2.lower_bound(40) << std::endl;
+    std::cout << "gquiz2.upper_bound(40) : "
+         << *gquiz2.upper_bound(40) << std::endl;
 
     return 0;
 
