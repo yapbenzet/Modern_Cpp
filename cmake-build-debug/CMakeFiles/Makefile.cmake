@@ -52,6 +52,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/Hafta-04-01-Array.dir/DependInfo.cmake"
   "CMakeFiles/Hafta-03-02-Single_Responsibility_Princeple.dir/DependInfo.cmake"
   "CMakeFiles/Hafta-02-04-Templates.dir/DependInfo.cmake"
+  "CMakeFiles/Hafta-04-03-List.dir/DependInfo.cmake"
   "CMakeFiles/Hafta-01-02-Chat.dir/DependInfo.cmake"
   "CMakeFiles/Hafta-01-01-Vector.dir/DependInfo.cmake"
   "CMakeFiles/Hafta-03-01-Map.dir/DependInfo.cmake"

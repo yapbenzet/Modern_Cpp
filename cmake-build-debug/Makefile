@@ -163,6 +163,19 @@ Hafta-02-04-Templates/fast:
 .PHONY : Hafta-02-04-Templates/fast
 
 #=============================================================================
+# Target rules for targets named Hafta-04-03-List
+
+# Build rule for target.
+Hafta-04-03-List: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Hafta-04-03-List
+.PHONY : Hafta-04-03-List
+
+# fast build rule for target.
+Hafta-04-03-List/fast:
+	$(MAKE) -f CMakeFiles/Hafta-04-03-List.dir/build.make CMakeFiles/Hafta-04-03-List.dir/build
+.PHONY : Hafta-04-03-List/fast
+
+#=============================================================================
 # Target rules for targets named Hafta-01-02-Chat
 
 # Build rule for target.
@@ -927,6 +940,33 @@ Hafta-04/02-Deque/main.cpp.s:
 	$(MAKE) -f CMakeFiles/Hafta-04-02-Deque.dir/build.make CMakeFiles/Hafta-04-02-Deque.dir/Hafta-04/02-Deque/main.cpp.s
 .PHONY : Hafta-04/02-Deque/main.cpp.s
 
+Hafta-04/03-List/main.o: Hafta-04/03-List/main.cpp.o
+
+.PHONY : Hafta-04/03-List/main.o
+
+# target to build an object file
+Hafta-04/03-List/main.cpp.o:
+	$(MAKE) -f CMakeFiles/Hafta-04-03-List.dir/build.make CMakeFiles/Hafta-04-03-List.dir/Hafta-04/03-List/main.cpp.o
+.PHONY : Hafta-04/03-List/main.cpp.o
+
+Hafta-04/03-List/main.i: Hafta-04/03-List/main.cpp.i
+
+.PHONY : Hafta-04/03-List/main.i
+
+# target to preprocess a source file
+Hafta-04/03-List/main.cpp.i:
+	$(MAKE) -f CMakeFiles/Hafta-04-03-List.dir/build.make CMakeFiles/Hafta-04-03-List.dir/Hafta-04/03-List/main.cpp.i
+.PHONY : Hafta-04/03-List/main.cpp.i
+
+Hafta-04/03-List/main.s: Hafta-04/03-List/main.cpp.s
+
+.PHONY : Hafta-04/03-List/main.s
+
+# target to generate assembly for a file
+Hafta-04/03-List/main.cpp.s:
+	$(MAKE) -f CMakeFiles/Hafta-04-03-List.dir/build.make CMakeFiles/Hafta-04-03-List.dir/Hafta-04/03-List/main.cpp.s
+.PHONY : Hafta-04/03-List/main.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -938,6 +978,7 @@ help:
 	@echo "... Hafta-04-01-Array"
 	@echo "... Hafta-03-02-Single_Responsibility_Princeple"
 	@echo "... Hafta-02-04-Templates"
+	@echo "... Hafta-04-03-List"
 	@echo "... Hafta-01-02-Chat"
 	@echo "... Hafta-01-01-Vector"
 	@echo "... Hafta-03-01-Map"
@@ -1020,6 +1061,9 @@ help:
 	@echo "... Hafta-04/02-Deque/main.o"
 	@echo "... Hafta-04/02-Deque/main.i"
 	@echo "... Hafta-04/02-Deque/main.s"
+	@echo "... Hafta-04/03-List/main.o"
+	@echo "... Hafta-04/03-List/main.i"
+	@echo "... Hafta-04/03-List/main.s"
 .PHONY : help
 
 

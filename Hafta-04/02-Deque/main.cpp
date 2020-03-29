@@ -32,18 +32,20 @@ int main()
     std::cout << "deque gquiz elemanları: ";
     showdq(gquiz);
 
-    std::cout << "\ngquiz.size() : " << gquiz.size();
-    std::cout << "\ngquiz.max_size() : " << gquiz.max_size();
+    std::cout << std::endl;
+    std::cout << "gquiz.size() : " << gquiz.size() << std::endl;
+    std::cout << "gquiz.max_size() : " << gquiz.max_size() << std::endl;
 
-    std::cout << "\ngquiz.at(2) : " << gquiz.at(2);
-    std::cout << "\ngquiz.front() : " << gquiz.front();
-    std::cout << "\ngquiz.back() : " << gquiz.back();
+    std::cout << "gquiz.at(2) : " << gquiz.at(2) << std::endl;
+    std::cout << "gquiz.front() : " << gquiz.front() << std::endl;
+    std::cout << "gquiz.back() : " << gquiz.back() << std::endl;
 
-    std::cout << "\ngquiz.pop_front() : ";
+    std::cout << std::endl;
+    std::cout << "gquiz.pop_front()"
+                 " : ";
     gquiz.pop_front();
     showdq(gquiz);
-
-    std::cout << "\ngquiz.pop_back() : ";
+    std::cout << "gquiz.pop_back() : ";
     gquiz.pop_back();
     showdq(gquiz);
 
