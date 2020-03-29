@@ -111,6 +111,45 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named Hafta-04-02-Deque
+
+# Build rule for target.
+Hafta-04-02-Deque: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Hafta-04-02-Deque
+.PHONY : Hafta-04-02-Deque
+
+# fast build rule for target.
+Hafta-04-02-Deque/fast:
+	$(MAKE) -f CMakeFiles/Hafta-04-02-Deque.dir/build.make CMakeFiles/Hafta-04-02-Deque.dir/build
+.PHONY : Hafta-04-02-Deque/fast
+
+#=============================================================================
+# Target rules for targets named Hafta-04-01-Array
+
+# Build rule for target.
+Hafta-04-01-Array: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Hafta-04-01-Array
+.PHONY : Hafta-04-01-Array
+
+# fast build rule for target.
+Hafta-04-01-Array/fast:
+	$(MAKE) -f CMakeFiles/Hafta-04-01-Array.dir/build.make CMakeFiles/Hafta-04-01-Array.dir/build
+.PHONY : Hafta-04-01-Array/fast
+
+#=============================================================================
+# Target rules for targets named Hafta-03-02-Single_Responsibility_Princeple
+
+# Build rule for target.
+Hafta-03-02-Single_Responsibility_Princeple: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Hafta-03-02-Single_Responsibility_Princeple
+.PHONY : Hafta-03-02-Single_Responsibility_Princeple
+
+# fast build rule for target.
+Hafta-03-02-Single_Responsibility_Princeple/fast:
+	$(MAKE) -f CMakeFiles/Hafta-03-02-Single_Responsibility_Princeple.dir/build.make CMakeFiles/Hafta-03-02-Single_Responsibility_Princeple.dir/build
+.PHONY : Hafta-03-02-Single_Responsibility_Princeple/fast
+
+#=============================================================================
 # Target rules for targets named Hafta-02-04-Templates
 
 # Build rule for target.
@@ -200,19 +239,6 @@ Hafta-02-02-Pure_Virtual_Functions: cmake_check_build_system
 Hafta-02-02-Pure_Virtual_Functions/fast:
 	$(MAKE) -f CMakeFiles/Hafta-02-02-Pure_Virtual_Functions.dir/build.make CMakeFiles/Hafta-02-02-Pure_Virtual_Functions.dir/build
 .PHONY : Hafta-02-02-Pure_Virtual_Functions/fast
-
-#=============================================================================
-# Target rules for targets named Hafta-03-01-Single_Responsibility_Princeple
-
-# Build rule for target.
-Hafta-03-01-Single_Responsibility_Princeple: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Hafta-03-01-Single_Responsibility_Princeple
-.PHONY : Hafta-03-01-Single_Responsibility_Princeple
-
-# fast build rule for target.
-Hafta-03-01-Single_Responsibility_Princeple/fast:
-	$(MAKE) -f CMakeFiles/Hafta-03-01-Single_Responsibility_Princeple.dir/build.make CMakeFiles/Hafta-03-01-Single_Responsibility_Princeple.dir/build
-.PHONY : Hafta-03-01-Single_Responsibility_Princeple/fast
 
 #=============================================================================
 # Target rules for targets named Hafta-02-05-Move_Semantics
@@ -772,7 +798,7 @@ Hafta-03/02-Single_Responsibility_Principle/gunluk.o: Hafta-03/02-Single_Respons
 
 # target to build an object file
 Hafta-03/02-Single_Responsibility_Principle/gunluk.cpp.o:
-	$(MAKE) -f CMakeFiles/Hafta-03-01-Single_Responsibility_Princeple.dir/build.make CMakeFiles/Hafta-03-01-Single_Responsibility_Princeple.dir/Hafta-03/02-Single_Responsibility_Principle/gunluk.cpp.o
+	$(MAKE) -f CMakeFiles/Hafta-03-02-Single_Responsibility_Princeple.dir/build.make CMakeFiles/Hafta-03-02-Single_Responsibility_Princeple.dir/Hafta-03/02-Single_Responsibility_Principle/gunluk.cpp.o
 .PHONY : Hafta-03/02-Single_Responsibility_Principle/gunluk.cpp.o
 
 Hafta-03/02-Single_Responsibility_Principle/gunluk.i: Hafta-03/02-Single_Responsibility_Principle/gunluk.cpp.i
@@ -781,7 +807,7 @@ Hafta-03/02-Single_Responsibility_Principle/gunluk.i: Hafta-03/02-Single_Respons
 
 # target to preprocess a source file
 Hafta-03/02-Single_Responsibility_Principle/gunluk.cpp.i:
-	$(MAKE) -f CMakeFiles/Hafta-03-01-Single_Responsibility_Princeple.dir/build.make CMakeFiles/Hafta-03-01-Single_Responsibility_Princeple.dir/Hafta-03/02-Single_Responsibility_Principle/gunluk.cpp.i
+	$(MAKE) -f CMakeFiles/Hafta-03-02-Single_Responsibility_Princeple.dir/build.make CMakeFiles/Hafta-03-02-Single_Responsibility_Princeple.dir/Hafta-03/02-Single_Responsibility_Principle/gunluk.cpp.i
 .PHONY : Hafta-03/02-Single_Responsibility_Principle/gunluk.cpp.i
 
 Hafta-03/02-Single_Responsibility_Principle/gunluk.s: Hafta-03/02-Single_Responsibility_Principle/gunluk.cpp.s
@@ -790,7 +816,7 @@ Hafta-03/02-Single_Responsibility_Principle/gunluk.s: Hafta-03/02-Single_Respons
 
 # target to generate assembly for a file
 Hafta-03/02-Single_Responsibility_Principle/gunluk.cpp.s:
-	$(MAKE) -f CMakeFiles/Hafta-03-01-Single_Responsibility_Princeple.dir/build.make CMakeFiles/Hafta-03-01-Single_Responsibility_Princeple.dir/Hafta-03/02-Single_Responsibility_Principle/gunluk.cpp.s
+	$(MAKE) -f CMakeFiles/Hafta-03-02-Single_Responsibility_Princeple.dir/build.make CMakeFiles/Hafta-03-02-Single_Responsibility_Princeple.dir/Hafta-03/02-Single_Responsibility_Principle/gunluk.cpp.s
 .PHONY : Hafta-03/02-Single_Responsibility_Principle/gunluk.cpp.s
 
 Hafta-03/02-Single_Responsibility_Principle/kaydedici.o: Hafta-03/02-Single_Responsibility_Principle/kaydedici.cpp.o
@@ -799,7 +825,7 @@ Hafta-03/02-Single_Responsibility_Principle/kaydedici.o: Hafta-03/02-Single_Resp
 
 # target to build an object file
 Hafta-03/02-Single_Responsibility_Principle/kaydedici.cpp.o:
-	$(MAKE) -f CMakeFiles/Hafta-03-01-Single_Responsibility_Princeple.dir/build.make CMakeFiles/Hafta-03-01-Single_Responsibility_Princeple.dir/Hafta-03/02-Single_Responsibility_Principle/kaydedici.cpp.o
+	$(MAKE) -f CMakeFiles/Hafta-03-02-Single_Responsibility_Princeple.dir/build.make CMakeFiles/Hafta-03-02-Single_Responsibility_Princeple.dir/Hafta-03/02-Single_Responsibility_Principle/kaydedici.cpp.o
 .PHONY : Hafta-03/02-Single_Responsibility_Principle/kaydedici.cpp.o
 
 Hafta-03/02-Single_Responsibility_Principle/kaydedici.i: Hafta-03/02-Single_Responsibility_Principle/kaydedici.cpp.i
@@ -808,7 +834,7 @@ Hafta-03/02-Single_Responsibility_Principle/kaydedici.i: Hafta-03/02-Single_Resp
 
 # target to preprocess a source file
 Hafta-03/02-Single_Responsibility_Principle/kaydedici.cpp.i:
-	$(MAKE) -f CMakeFiles/Hafta-03-01-Single_Responsibility_Princeple.dir/build.make CMakeFiles/Hafta-03-01-Single_Responsibility_Princeple.dir/Hafta-03/02-Single_Responsibility_Principle/kaydedici.cpp.i
+	$(MAKE) -f CMakeFiles/Hafta-03-02-Single_Responsibility_Princeple.dir/build.make CMakeFiles/Hafta-03-02-Single_Responsibility_Princeple.dir/Hafta-03/02-Single_Responsibility_Principle/kaydedici.cpp.i
 .PHONY : Hafta-03/02-Single_Responsibility_Principle/kaydedici.cpp.i
 
 Hafta-03/02-Single_Responsibility_Principle/kaydedici.s: Hafta-03/02-Single_Responsibility_Principle/kaydedici.cpp.s
@@ -817,7 +843,7 @@ Hafta-03/02-Single_Responsibility_Principle/kaydedici.s: Hafta-03/02-Single_Resp
 
 # target to generate assembly for a file
 Hafta-03/02-Single_Responsibility_Principle/kaydedici.cpp.s:
-	$(MAKE) -f CMakeFiles/Hafta-03-01-Single_Responsibility_Princeple.dir/build.make CMakeFiles/Hafta-03-01-Single_Responsibility_Princeple.dir/Hafta-03/02-Single_Responsibility_Principle/kaydedici.cpp.s
+	$(MAKE) -f CMakeFiles/Hafta-03-02-Single_Responsibility_Princeple.dir/build.make CMakeFiles/Hafta-03-02-Single_Responsibility_Princeple.dir/Hafta-03/02-Single_Responsibility_Principle/kaydedici.cpp.s
 .PHONY : Hafta-03/02-Single_Responsibility_Principle/kaydedici.cpp.s
 
 Hafta-03/02-Single_Responsibility_Principle/main.o: Hafta-03/02-Single_Responsibility_Principle/main.cpp.o
@@ -826,7 +852,7 @@ Hafta-03/02-Single_Responsibility_Principle/main.o: Hafta-03/02-Single_Responsib
 
 # target to build an object file
 Hafta-03/02-Single_Responsibility_Principle/main.cpp.o:
-	$(MAKE) -f CMakeFiles/Hafta-03-01-Single_Responsibility_Princeple.dir/build.make CMakeFiles/Hafta-03-01-Single_Responsibility_Princeple.dir/Hafta-03/02-Single_Responsibility_Principle/main.cpp.o
+	$(MAKE) -f CMakeFiles/Hafta-03-02-Single_Responsibility_Princeple.dir/build.make CMakeFiles/Hafta-03-02-Single_Responsibility_Princeple.dir/Hafta-03/02-Single_Responsibility_Principle/main.cpp.o
 .PHONY : Hafta-03/02-Single_Responsibility_Principle/main.cpp.o
 
 Hafta-03/02-Single_Responsibility_Principle/main.i: Hafta-03/02-Single_Responsibility_Principle/main.cpp.i
@@ -835,7 +861,7 @@ Hafta-03/02-Single_Responsibility_Principle/main.i: Hafta-03/02-Single_Responsib
 
 # target to preprocess a source file
 Hafta-03/02-Single_Responsibility_Principle/main.cpp.i:
-	$(MAKE) -f CMakeFiles/Hafta-03-01-Single_Responsibility_Princeple.dir/build.make CMakeFiles/Hafta-03-01-Single_Responsibility_Princeple.dir/Hafta-03/02-Single_Responsibility_Principle/main.cpp.i
+	$(MAKE) -f CMakeFiles/Hafta-03-02-Single_Responsibility_Princeple.dir/build.make CMakeFiles/Hafta-03-02-Single_Responsibility_Princeple.dir/Hafta-03/02-Single_Responsibility_Principle/main.cpp.i
 .PHONY : Hafta-03/02-Single_Responsibility_Principle/main.cpp.i
 
 Hafta-03/02-Single_Responsibility_Principle/main.s: Hafta-03/02-Single_Responsibility_Principle/main.cpp.s
@@ -844,8 +870,62 @@ Hafta-03/02-Single_Responsibility_Principle/main.s: Hafta-03/02-Single_Responsib
 
 # target to generate assembly for a file
 Hafta-03/02-Single_Responsibility_Principle/main.cpp.s:
-	$(MAKE) -f CMakeFiles/Hafta-03-01-Single_Responsibility_Princeple.dir/build.make CMakeFiles/Hafta-03-01-Single_Responsibility_Princeple.dir/Hafta-03/02-Single_Responsibility_Principle/main.cpp.s
+	$(MAKE) -f CMakeFiles/Hafta-03-02-Single_Responsibility_Princeple.dir/build.make CMakeFiles/Hafta-03-02-Single_Responsibility_Princeple.dir/Hafta-03/02-Single_Responsibility_Principle/main.cpp.s
 .PHONY : Hafta-03/02-Single_Responsibility_Principle/main.cpp.s
+
+Hafta-04/01-Array/main.o: Hafta-04/01-Array/main.cpp.o
+
+.PHONY : Hafta-04/01-Array/main.o
+
+# target to build an object file
+Hafta-04/01-Array/main.cpp.o:
+	$(MAKE) -f CMakeFiles/Hafta-04-01-Array.dir/build.make CMakeFiles/Hafta-04-01-Array.dir/Hafta-04/01-Array/main.cpp.o
+.PHONY : Hafta-04/01-Array/main.cpp.o
+
+Hafta-04/01-Array/main.i: Hafta-04/01-Array/main.cpp.i
+
+.PHONY : Hafta-04/01-Array/main.i
+
+# target to preprocess a source file
+Hafta-04/01-Array/main.cpp.i:
+	$(MAKE) -f CMakeFiles/Hafta-04-01-Array.dir/build.make CMakeFiles/Hafta-04-01-Array.dir/Hafta-04/01-Array/main.cpp.i
+.PHONY : Hafta-04/01-Array/main.cpp.i
+
+Hafta-04/01-Array/main.s: Hafta-04/01-Array/main.cpp.s
+
+.PHONY : Hafta-04/01-Array/main.s
+
+# target to generate assembly for a file
+Hafta-04/01-Array/main.cpp.s:
+	$(MAKE) -f CMakeFiles/Hafta-04-01-Array.dir/build.make CMakeFiles/Hafta-04-01-Array.dir/Hafta-04/01-Array/main.cpp.s
+.PHONY : Hafta-04/01-Array/main.cpp.s
+
+Hafta-04/02-Deque/main.o: Hafta-04/02-Deque/main.cpp.o
+
+.PHONY : Hafta-04/02-Deque/main.o
+
+# target to build an object file
+Hafta-04/02-Deque/main.cpp.o:
+	$(MAKE) -f CMakeFiles/Hafta-04-02-Deque.dir/build.make CMakeFiles/Hafta-04-02-Deque.dir/Hafta-04/02-Deque/main.cpp.o
+.PHONY : Hafta-04/02-Deque/main.cpp.o
+
+Hafta-04/02-Deque/main.i: Hafta-04/02-Deque/main.cpp.i
+
+.PHONY : Hafta-04/02-Deque/main.i
+
+# target to preprocess a source file
+Hafta-04/02-Deque/main.cpp.i:
+	$(MAKE) -f CMakeFiles/Hafta-04-02-Deque.dir/build.make CMakeFiles/Hafta-04-02-Deque.dir/Hafta-04/02-Deque/main.cpp.i
+.PHONY : Hafta-04/02-Deque/main.cpp.i
+
+Hafta-04/02-Deque/main.s: Hafta-04/02-Deque/main.cpp.s
+
+.PHONY : Hafta-04/02-Deque/main.s
+
+# target to generate assembly for a file
+Hafta-04/02-Deque/main.cpp.s:
+	$(MAKE) -f CMakeFiles/Hafta-04-02-Deque.dir/build.make CMakeFiles/Hafta-04-02-Deque.dir/Hafta-04/02-Deque/main.cpp.s
+.PHONY : Hafta-04/02-Deque/main.cpp.s
 
 # Help Target
 help:
@@ -853,7 +933,10 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
+	@echo "... Hafta-04-02-Deque"
 	@echo "... edit_cache"
+	@echo "... Hafta-04-01-Array"
+	@echo "... Hafta-03-02-Single_Responsibility_Princeple"
 	@echo "... Hafta-02-04-Templates"
 	@echo "... Hafta-01-02-Chat"
 	@echo "... Hafta-01-01-Vector"
@@ -862,7 +945,6 @@ help:
 	@echo "... Hafta-02-06-Shared_Pointer"
 	@echo "... Hafta-02-02-Pure_Virtual_Functions"
 	@echo "... rebuild_cache"
-	@echo "... Hafta-03-01-Single_Responsibility_Princeple"
 	@echo "... Hafta-02-05-Move_Semantics"
 	@echo "... Hafta-02-01-Virtual_Functions"
 	@echo "... Hafta-02-03-Abstract"
@@ -932,6 +1014,12 @@ help:
 	@echo "... Hafta-03/02-Single_Responsibility_Principle/main.o"
 	@echo "... Hafta-03/02-Single_Responsibility_Principle/main.i"
 	@echo "... Hafta-03/02-Single_Responsibility_Principle/main.s"
+	@echo "... Hafta-04/01-Array/main.o"
+	@echo "... Hafta-04/01-Array/main.i"
+	@echo "... Hafta-04/01-Array/main.s"
+	@echo "... Hafta-04/02-Deque/main.o"
+	@echo "... Hafta-04/02-Deque/main.i"
+	@echo "... Hafta-04/02-Deque/main.s"
 .PHONY : help
 
 

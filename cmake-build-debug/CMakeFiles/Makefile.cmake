@@ -48,6 +48,9 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
+  "CMakeFiles/Hafta-04-02-Deque.dir/DependInfo.cmake"
+  "CMakeFiles/Hafta-04-01-Array.dir/DependInfo.cmake"
+  "CMakeFiles/Hafta-03-02-Single_Responsibility_Princeple.dir/DependInfo.cmake"
   "CMakeFiles/Hafta-02-04-Templates.dir/DependInfo.cmake"
   "CMakeFiles/Hafta-01-02-Chat.dir/DependInfo.cmake"
   "CMakeFiles/Hafta-01-01-Vector.dir/DependInfo.cmake"
@@ -55,7 +58,6 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/Hafta-01-03-Animals.dir/DependInfo.cmake"
   "CMakeFiles/Hafta-02-06-Shared_Pointer.dir/DependInfo.cmake"
   "CMakeFiles/Hafta-02-02-Pure_Virtual_Functions.dir/DependInfo.cmake"
-  "CMakeFiles/Hafta-03-01-Single_Responsibility_Princeple.dir/DependInfo.cmake"
   "CMakeFiles/Hafta-02-05-Move_Semantics.dir/DependInfo.cmake"
   "CMakeFiles/Hafta-02-01-Virtual_Functions.dir/DependInfo.cmake"
   "CMakeFiles/Hafta-02-03-Abstract.dir/DependInfo.cmake"

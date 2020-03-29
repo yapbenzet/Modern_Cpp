@@ -1,4 +1,16 @@
 /home/atuash/Downloads/clion-2019.3.3/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/atuash/Modern_Cpp
 -- Configuring done
--- Generating done
--- Build files have been written to: /home/atuash/Modern_Cpp/cmake-build-debug
+CMake Error at CMakeLists.txt:30 (add_executable):
+  Cannot find source file:
+
+    Hafta-04/02-Deque/main.h
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .m .M .mm .h .hh .h++ .hm
+  .hpp .hxx .in .txx
+
+
+CMake Error at CMakeLists.txt:30 (add_executable):
+  No SOURCES given to target: Hafta-04-02-Deque
+
+
+CMake Generate step failed.  Build files cannot be regenerated correctly.

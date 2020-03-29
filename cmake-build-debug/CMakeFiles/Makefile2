@@ -53,6 +53,9 @@ CMAKE_BINARY_DIR = /home/atuash/Modern_Cpp/cmake-build-debug
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
+all: CMakeFiles/Hafta-04-02-Deque.dir/all
+all: CMakeFiles/Hafta-04-01-Array.dir/all
+all: CMakeFiles/Hafta-03-02-Single_Responsibility_Princeple.dir/all
 all: CMakeFiles/Hafta-02-04-Templates.dir/all
 all: CMakeFiles/Hafta-01-02-Chat.dir/all
 all: CMakeFiles/Hafta-01-01-Vector.dir/all
@@ -60,7 +63,6 @@ all: CMakeFiles/Hafta-03-01-Map.dir/all
 all: CMakeFiles/Hafta-01-03-Animals.dir/all
 all: CMakeFiles/Hafta-02-06-Shared_Pointer.dir/all
 all: CMakeFiles/Hafta-02-02-Pure_Virtual_Functions.dir/all
-all: CMakeFiles/Hafta-03-01-Single_Responsibility_Princeple.dir/all
 all: CMakeFiles/Hafta-02-05-Move_Semantics.dir/all
 all: CMakeFiles/Hafta-02-01-Virtual_Functions.dir/all
 all: CMakeFiles/Hafta-02-03-Abstract.dir/all
@@ -68,6 +70,9 @@ all: CMakeFiles/Hafta-02-03-Abstract.dir/all
 .PHONY : all
 
 # The main recursive "clean" target.
+clean: CMakeFiles/Hafta-04-02-Deque.dir/clean
+clean: CMakeFiles/Hafta-04-01-Array.dir/clean
+clean: CMakeFiles/Hafta-03-02-Single_Responsibility_Princeple.dir/clean
 clean: CMakeFiles/Hafta-02-04-Templates.dir/clean
 clean: CMakeFiles/Hafta-01-02-Chat.dir/clean
 clean: CMakeFiles/Hafta-01-01-Vector.dir/clean
@@ -75,7 +80,6 @@ clean: CMakeFiles/Hafta-03-01-Map.dir/clean
 clean: CMakeFiles/Hafta-01-03-Animals.dir/clean
 clean: CMakeFiles/Hafta-02-06-Shared_Pointer.dir/clean
 clean: CMakeFiles/Hafta-02-02-Pure_Virtual_Functions.dir/clean
-clean: CMakeFiles/Hafta-03-01-Single_Responsibility_Princeple.dir/clean
 clean: CMakeFiles/Hafta-02-05-Move_Semantics.dir/clean
 clean: CMakeFiles/Hafta-02-01-Virtual_Functions.dir/clean
 clean: CMakeFiles/Hafta-02-03-Abstract.dir/clean
@@ -86,6 +90,87 @@ clean: CMakeFiles/Hafta-02-03-Abstract.dir/clean
 preinstall:
 
 .PHONY : preinstall
+
+#=============================================================================
+# Target rules for target CMakeFiles/Hafta-04-02-Deque.dir
+
+# All Build rule for target.
+CMakeFiles/Hafta-04-02-Deque.dir/all:
+	$(MAKE) -f CMakeFiles/Hafta-04-02-Deque.dir/build.make CMakeFiles/Hafta-04-02-Deque.dir/depend
+	$(MAKE) -f CMakeFiles/Hafta-04-02-Deque.dir/build.make CMakeFiles/Hafta-04-02-Deque.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles --progress-num=36,37 "Built target Hafta-04-02-Deque"
+.PHONY : CMakeFiles/Hafta-04-02-Deque.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Hafta-04-02-Deque.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Hafta-04-02-Deque.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/Hafta-04-02-Deque.dir/rule
+
+# Convenience name for target.
+Hafta-04-02-Deque: CMakeFiles/Hafta-04-02-Deque.dir/rule
+
+.PHONY : Hafta-04-02-Deque
+
+# clean rule for target.
+CMakeFiles/Hafta-04-02-Deque.dir/clean:
+	$(MAKE) -f CMakeFiles/Hafta-04-02-Deque.dir/build.make CMakeFiles/Hafta-04-02-Deque.dir/clean
+.PHONY : CMakeFiles/Hafta-04-02-Deque.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/Hafta-04-01-Array.dir
+
+# All Build rule for target.
+CMakeFiles/Hafta-04-01-Array.dir/all:
+	$(MAKE) -f CMakeFiles/Hafta-04-01-Array.dir/build.make CMakeFiles/Hafta-04-01-Array.dir/depend
+	$(MAKE) -f CMakeFiles/Hafta-04-01-Array.dir/build.make CMakeFiles/Hafta-04-01-Array.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles --progress-num=34,35 "Built target Hafta-04-01-Array"
+.PHONY : CMakeFiles/Hafta-04-01-Array.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Hafta-04-01-Array.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Hafta-04-01-Array.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/Hafta-04-01-Array.dir/rule
+
+# Convenience name for target.
+Hafta-04-01-Array: CMakeFiles/Hafta-04-01-Array.dir/rule
+
+.PHONY : Hafta-04-01-Array
+
+# clean rule for target.
+CMakeFiles/Hafta-04-01-Array.dir/clean:
+	$(MAKE) -f CMakeFiles/Hafta-04-01-Array.dir/build.make CMakeFiles/Hafta-04-01-Array.dir/clean
+.PHONY : CMakeFiles/Hafta-04-01-Array.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/Hafta-03-02-Single_Responsibility_Princeple.dir
+
+# All Build rule for target.
+CMakeFiles/Hafta-03-02-Single_Responsibility_Princeple.dir/all:
+	$(MAKE) -f CMakeFiles/Hafta-03-02-Single_Responsibility_Princeple.dir/build.make CMakeFiles/Hafta-03-02-Single_Responsibility_Princeple.dir/depend
+	$(MAKE) -f CMakeFiles/Hafta-03-02-Single_Responsibility_Princeple.dir/build.make CMakeFiles/Hafta-03-02-Single_Responsibility_Princeple.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles --progress-num=30,31,32,33 "Built target Hafta-03-02-Single_Responsibility_Princeple"
+.PHONY : CMakeFiles/Hafta-03-02-Single_Responsibility_Princeple.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Hafta-03-02-Single_Responsibility_Princeple.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles 4
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Hafta-03-02-Single_Responsibility_Princeple.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/Hafta-03-02-Single_Responsibility_Princeple.dir/rule
+
+# Convenience name for target.
+Hafta-03-02-Single_Responsibility_Princeple: CMakeFiles/Hafta-03-02-Single_Responsibility_Princeple.dir/rule
+
+.PHONY : Hafta-03-02-Single_Responsibility_Princeple
+
+# clean rule for target.
+CMakeFiles/Hafta-03-02-Single_Responsibility_Princeple.dir/clean:
+	$(MAKE) -f CMakeFiles/Hafta-03-02-Single_Responsibility_Princeple.dir/build.make CMakeFiles/Hafta-03-02-Single_Responsibility_Princeple.dir/clean
+.PHONY : CMakeFiles/Hafta-03-02-Single_Responsibility_Princeple.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/Hafta-02-04-Templates.dir
@@ -275,33 +360,6 @@ Hafta-02-02-Pure_Virtual_Functions: CMakeFiles/Hafta-02-02-Pure_Virtual_Function
 CMakeFiles/Hafta-02-02-Pure_Virtual_Functions.dir/clean:
 	$(MAKE) -f CMakeFiles/Hafta-02-02-Pure_Virtual_Functions.dir/build.make CMakeFiles/Hafta-02-02-Pure_Virtual_Functions.dir/clean
 .PHONY : CMakeFiles/Hafta-02-02-Pure_Virtual_Functions.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/Hafta-03-01-Single_Responsibility_Princeple.dir
-
-# All Build rule for target.
-CMakeFiles/Hafta-03-01-Single_Responsibility_Princeple.dir/all:
-	$(MAKE) -f CMakeFiles/Hafta-03-01-Single_Responsibility_Princeple.dir/build.make CMakeFiles/Hafta-03-01-Single_Responsibility_Princeple.dir/depend
-	$(MAKE) -f CMakeFiles/Hafta-03-01-Single_Responsibility_Princeple.dir/build.make CMakeFiles/Hafta-03-01-Single_Responsibility_Princeple.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles --progress-num=30,31,32,33 "Built target Hafta-03-01-Single_Responsibility_Princeple"
-.PHONY : CMakeFiles/Hafta-03-01-Single_Responsibility_Princeple.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/Hafta-03-01-Single_Responsibility_Princeple.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles 4
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Hafta-03-01-Single_Responsibility_Princeple.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/Hafta-03-01-Single_Responsibility_Princeple.dir/rule
-
-# Convenience name for target.
-Hafta-03-01-Single_Responsibility_Princeple: CMakeFiles/Hafta-03-01-Single_Responsibility_Princeple.dir/rule
-
-.PHONY : Hafta-03-01-Single_Responsibility_Princeple
-
-# clean rule for target.
-CMakeFiles/Hafta-03-01-Single_Responsibility_Princeple.dir/clean:
-	$(MAKE) -f CMakeFiles/Hafta-03-01-Single_Responsibility_Princeple.dir/build.make CMakeFiles/Hafta-03-01-Single_Responsibility_Princeple.dir/clean
-.PHONY : CMakeFiles/Hafta-03-01-Single_Responsibility_Princeple.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/Hafta-02-05-Move_Semantics.dir

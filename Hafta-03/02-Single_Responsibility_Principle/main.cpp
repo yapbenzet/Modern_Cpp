@@ -3,7 +3,7 @@
 #include <string>
 #include <vector>
 
-#include "gunluk.h"
+//#include "gunluk.h"
 #include "kaydedici.h"
 
 using namespace std;

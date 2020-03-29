@@ -6,6 +6,10 @@
 
 #IncludeRegexTransform: 
 
+/home/atuash/Modern_Cpp/Hafta-03/02-Single_Responsibility_Principle/gunluk.cpp
+gunluk.h
+/home/atuash/Modern_Cpp/Hafta-03/02-Single_Responsibility_Principle/gunluk.h
+
 /home/atuash/Modern_Cpp/Hafta-03/02-Single_Responsibility_Principle/gunluk.h
 iostream
 -
@@ -15,6 +19,10 @@ string
 -
 vector
 -
+
+/home/atuash/Modern_Cpp/Hafta-03/02-Single_Responsibility_Principle/kaydedici.cpp
+kaydedici.h
+/home/atuash/Modern_Cpp/Hafta-03/02-Single_Responsibility_Principle/kaydedici.h
 
 /home/atuash/Modern_Cpp/Hafta-03/02-Single_Responsibility_Principle/kaydedici.h
 gunluk.h
@@ -29,8 +37,6 @@ string
 -
 vector
 -
-gunluk.h
-/home/atuash/Modern_Cpp/Hafta-03/02-Single_Responsibility_Principle/gunluk.h
 kaydedici.h
 /home/atuash/Modern_Cpp/Hafta-03/02-Single_Responsibility_Principle/kaydedici.h
 
