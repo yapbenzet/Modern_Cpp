@@ -30,7 +30,7 @@ int main()
     std::cout << std::endl;
 
     snf->vec.assign(10,"c++");                                           // assign(int,"tip") fonksiyonu ile Vector'deki bütün elemanlar silinir ve
-                                                                                 // yerine fonksiyona girilen tipteki elemandan girilen int değeri kadar eklenir.
+                                                                                // yerine fonksiyona girilen tipteki elemandan girilen int değeri kadar eklenir.
 
     snf->vec.insert(snf->vec.begin() + 1, "yeni eklendi");                    // Vector'un herhangi bir yerine yeni veri eklemek için insert(iterator,"tip") fonksiyonu kullanılır.
                                                                                          // Burada iterator vec.begin() + 1 olarak belirlenmiştir, 1. indexe veri eklenir.

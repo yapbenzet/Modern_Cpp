@@ -4,6 +4,8 @@
 #include <iterator>
 #include <string>
 
+// https://www.geeksforgeeks.org/stdarray-in-cpp/
+
 // Array, sabit boyutlu diziler için kullanılır.
 // Array ile sabit boyutlu dizilerin uzunluk bilgisi size() fonksiyonu kullanılarak elde edilebilir.
 

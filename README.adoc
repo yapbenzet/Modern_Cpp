@@ -47,3 +47,9 @@ Modern Cpp'ta shared pointer (paylaşılan işaretçi) tanımını gösteren ve 
 * *Map*
 
 * *Single Responsibility Principle*
+
+== Hafta-04
+
+* *Array*
+
+* *Deque*
