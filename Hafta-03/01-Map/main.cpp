@@ -7,12 +7,10 @@
 
 // std::map ikili değerleri tutmak için kullanılır
 
-//std::map kullanmanın faydaları:
+// std::map kullanmanın faydaları:
 
-//Eşi olmayan (unique) anahtarları tutar ve bu tutma işlemini sıralı olarak yapar. Bir iterator kullanılacağı zaman anahtarların sırasına göre tarama yapılır.
-//Bu nedenle aramalar çok daha hızlı gerçekleşir.
-//std::map ile her bir elemanın sadece bir elemanı olabilir.
-
+// Eşi olmayan (unique) anahtarları tutar ve bu tutma işlemini sıralı olarak yapar.
+// Bir iterator kullanılacağı zaman anahtarların sırasına göre tarama yapılır.
 
 int main()
 {
