@@ -46,10 +46,46 @@ Modern Cpp'ta shared pointer (paylaşılan işaretçi) tanımını gösteren ve 
 
 * *Map*
 
+Modern Cpp'ta map tanımını gösteren ve nasıl kullanıldığını anlatan örnektir.
+
 * *Single Responsibility Principle*
+
+Modern Cpp ile Single Responsibility (Tek Sorumluluk) prensibini anlatan örnektir. Örnek, bir günlüğe not tutma ve bu günlüktekileri bir dosyaya kaydetme ile ilgilidir.
 
 == Hafta-04
 
 * *Array*
 
+Modern Cpp'ta array tanımını gösteren ve nasıl kullanıldığını anlatan örnektir.
+
 * *Deque*
+
+Modern Cpp'ta deque tanımını gösteren ve nasıl kullanıldığını anlatan örnektir.
+
+* *List*
+
+Modern Cpp'ta list tanımını gösteren ve nasıl kullanıldığını anlatan örnektir.
+
+* *Multimap*
+
+Modern Cpp'ta geçen hafta gösterilen map'in farklı bir türü olan multimap'in tanımını gösteren ve nasıl kullanıldığını anlatan örnektir.
+
+* *Set*
+
+Modern Cpp'ta set tanımını gösteren ve nasıl kullanıldığını anlatan örnektir.
+
+* *Multiset*
+
+Modern Cpp'ta bu hafta gösterilen set'in farklı bir türü olan multiset'in tanımını gösteren ve nasıl kullanıldığını anlatan örnektir.
+
+* *Stack*
+
+Modern Cpp'ta stack tanımını gösteren ve nasıl kullanıldığını anlatan örnektir.
+
+* *Queue*
+
+Modern Cpp'ta queue tanımını gösteren ve nasıl kullanıldığını anlatan örnektir.
+
+* *Priority Queue*
+
+Modern Cpp'ta priority_queue tanımını gösteren ve nasıl kullanıldığını anlatan örnektir.
