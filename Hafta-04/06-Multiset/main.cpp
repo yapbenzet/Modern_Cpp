@@ -1,13 +1,16 @@
 #include <iostream>
 #include <set>
+#include <unordered_set>
 #include <iterator>
 
 // https://www.geeksforgeeks.org/multiset-in-cpp-stl/
 
+// Set'ten farkı aynı öğeyi birden fazla barındırabilmesidir.
+
 int main()
 {
     // empty multiset container 
-    std::multiset <int, std::greater <int> > gquiz1;
+    std::multiset <int> gquiz1;
 
     // insert elements in random order 
     gquiz1.insert(40);
@@ -19,7 +22,7 @@ int main()
     gquiz1.insert(10);
 
     // printing multiset gquiz1 
-    std::multiset <int, std::greater <int> > :: iterator itr;
+    std::multiset <int> :: iterator itr;
     std::cout << "\nThe multiset gquiz1 is : ";
     for (itr = gquiz1.begin(); itr != gquiz1.end(); ++itr)
     {

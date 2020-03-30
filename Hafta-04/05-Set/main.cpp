@@ -3,6 +3,9 @@
 #include<string>
 
 // https://thispointer.com/stdset-tutorial-part-1-set-usage-details-with-default-sorting-criteria/
+// https://www.geeksforgeeks.org/set-vs-map-c-stl/
+
+// Map anahtar değer çiftlerini saklamak için kullanılırken, set yalnızca anahtarları saklamak için kullanılır.
 
 int main()
 {
@@ -15,7 +18,7 @@ int main()
     setOfNumbers.insert("first");
 
     // Only 3 elements will be inserted
-    std::cout<<"Set Size = "<<setOfNumbers.size()<<std::endl;
+    std::cout<<"Set Size = " << setOfNumbers.size() << std::endl;
 
     // Iterate through all the elements in a set and display the value.
     for (std::set<std::string>::iterator it=setOfNumbers.begin(); it!=setOfNumbers.end(); ++it)
