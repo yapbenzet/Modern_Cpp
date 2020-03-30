@@ -53,7 +53,7 @@ CMAKE_BINARY_DIR = /home/atuash/Modern_Cpp/cmake-build-debug
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/Hafta-04-09-Open_Closed_Principle.dir/all
+all: CMakeFiles/Hafta-04-09-Priority_Queue.dir/all
 all: CMakeFiles/Hafta-04-06-Multiset.dir/all
 all: CMakeFiles/Hafta-02-03-Abstract.dir/all
 all: CMakeFiles/Hafta-02-01-Virtual_Functions.dir/all
@@ -68,6 +68,7 @@ all: CMakeFiles/Hafta-02-06-Shared_Pointer.dir/all
 all: CMakeFiles/Hafta-04-03-List.dir/all
 all: CMakeFiles/Hafta-02-04-Templates.dir/all
 all: CMakeFiles/Hafta-03-02-Single_Responsibility_Princeple.dir/all
+all: CMakeFiles/Hafta-04-10-Open_Closed_Principle.dir/all
 all: CMakeFiles/Hafta-04-08-Queue.dir/all
 all: CMakeFiles/Hafta-04-05-Set.dir/all
 all: CMakeFiles/Hafta-04-01-Array.dir/all
@@ -77,7 +78,7 @@ all: CMakeFiles/Hafta-04-04-Multimap.dir/all
 .PHONY : all
 
 # The main recursive "clean" target.
-clean: CMakeFiles/Hafta-04-09-Open_Closed_Principle.dir/clean
+clean: CMakeFiles/Hafta-04-09-Priority_Queue.dir/clean
 clean: CMakeFiles/Hafta-04-06-Multiset.dir/clean
 clean: CMakeFiles/Hafta-02-03-Abstract.dir/clean
 clean: CMakeFiles/Hafta-02-01-Virtual_Functions.dir/clean
@@ -92,6 +93,7 @@ clean: CMakeFiles/Hafta-02-06-Shared_Pointer.dir/clean
 clean: CMakeFiles/Hafta-04-03-List.dir/clean
 clean: CMakeFiles/Hafta-02-04-Templates.dir/clean
 clean: CMakeFiles/Hafta-03-02-Single_Responsibility_Princeple.dir/clean
+clean: CMakeFiles/Hafta-04-10-Open_Closed_Principle.dir/clean
 clean: CMakeFiles/Hafta-04-08-Queue.dir/clean
 clean: CMakeFiles/Hafta-04-05-Set.dir/clean
 clean: CMakeFiles/Hafta-04-01-Array.dir/clean
@@ -106,31 +108,31 @@ preinstall:
 .PHONY : preinstall
 
 #=============================================================================
-# Target rules for target CMakeFiles/Hafta-04-09-Open_Closed_Principle.dir
+# Target rules for target CMakeFiles/Hafta-04-09-Priority_Queue.dir
 
 # All Build rule for target.
-CMakeFiles/Hafta-04-09-Open_Closed_Principle.dir/all:
-	$(MAKE) -f CMakeFiles/Hafta-04-09-Open_Closed_Principle.dir/build.make CMakeFiles/Hafta-04-09-Open_Closed_Principle.dir/depend
-	$(MAKE) -f CMakeFiles/Hafta-04-09-Open_Closed_Principle.dir/build.make CMakeFiles/Hafta-04-09-Open_Closed_Principle.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles --progress-num=50,51 "Built target Hafta-04-09-Open_Closed_Principle"
-.PHONY : CMakeFiles/Hafta-04-09-Open_Closed_Principle.dir/all
+CMakeFiles/Hafta-04-09-Priority_Queue.dir/all:
+	$(MAKE) -f CMakeFiles/Hafta-04-09-Priority_Queue.dir/build.make CMakeFiles/Hafta-04-09-Priority_Queue.dir/depend
+	$(MAKE) -f CMakeFiles/Hafta-04-09-Priority_Queue.dir/build.make CMakeFiles/Hafta-04-09-Priority_Queue.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles --progress-num=50,51 "Built target Hafta-04-09-Priority_Queue"
+.PHONY : CMakeFiles/Hafta-04-09-Priority_Queue.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/Hafta-04-09-Open_Closed_Principle.dir/rule: cmake_check_build_system
+CMakeFiles/Hafta-04-09-Priority_Queue.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Hafta-04-09-Open_Closed_Principle.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Hafta-04-09-Priority_Queue.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/Hafta-04-09-Open_Closed_Principle.dir/rule
+.PHONY : CMakeFiles/Hafta-04-09-Priority_Queue.dir/rule
 
 # Convenience name for target.
-Hafta-04-09-Open_Closed_Principle: CMakeFiles/Hafta-04-09-Open_Closed_Principle.dir/rule
+Hafta-04-09-Priority_Queue: CMakeFiles/Hafta-04-09-Priority_Queue.dir/rule
 
-.PHONY : Hafta-04-09-Open_Closed_Principle
+.PHONY : Hafta-04-09-Priority_Queue
 
 # clean rule for target.
-CMakeFiles/Hafta-04-09-Open_Closed_Principle.dir/clean:
-	$(MAKE) -f CMakeFiles/Hafta-04-09-Open_Closed_Principle.dir/build.make CMakeFiles/Hafta-04-09-Open_Closed_Principle.dir/clean
-.PHONY : CMakeFiles/Hafta-04-09-Open_Closed_Principle.dir/clean
+CMakeFiles/Hafta-04-09-Priority_Queue.dir/clean:
+	$(MAKE) -f CMakeFiles/Hafta-04-09-Priority_Queue.dir/build.make CMakeFiles/Hafta-04-09-Priority_Queue.dir/clean
+.PHONY : CMakeFiles/Hafta-04-09-Priority_Queue.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/Hafta-04-06-Multiset.dir
@@ -509,6 +511,33 @@ Hafta-03-02-Single_Responsibility_Princeple: CMakeFiles/Hafta-03-02-Single_Respo
 CMakeFiles/Hafta-03-02-Single_Responsibility_Princeple.dir/clean:
 	$(MAKE) -f CMakeFiles/Hafta-03-02-Single_Responsibility_Princeple.dir/build.make CMakeFiles/Hafta-03-02-Single_Responsibility_Princeple.dir/clean
 .PHONY : CMakeFiles/Hafta-03-02-Single_Responsibility_Princeple.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/Hafta-04-10-Open_Closed_Principle.dir
+
+# All Build rule for target.
+CMakeFiles/Hafta-04-10-Open_Closed_Principle.dir/all:
+	$(MAKE) -f CMakeFiles/Hafta-04-10-Open_Closed_Principle.dir/build.make CMakeFiles/Hafta-04-10-Open_Closed_Principle.dir/depend
+	$(MAKE) -f CMakeFiles/Hafta-04-10-Open_Closed_Principle.dir/build.make CMakeFiles/Hafta-04-10-Open_Closed_Principle.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles --progress-num=52,53 "Built target Hafta-04-10-Open_Closed_Principle"
+.PHONY : CMakeFiles/Hafta-04-10-Open_Closed_Principle.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Hafta-04-10-Open_Closed_Principle.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Hafta-04-10-Open_Closed_Principle.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/Hafta-04-10-Open_Closed_Principle.dir/rule
+
+# Convenience name for target.
+Hafta-04-10-Open_Closed_Principle: CMakeFiles/Hafta-04-10-Open_Closed_Principle.dir/rule
+
+.PHONY : Hafta-04-10-Open_Closed_Principle
+
+# clean rule for target.
+CMakeFiles/Hafta-04-10-Open_Closed_Principle.dir/clean:
+	$(MAKE) -f CMakeFiles/Hafta-04-10-Open_Closed_Principle.dir/build.make CMakeFiles/Hafta-04-10-Open_Closed_Principle.dir/clean
+.PHONY : CMakeFiles/Hafta-04-10-Open_Closed_Principle.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/Hafta-04-08-Queue.dir

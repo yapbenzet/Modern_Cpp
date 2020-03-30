@@ -27,8 +27,8 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="Hafta-04-09-Open_Closed_Principle">
-				<Option output="/home/atuash/Modern_Cpp/cmake-build-debug/Hafta-04-09-Open_Closed_Principle" prefix_auto="0" extension_auto="0"/>
+			<Target title="Hafta-04-09-Priority_Queue">
+				<Option output="/home/atuash/Modern_Cpp/cmake-build-debug/Hafta-04-09-Priority_Queue" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/atuash/Modern_Cpp/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -44,14 +44,14 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 Hafta-04-09-Open_Closed_Principle"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 Hafta-04-09-Priority_Queue"/>
 					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="Hafta-04-09-Open_Closed_Principle/fast">
-				<Option output="/home/atuash/Modern_Cpp/cmake-build-debug/Hafta-04-09-Open_Closed_Principle" prefix_auto="0" extension_auto="0"/>
+			<Target title="Hafta-04-09-Priority_Queue/fast">
+				<Option output="/home/atuash/Modern_Cpp/cmake-build-debug/Hafta-04-09-Priority_Queue" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/atuash/Modern_Cpp/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -67,7 +67,7 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 Hafta-04-09-Open_Closed_Principle/fast"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 Hafta-04-09-Priority_Queue/fast"/>
 					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -727,6 +727,52 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="Hafta-04-10-Open_Closed_Principle">
+				<Option output="/home/atuash/Modern_Cpp/cmake-build-debug/Hafta-04-10-Open_Closed_Principle" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/atuash/Modern_Cpp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 Hafta-04-10-Open_Closed_Principle"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Hafta-04-10-Open_Closed_Principle/fast">
+				<Option output="/home/atuash/Modern_Cpp/cmake-build-debug/Hafta-04-10-Open_Closed_Principle" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/atuash/Modern_Cpp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 Hafta-04-10-Open_Closed_Principle/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="Hafta-04-08-Queue">
 				<Option output="/home/atuash/Modern_Cpp/cmake-build-debug/Hafta-04-08-Queue" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/atuash/Modern_Cpp/cmake-build-debug"/>
@@ -1078,8 +1124,11 @@
 		<Unit filename="/home/atuash/Modern_Cpp/Hafta-04/08-Queue/main.cpp">
 			<Option target="Hafta-04-08-Queue"/>
 		</Unit>
-		<Unit filename="/home/atuash/Modern_Cpp/Hafta-04/09-Open_Closed_Principle/main.cpp">
-			<Option target="Hafta-04-09-Open_Closed_Principle"/>
+		<Unit filename="/home/atuash/Modern_Cpp/Hafta-04/09-Priority_Queue/main.cpp">
+			<Option target="Hafta-04-09-Priority_Queue"/>
+		</Unit>
+		<Unit filename="/home/atuash/Modern_Cpp/Hafta-04/10-Open_Closed_Principle/main.cpp">
+			<Option target="Hafta-04-10-Open_Closed_Principle"/>
 		</Unit>
 		<Unit filename="/home/atuash/Modern_Cpp/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
