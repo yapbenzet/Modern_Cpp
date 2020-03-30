@@ -74,5 +74,4 @@ int main()
          << *gquiz2.upper_bound(40) << std::endl;
 
     return 0;
-
 } 
