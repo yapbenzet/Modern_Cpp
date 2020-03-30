@@ -89,3 +89,9 @@ Modern Cpp'ta queue tanımını gösteren ve nasıl kullanıldığını anlatan 
 * *Priority Queue*
 
 Modern Cpp'ta priority_queue tanımını gösteren ve nasıl kullanıldığını anlatan örnektir.
+
+* *Open-Closed Principle*
+
+Modern Cpp ile Open-Closed (Geliştirmeye Açık Değiştirmeye Kapalı) prensibini anlatan örnektir. Örnek, ürünlerin aramasını yapan bir programı anlatır.
+
+
