@@ -1,5 +1,5 @@
 /home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles/Hafta-04-07-Open_Closed_Principle.dir
+/home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles/Hafta-04-09-Open_Closed_Principle.dir
 /home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles/Hafta-04-06-Multiset.dir
 /home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles/Hafta-02-03-Abstract.dir
 /home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles/rebuild_cache.dir
@@ -9,11 +9,13 @@
 /home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles/Hafta-01-03-Animals.dir
 /home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles/Hafta-03-01-Map.dir
 /home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles/Hafta-01-01-Vector.dir
+/home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles/Hafta-04-07-Stack.dir
 /home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles/Hafta-01-02-Chat.dir
 /home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles/Hafta-02-06-Shared_Pointer.dir
 /home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles/Hafta-04-03-List.dir
 /home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles/Hafta-02-04-Templates.dir
 /home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles/Hafta-03-02-Single_Responsibility_Princeple.dir
+/home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles/Hafta-04-08-Queue.dir
 /home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles/Hafta-04-05-Set.dir
 /home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles/Hafta-04-01-Array.dir
 /home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles/Hafta-04-02-Deque.dir

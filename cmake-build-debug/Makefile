@@ -111,17 +111,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named Hafta-04-07-Open_Closed_Principle
+# Target rules for targets named Hafta-04-09-Open_Closed_Principle
 
 # Build rule for target.
-Hafta-04-07-Open_Closed_Principle: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Hafta-04-07-Open_Closed_Principle
-.PHONY : Hafta-04-07-Open_Closed_Principle
+Hafta-04-09-Open_Closed_Principle: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Hafta-04-09-Open_Closed_Principle
+.PHONY : Hafta-04-09-Open_Closed_Principle
 
 # fast build rule for target.
-Hafta-04-07-Open_Closed_Principle/fast:
-	$(MAKE) -f CMakeFiles/Hafta-04-07-Open_Closed_Principle.dir/build.make CMakeFiles/Hafta-04-07-Open_Closed_Principle.dir/build
-.PHONY : Hafta-04-07-Open_Closed_Principle/fast
+Hafta-04-09-Open_Closed_Principle/fast:
+	$(MAKE) -f CMakeFiles/Hafta-04-09-Open_Closed_Principle.dir/build.make CMakeFiles/Hafta-04-09-Open_Closed_Principle.dir/build
+.PHONY : Hafta-04-09-Open_Closed_Principle/fast
 
 #=============================================================================
 # Target rules for targets named Hafta-04-06-Multiset
@@ -228,6 +228,19 @@ Hafta-01-01-Vector/fast:
 .PHONY : Hafta-01-01-Vector/fast
 
 #=============================================================================
+# Target rules for targets named Hafta-04-07-Stack
+
+# Build rule for target.
+Hafta-04-07-Stack: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Hafta-04-07-Stack
+.PHONY : Hafta-04-07-Stack
+
+# fast build rule for target.
+Hafta-04-07-Stack/fast:
+	$(MAKE) -f CMakeFiles/Hafta-04-07-Stack.dir/build.make CMakeFiles/Hafta-04-07-Stack.dir/build
+.PHONY : Hafta-04-07-Stack/fast
+
+#=============================================================================
 # Target rules for targets named Hafta-01-02-Chat
 
 # Build rule for target.
@@ -291,6 +304,19 @@ Hafta-03-02-Single_Responsibility_Princeple: cmake_check_build_system
 Hafta-03-02-Single_Responsibility_Princeple/fast:
 	$(MAKE) -f CMakeFiles/Hafta-03-02-Single_Responsibility_Princeple.dir/build.make CMakeFiles/Hafta-03-02-Single_Responsibility_Princeple.dir/build
 .PHONY : Hafta-03-02-Single_Responsibility_Princeple/fast
+
+#=============================================================================
+# Target rules for targets named Hafta-04-08-Queue
+
+# Build rule for target.
+Hafta-04-08-Queue: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Hafta-04-08-Queue
+.PHONY : Hafta-04-08-Queue
+
+# fast build rule for target.
+Hafta-04-08-Queue/fast:
+	$(MAKE) -f CMakeFiles/Hafta-04-08-Queue.dir/build.make CMakeFiles/Hafta-04-08-Queue.dir/build
+.PHONY : Hafta-04-08-Queue/fast
 
 #=============================================================================
 # Target rules for targets named Hafta-04-05-Set
@@ -1100,32 +1126,86 @@ Hafta-04/06-Multiset/main.cpp.s:
 	$(MAKE) -f CMakeFiles/Hafta-04-06-Multiset.dir/build.make CMakeFiles/Hafta-04-06-Multiset.dir/Hafta-04/06-Multiset/main.cpp.s
 .PHONY : Hafta-04/06-Multiset/main.cpp.s
 
-Hafta-04/07-Open_Closed_Principle/main.o: Hafta-04/07-Open_Closed_Principle/main.cpp.o
+Hafta-04/07-Stack/main.o: Hafta-04/07-Stack/main.cpp.o
 
-.PHONY : Hafta-04/07-Open_Closed_Principle/main.o
+.PHONY : Hafta-04/07-Stack/main.o
 
 # target to build an object file
-Hafta-04/07-Open_Closed_Principle/main.cpp.o:
-	$(MAKE) -f CMakeFiles/Hafta-04-07-Open_Closed_Principle.dir/build.make CMakeFiles/Hafta-04-07-Open_Closed_Principle.dir/Hafta-04/07-Open_Closed_Principle/main.cpp.o
-.PHONY : Hafta-04/07-Open_Closed_Principle/main.cpp.o
+Hafta-04/07-Stack/main.cpp.o:
+	$(MAKE) -f CMakeFiles/Hafta-04-07-Stack.dir/build.make CMakeFiles/Hafta-04-07-Stack.dir/Hafta-04/07-Stack/main.cpp.o
+.PHONY : Hafta-04/07-Stack/main.cpp.o
 
-Hafta-04/07-Open_Closed_Principle/main.i: Hafta-04/07-Open_Closed_Principle/main.cpp.i
+Hafta-04/07-Stack/main.i: Hafta-04/07-Stack/main.cpp.i
 
-.PHONY : Hafta-04/07-Open_Closed_Principle/main.i
+.PHONY : Hafta-04/07-Stack/main.i
 
 # target to preprocess a source file
-Hafta-04/07-Open_Closed_Principle/main.cpp.i:
-	$(MAKE) -f CMakeFiles/Hafta-04-07-Open_Closed_Principle.dir/build.make CMakeFiles/Hafta-04-07-Open_Closed_Principle.dir/Hafta-04/07-Open_Closed_Principle/main.cpp.i
-.PHONY : Hafta-04/07-Open_Closed_Principle/main.cpp.i
+Hafta-04/07-Stack/main.cpp.i:
+	$(MAKE) -f CMakeFiles/Hafta-04-07-Stack.dir/build.make CMakeFiles/Hafta-04-07-Stack.dir/Hafta-04/07-Stack/main.cpp.i
+.PHONY : Hafta-04/07-Stack/main.cpp.i
 
-Hafta-04/07-Open_Closed_Principle/main.s: Hafta-04/07-Open_Closed_Principle/main.cpp.s
+Hafta-04/07-Stack/main.s: Hafta-04/07-Stack/main.cpp.s
 
-.PHONY : Hafta-04/07-Open_Closed_Principle/main.s
+.PHONY : Hafta-04/07-Stack/main.s
 
 # target to generate assembly for a file
-Hafta-04/07-Open_Closed_Principle/main.cpp.s:
-	$(MAKE) -f CMakeFiles/Hafta-04-07-Open_Closed_Principle.dir/build.make CMakeFiles/Hafta-04-07-Open_Closed_Principle.dir/Hafta-04/07-Open_Closed_Principle/main.cpp.s
-.PHONY : Hafta-04/07-Open_Closed_Principle/main.cpp.s
+Hafta-04/07-Stack/main.cpp.s:
+	$(MAKE) -f CMakeFiles/Hafta-04-07-Stack.dir/build.make CMakeFiles/Hafta-04-07-Stack.dir/Hafta-04/07-Stack/main.cpp.s
+.PHONY : Hafta-04/07-Stack/main.cpp.s
+
+Hafta-04/08-Queue/main.o: Hafta-04/08-Queue/main.cpp.o
+
+.PHONY : Hafta-04/08-Queue/main.o
+
+# target to build an object file
+Hafta-04/08-Queue/main.cpp.o:
+	$(MAKE) -f CMakeFiles/Hafta-04-08-Queue.dir/build.make CMakeFiles/Hafta-04-08-Queue.dir/Hafta-04/08-Queue/main.cpp.o
+.PHONY : Hafta-04/08-Queue/main.cpp.o
+
+Hafta-04/08-Queue/main.i: Hafta-04/08-Queue/main.cpp.i
+
+.PHONY : Hafta-04/08-Queue/main.i
+
+# target to preprocess a source file
+Hafta-04/08-Queue/main.cpp.i:
+	$(MAKE) -f CMakeFiles/Hafta-04-08-Queue.dir/build.make CMakeFiles/Hafta-04-08-Queue.dir/Hafta-04/08-Queue/main.cpp.i
+.PHONY : Hafta-04/08-Queue/main.cpp.i
+
+Hafta-04/08-Queue/main.s: Hafta-04/08-Queue/main.cpp.s
+
+.PHONY : Hafta-04/08-Queue/main.s
+
+# target to generate assembly for a file
+Hafta-04/08-Queue/main.cpp.s:
+	$(MAKE) -f CMakeFiles/Hafta-04-08-Queue.dir/build.make CMakeFiles/Hafta-04-08-Queue.dir/Hafta-04/08-Queue/main.cpp.s
+.PHONY : Hafta-04/08-Queue/main.cpp.s
+
+Hafta-04/09-Open_Closed_Principle/main.o: Hafta-04/09-Open_Closed_Principle/main.cpp.o
+
+.PHONY : Hafta-04/09-Open_Closed_Principle/main.o
+
+# target to build an object file
+Hafta-04/09-Open_Closed_Principle/main.cpp.o:
+	$(MAKE) -f CMakeFiles/Hafta-04-09-Open_Closed_Principle.dir/build.make CMakeFiles/Hafta-04-09-Open_Closed_Principle.dir/Hafta-04/09-Open_Closed_Principle/main.cpp.o
+.PHONY : Hafta-04/09-Open_Closed_Principle/main.cpp.o
+
+Hafta-04/09-Open_Closed_Principle/main.i: Hafta-04/09-Open_Closed_Principle/main.cpp.i
+
+.PHONY : Hafta-04/09-Open_Closed_Principle/main.i
+
+# target to preprocess a source file
+Hafta-04/09-Open_Closed_Principle/main.cpp.i:
+	$(MAKE) -f CMakeFiles/Hafta-04-09-Open_Closed_Principle.dir/build.make CMakeFiles/Hafta-04-09-Open_Closed_Principle.dir/Hafta-04/09-Open_Closed_Principle/main.cpp.i
+.PHONY : Hafta-04/09-Open_Closed_Principle/main.cpp.i
+
+Hafta-04/09-Open_Closed_Principle/main.s: Hafta-04/09-Open_Closed_Principle/main.cpp.s
+
+.PHONY : Hafta-04/09-Open_Closed_Principle/main.s
+
+# target to generate assembly for a file
+Hafta-04/09-Open_Closed_Principle/main.cpp.s:
+	$(MAKE) -f CMakeFiles/Hafta-04-09-Open_Closed_Principle.dir/build.make CMakeFiles/Hafta-04-09-Open_Closed_Principle.dir/Hafta-04/09-Open_Closed_Principle/main.cpp.s
+.PHONY : Hafta-04/09-Open_Closed_Principle/main.cpp.s
 
 # Help Target
 help:
@@ -1134,7 +1214,7 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... edit_cache"
-	@echo "... Hafta-04-07-Open_Closed_Principle"
+	@echo "... Hafta-04-09-Open_Closed_Principle"
 	@echo "... Hafta-04-06-Multiset"
 	@echo "... Hafta-02-03-Abstract"
 	@echo "... rebuild_cache"
@@ -1144,11 +1224,13 @@ help:
 	@echo "... Hafta-01-03-Animals"
 	@echo "... Hafta-03-01-Map"
 	@echo "... Hafta-01-01-Vector"
+	@echo "... Hafta-04-07-Stack"
 	@echo "... Hafta-01-02-Chat"
 	@echo "... Hafta-02-06-Shared_Pointer"
 	@echo "... Hafta-04-03-List"
 	@echo "... Hafta-02-04-Templates"
 	@echo "... Hafta-03-02-Single_Responsibility_Princeple"
+	@echo "... Hafta-04-08-Queue"
 	@echo "... Hafta-04-05-Set"
 	@echo "... Hafta-04-01-Array"
 	@echo "... Hafta-04-02-Deque"
@@ -1237,9 +1319,15 @@ help:
 	@echo "... Hafta-04/06-Multiset/main.o"
 	@echo "... Hafta-04/06-Multiset/main.i"
 	@echo "... Hafta-04/06-Multiset/main.s"
-	@echo "... Hafta-04/07-Open_Closed_Principle/main.o"
-	@echo "... Hafta-04/07-Open_Closed_Principle/main.i"
-	@echo "... Hafta-04/07-Open_Closed_Principle/main.s"
+	@echo "... Hafta-04/07-Stack/main.o"
+	@echo "... Hafta-04/07-Stack/main.i"
+	@echo "... Hafta-04/07-Stack/main.s"
+	@echo "... Hafta-04/08-Queue/main.o"
+	@echo "... Hafta-04/08-Queue/main.i"
+	@echo "... Hafta-04/08-Queue/main.s"
+	@echo "... Hafta-04/09-Open_Closed_Principle/main.o"
+	@echo "... Hafta-04/09-Open_Closed_Principle/main.i"
+	@echo "... Hafta-04/09-Open_Closed_Principle/main.s"
 .PHONY : help
 
 
