@@ -1,0 +1,143 @@
+== Ödev-03
+
+=== Thread-Safe Singleton
+
+Aşağıdaki örnek oyundaki bir düşmanı ve iki savaşçıyı göstermektedir.
+
+Burada elimizdeki düşmandan farklı bir düşman yaratılmayacağı için düşman singleton sınıf olarak hazırlanmıştır.
+
+Savaşçı sınıfı ise normal örneklenebilir sınıf olarak hazırlandı.
+
+Savaşçılar aynı anda düşmana hasar vermektedir.
+
+[source,cpp]
+----
+std::mutex
+----
+komutu ile herhangi bir sıkıntı çıkmadan bu işlem gerçekleştirilebilmektedir.
+
+[source,cpp]
+----
+#include <iostream>
+#include <future>
+#include <mutex>
+#ifdef _WIN32
+#include <Windows.h>
+#else
+#include <unistd.h>
+#endif
+
+static std::mutex _mtx;
+
+class Dusman {                                                      // <1>
+
+public:
+    static Dusman* olustur() {
+        _mtx.lock();                                                // <2>
+        if(m_instanceDusman == nullptr){                            // <3>
+            m_instanceDusman = new Dusman();
+        }
+        _mtx.unlock();                                              // <4>
+        return m_instanceDusman;
+    }
+    void hasar_al(int val){                                         // <5>
+        can -= val;
+    }
+
+    int get_can(){                                                  // <6>
+        return can;
+    }
+
+    int set_can(int val){                                           // <7>
+        can = val;
+    }
+
+private:
+    Dusman() {                                                      // <8>
+        std::cout << "Dusman olusturuldu!\n";
+    }
+    ~Dusman() {}                                                    // <9>
+
+    int can = 100;
+    static Dusman *m_instanceDusman;                                // <10>
+};
+
+Dusman* Dusman::m_instanceDusman = nullptr;                         // <11>
+
+class Savasci{                                                      // <12>
+public:
+    Savasci(int id, int hasar) : id(id), hasar(hasar) {}
+
+    int id;
+    int hasar;
+    int can = 100;
+};
+
+void hasarVer(Savasci *savasci){
+    Dusman *obj1 = Dusman::olustur();                               // <13>
+    sleep(1);
+    _mtx.lock();                                                    // <14>
+    obj1->hasar_al(savasci->hasar);
+    std::cout << "Savasci_" << savasci->id <<" verilen hasar: "<< savasci->hasar << std::endl;
+    std::cout << "Dusman kalan can: " << obj1->get_can() << std::endl;
+    _mtx.unlock();
+}
+
+int main()
+{
+    std::cout<<"Singleton Example\n"<<std::endl;
+
+    Savasci *sv1 = new Savasci(1,30);
+    Savasci *sv2 = new Savasci(2,40);
+
+    auto fut1= std::async(std::launch::async,hasarVer,sv1);         // <15>
+    auto fut2= std::async(std::launch::async,hasarVer,sv2);
+
+    return 0;
+}
+----
+<1> Dusman sinifi tanimlanir.
+<2> *_mtx.lock()* komutu ile Dusman sınıfının örneği oluşturulurken threadlerin aynı anda belirtilen mutex aralığına erişmesi önlenir.
+<3> Dusman sınıfının örneğinin daha önce oluşturulduğunu kontrol eden kısımdır.
+<4> *_mtx.unlock()* komutu mutex aralığının bittiğini belirten fonksiyondur.
+<5> Dusman sınıfındaki *can* değişkeninin değerini azaltan public fonksiyondur.
+<6> Dusman sınıfındaki *can* değişkeninin değerini alan public fonksiyondur.
+<7> Dusman sınıfındaki *can* değişkeninin değerini değiştiren public fonksiyondur.
+<8> Dusman sınıfının private constructer fonksiyonudur. Private olmazsa singleton olmaz. Eğer public olursa bütün sınıflar Dusman sınıfından örnek oluşturabilir. Bu da Singleton prensibine aykırıdır.
+<9> Dusman sınıfının private destructer fonksiyonudur.
+<10> Dusman sınıfının kullanılabilecek tek örneğidir (instance). Statik yapılmazsa Singleton prensibine uygun davranmaz.
+<11> C++'da statik değişkene main fonksiyonu dışında bir değer atanması gerekmektedir. Bu satırda static sınıfa *nullptr* değeri atanır.
+<12> Savasci sinifi tanimlanir.
+<13> Bu satırda Singleton prensibinin kurallarına göre oluşturulan *olustur* fonksiyonu kullanılır. Bu fonksiyon Dusman sınıfından sadece bir tane örnek oluşturulduğunun kontrolünün yapılması için gereklidir.
+<14> std::cout komutlarının threadler arasında karışık olarak kullanılmaması için bu kısım mutex aralığına alınmıştır.
+<15> Bu satırda thread ile iki tane *hasarVer* fonksiyonu çalıştırılır.
+
+==== UML Diagramı
+
+[plantuml, Singleton, png]
+----
+Class Düşman{
+    - int can = 100
+    - {static} Dusman* m_instanceDusman
+    + {static} Dusman* olustur()
+    + void hasar_al(int val)
+    + int get_can()
+    + void set_can()
+    - Dusman()
+    - ~Dusman()
+}
+
+Class Savaşçı{
+    + int id
+    + int hasar
+    + int can = 100
+    + Savasci(int id, int hasar)
+}
+
+Düşman <.. Savaşçı : Hasar verir <
+----
+
+
+
+
+

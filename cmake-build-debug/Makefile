@@ -1273,32 +1273,32 @@ Hafta-04/10-Open_Closed_Principle/main.cpp.s:
 	$(MAKE) -f CMakeFiles/Hafta-04-10-Open_Closed_Principle.dir/build.make CMakeFiles/Hafta-04-10-Open_Closed_Principle.dir/Hafta-04/10-Open_Closed_Principle/main.cpp.s
 .PHONY : Hafta-04/10-Open_Closed_Principle/main.cpp.s
 
-Hafta-05/01-Singleton/main.o: Hafta-05/01-Singleton/main.cpp.o
+Hafta-05/01-Thread_Safe_Singleton/main.o: Hafta-05/01-Thread_Safe_Singleton/main.cpp.o
 
-.PHONY : Hafta-05/01-Singleton/main.o
+.PHONY : Hafta-05/01-Thread_Safe_Singleton/main.o
 
 # target to build an object file
-Hafta-05/01-Singleton/main.cpp.o:
-	$(MAKE) -f CMakeFiles/Hafta-05-01-Thread_Safe_Singleton.dir/build.make CMakeFiles/Hafta-05-01-Thread_Safe_Singleton.dir/Hafta-05/01-Singleton/main.cpp.o
-.PHONY : Hafta-05/01-Singleton/main.cpp.o
+Hafta-05/01-Thread_Safe_Singleton/main.cpp.o:
+	$(MAKE) -f CMakeFiles/Hafta-05-01-Thread_Safe_Singleton.dir/build.make CMakeFiles/Hafta-05-01-Thread_Safe_Singleton.dir/Hafta-05/01-Thread_Safe_Singleton/main.cpp.o
+.PHONY : Hafta-05/01-Thread_Safe_Singleton/main.cpp.o
 
-Hafta-05/01-Singleton/main.i: Hafta-05/01-Singleton/main.cpp.i
+Hafta-05/01-Thread_Safe_Singleton/main.i: Hafta-05/01-Thread_Safe_Singleton/main.cpp.i
 
-.PHONY : Hafta-05/01-Singleton/main.i
+.PHONY : Hafta-05/01-Thread_Safe_Singleton/main.i
 
 # target to preprocess a source file
-Hafta-05/01-Singleton/main.cpp.i:
-	$(MAKE) -f CMakeFiles/Hafta-05-01-Thread_Safe_Singleton.dir/build.make CMakeFiles/Hafta-05-01-Thread_Safe_Singleton.dir/Hafta-05/01-Singleton/main.cpp.i
-.PHONY : Hafta-05/01-Singleton/main.cpp.i
+Hafta-05/01-Thread_Safe_Singleton/main.cpp.i:
+	$(MAKE) -f CMakeFiles/Hafta-05-01-Thread_Safe_Singleton.dir/build.make CMakeFiles/Hafta-05-01-Thread_Safe_Singleton.dir/Hafta-05/01-Thread_Safe_Singleton/main.cpp.i
+.PHONY : Hafta-05/01-Thread_Safe_Singleton/main.cpp.i
 
-Hafta-05/01-Singleton/main.s: Hafta-05/01-Singleton/main.cpp.s
+Hafta-05/01-Thread_Safe_Singleton/main.s: Hafta-05/01-Thread_Safe_Singleton/main.cpp.s
 
-.PHONY : Hafta-05/01-Singleton/main.s
+.PHONY : Hafta-05/01-Thread_Safe_Singleton/main.s
 
 # target to generate assembly for a file
-Hafta-05/01-Singleton/main.cpp.s:
-	$(MAKE) -f CMakeFiles/Hafta-05-01-Thread_Safe_Singleton.dir/build.make CMakeFiles/Hafta-05-01-Thread_Safe_Singleton.dir/Hafta-05/01-Singleton/main.cpp.s
-.PHONY : Hafta-05/01-Singleton/main.cpp.s
+Hafta-05/01-Thread_Safe_Singleton/main.cpp.s:
+	$(MAKE) -f CMakeFiles/Hafta-05-01-Thread_Safe_Singleton.dir/build.make CMakeFiles/Hafta-05-01-Thread_Safe_Singleton.dir/Hafta-05/01-Thread_Safe_Singleton/main.cpp.s
+.PHONY : Hafta-05/01-Thread_Safe_Singleton/main.cpp.s
 
 Hafta-05/02-Factory/main.o: Hafta-05/02-Factory/main.cpp.o
 
@@ -1454,9 +1454,9 @@ help:
 	@echo "... Hafta-04/10-Open_Closed_Principle/main.o"
 	@echo "... Hafta-04/10-Open_Closed_Principle/main.i"
 	@echo "... Hafta-04/10-Open_Closed_Principle/main.s"
-	@echo "... Hafta-05/01-Singleton/main.o"
-	@echo "... Hafta-05/01-Singleton/main.i"
-	@echo "... Hafta-05/01-Singleton/main.s"
+	@echo "... Hafta-05/01-Thread_Safe_Singleton/main.o"
+	@echo "... Hafta-05/01-Thread_Safe_Singleton/main.i"
+	@echo "... Hafta-05/01-Thread_Safe_Singleton/main.s"
 	@echo "... Hafta-05/02-Factory/main.o"
 	@echo "... Hafta-05/02-Factory/main.i"
 	@echo "... Hafta-05/02-Factory/main.s"

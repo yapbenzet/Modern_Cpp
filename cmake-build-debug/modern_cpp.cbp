@@ -1222,7 +1222,7 @@
 		<Unit filename="/home/atuash/Modern_Cpp/Hafta-04/10-Open_Closed_Principle/main.cpp">
 			<Option target="Hafta-04-10-Open_Closed_Principle"/>
 		</Unit>
-		<Unit filename="/home/atuash/Modern_Cpp/Hafta-05/01-Singleton/main.cpp">
+		<Unit filename="/home/atuash/Modern_Cpp/Hafta-05/01-Thread_Safe_Singleton/main.cpp">
 			<Option target="Hafta-05-01-Thread_Safe_Singleton"/>
 		</Unit>
 		<Unit filename="/home/atuash/Modern_Cpp/Hafta-05/02-Factory/main.cpp">

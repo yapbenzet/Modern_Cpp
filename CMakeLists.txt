@@ -45,6 +45,8 @@ add_executable(Hafta-04-09-Priority_Queue Hafta-04/09-Priority_Queue/main.cpp)
 
 add_executable(Hafta-04-10-Open_Closed_Principle Hafta-04/10-Open_Closed_Principle/main.cpp)
 
-add_executable(Hafta-05-01-Thread_Safe_Singleton Hafta-05/01-Singleton/main.cpp)
+add_executable(Hafta-05-01-Thread_Safe_Singleton Hafta-05/01-Thread_Safe_Singleton/main.cpp)
+find_package (Threads)
+target_link_libraries (Hafta-05-01-Thread_Safe_Singleton ${CMAKE_THREAD_LIBS_INIT})
 
 add_executable(Hafta-05-02-Factory Hafta-05/02-Factory/main.cpp)
