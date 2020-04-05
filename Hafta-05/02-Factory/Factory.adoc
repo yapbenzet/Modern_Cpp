@@ -1,0 +1,151 @@
+== Ödev-03
+
+=== Factory Pattern
+
+Aşağıdaki örnek bir oyun içerisindeki karakterlerin oluşturulması ile ilgilidir.
+
+Karakterler 3 kategori olacak şekilde tanımlanmıştır (Savaşçı, Düşman ve Hayvan).
+
+Her karakter türünün verdiği hasar farklıdır.
+
+Bu hasarların farklılığının sağlanması için Factory Pattern kullanılmıştır.
+
+[source,cpp]
+----
+#include <iostream>
+#include <string>
+#include <map>
+
+class Karakter{                                                       // <1>
+public:
+    Karakter(int can, int guc, const std::string &isim) : can(can), guc(guc), isim(isim) {}
+    int can;
+    int guc;
+    std::string isim;
+    virtual void saldir() const = 0;                                  // <2>
+};
+
+class Savasci : public Karakter{                                      // <3>
+public:
+    Savasci(int can, int guc, const std::string &isim) : Karakter(can, guc, isim) {}
+
+private:
+    virtual void saldir() const{                                      // <4>
+        std::cout <<  this->isim << ": Verilen hasar: " << this->guc*3 << std::endl;
+    }
+};
+
+class Dusman : public Karakter{                                       // <5>
+public:
+    Dusman(int can, int guc, const std::string &isim) : Karakter(can, guc, isim) {}
+
+private:
+    virtual void saldir() const{                                      // <6>
+        std::cout << this->isim << ": Verilen hasar: " << this->guc*2 << std::endl;
+    }
+};
+
+class Hayvan : public Karakter{                                       // <7>
+public:
+    Hayvan(int can, int guc, const std::string &isim) : Karakter(can, guc, isim) {}
+
+private:
+    virtual void saldir() const{                                      // <8>
+        std::cout << this->isim << ": Verilen hasar: " << this->guc << std::endl;
+    }
+};
+
+class KarakterUretici{                                                // <9>
+public:
+    Karakter* karakterUret(std::string tip)                           // <10>
+    {
+        if(tip == "savasci")
+        {
+            return new Savasci(100,50,"savasci");
+        }
+        else if(tip == "dusman")
+        {
+            return new Dusman(100,50,"dusman");
+        }
+        else if(tip == "hayvan")
+        {
+            return new Hayvan(100,50,"hayvan");
+        }
+    }
+};
+
+int main()
+{
+    KarakterUretici *uretici = new KarakterUretici();                 // <11>
+    std::map<Karakter*, int> karakterler;                             // <12>
+    int i = 0;
+
+    karakterler.insert(std::make_pair(uretici->karakterUret("savasci"), i++));
+    karakterler.insert(std::make_pair(uretici->karakterUret("dusman"), i++));
+    karakterler.insert(std::make_pair(uretici->karakterUret("hayvan"), i++));
+    karakterler.insert(std::make_pair(uretici->karakterUret("dusman"), i++));
+    karakterler.insert(std::make_pair(uretici->karakterUret("savasci"), i++));
+    karakterler.insert(std::make_pair(uretici->karakterUret("hayvan"), i++));
+
+    std::map<Karakter*, int>::iterator it = karakterler.begin();      // <13>
+    while(it != karakterler.end())
+    {
+        std::cout << "key: " << it->second << " ";
+        it->first->saldir();
+        it++;
+    }
+
+    return 0;
+}
+----
+<1> *Karakter* sınıfının tanımlanması.
+<2> Abstract sınıf oluşturulması için gerekli olan *saf sanal fonksiyonun* tanımlanması.
+<3> *Savasci* sınıfının tanımlanması.
+<4> *Karakter* sınıfında oluşturulan saf sanal fonksiyonun *override* edilmesi.
+<5> *Dusman* sınıfının tanımlanması.
+<6> *Karakter* sınıfında oluşturulan saf sanal fonksiyonun *override* edilmesi.
+<7> *Hayvan* sınıfının tanımlanması.
+<8> *Karakter* sınıfında oluşturulan saf sanal fonksiyonun *override* edilmesi.
+<9> *KarakterUreticisi* sınıfının tanımlanması.
+<10> Karakter ureten fonksiyonun tanımlanması. Bu fonksiyon girilen parametreye göre karakter tipi döndürmektedir.
+<11> KarakterUreticisi örneğinin (instance) oluşturulması.
+<12> Uretilecek karakterleri ve ID'lerini barındıracak olan *std::map* konteynerının oluşturulması.
+<13> *std::map* içindeki elemanları gezmek için kullanılacak *iterator* ın oluşturulması.
+
+==== UML Diagramı
+
+[plantuml, Factory, png]
+----
+Class Karakter{
+    + int can;
+    + int guc;
+    + std::string isim;
+    + Karakter(int can, int guc, string isim)
+    + {abstract} void saldir();
+}
+
+Class Savaşçı{
+    - void saldir()
+}
+
+Class Düşman{
+    - void saldir()
+}
+
+Class Hayvan{
+    - void saldir()
+}
+
+Class KarakterÜretici{
+    + Karakter* karakterUret(string tip)
+}
+
+Karakter <|--- Savaşçı
+Karakter <|--- Düşman
+Karakter <|--- Hayvan
+
+Savaşçı <..  KarakterÜretici : Üretir <
+Düşman <..  KarakterÜretici : Üretir <
+Hayvan <..  KarakterÜretici : Üretir <
+
+----
