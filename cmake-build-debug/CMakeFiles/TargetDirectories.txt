@@ -9,7 +9,9 @@
 /home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles/Hafta-05-03-Operators.dir
 /home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles/Hafta-02-05-Move_Semantics.dir
 /home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles/Hafta-02-02-Pure_Virtual_Functions.dir
+/home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles/Hafta-05-05-Late_Binding.dir
 /home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles/Hafta-01-03-Animals.dir
+/home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles/Hafta-05-04-Early_Binding.dir
 /home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles/Hafta-03-01-Map.dir
 /home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles/Hafta-01-01-Vector.dir
 /home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles/Hafta-04-07-Stack.dir

@@ -94,4 +94,14 @@ Modern Cpp'ta priority_queue tanımını gösteren ve nasıl kullanıldığını
 
 Modern Cpp ile Open-Closed (Geliştirmeye Açık Değiştirmeye Kapalı) prensibini anlatan örnektir. Örnek, ürünlerin aramasını yapan bir programı anlatır.
 
+== Hafta-05
 
+* *Thread-Safe Singleton*
+
+* *Factory Pattern*
+
+* *Operator Overloading*
+
+* *Early Binding*
+
+* *Late Binding*

@@ -13,20 +13,22 @@ int main()
     std::cout << "t3: " << t3.getIsim() << " : " <<  t3.getKatilimciSayisi() << std::endl;
     std::cout << "t4: " << t4.getIsim() << " : " <<  t4.getKatilimciSayisi() << std::endl;
     std::cout << std::endl;
+
     std::cout << "t1 + t2: " << (t1+t2).getKatilimciSayisi() << std::endl;
     std::cout << std::endl;
+
     if(t1 > t2)
     {
         std::cout << "t1 > t2" << std::endl;
     }
+    std::cout << std::endl;
 
     std::set<topluluk> topluluklar;
     topluluklar.insert(t1);
     topluluklar.insert(t2);
     topluluklar.insert(t3);
     topluluklar.insert(t4);
-    std::cout << std::endl;
-    for (std::set<topluluk>::iterator it=topluluklar.begin(); it!=topluluklar.end(); ++it)
+    for (auto it=topluluklar.begin(); it!=topluluklar.end(); ++it)
         std::cout << it->isim << " : " << it->katilimciSayisi << std::endl;
 
     return 0;

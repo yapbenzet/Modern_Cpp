@@ -3,7 +3,7 @@ project(modern_cpp)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(Hafta-01-01-Vector Hafta-01/01-vector/main.cpp Hafta-01/01-vector/sinif.cpp Hafta-01/01-vector/sinif.h)
+add_executable(Hafta-01-01-Vector Hafta-01/01-vector/main.cpp Hafta-01/01-vector/sinif.cpp Hafta-01/01-vector/sinif.h Hafta-05/04-Early_Binding/main.cpp)
 
 add_executable(Hafta-01-02-Chat Hafta-01/02-Chat/main.cpp Hafta-01/02-Chat/chat_sinif.cpp Hafta-01/02-Chat/chat_sinif.h)
 
@@ -52,3 +52,7 @@ target_link_libraries (Hafta-05-01-Thread_Safe_Singleton ${CMAKE_THREAD_LIBS_INI
 add_executable(Hafta-05-02-Factory Hafta-05/02-Factory/main.cpp)
 
 add_executable(Hafta-05-03-Operators Hafta-05/03-Operators/main.cpp Hafta-05/03-Operators/topluluk.cpp Hafta-05/03-Operators/topluluk.h)
+
+add_executable(Hafta-05-04-Early_Binding Hafta-05/04-Early_Binding/main.cpp)
+
+add_executable(Hafta-05-05-Late_Binding Hafta-05/05-Late_Binding/main.cpp)

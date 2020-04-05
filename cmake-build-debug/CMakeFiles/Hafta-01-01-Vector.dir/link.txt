@@ -1,1 +1,1 @@
-/usr/bin/c++  -g   CMakeFiles/Hafta-01-01-Vector.dir/Hafta-01/01-vector/main.cpp.o CMakeFiles/Hafta-01-01-Vector.dir/Hafta-01/01-vector/sinif.cpp.o  -o Hafta-01-01-Vector 
+/usr/bin/c++  -g   CMakeFiles/Hafta-01-01-Vector.dir/Hafta-01/01-vector/main.cpp.o CMakeFiles/Hafta-01-01-Vector.dir/Hafta-01/01-vector/sinif.cpp.o CMakeFiles/Hafta-01-01-Vector.dir/Hafta-05/04-Early_Binding/main.cpp.o  -o Hafta-01-01-Vector 

@@ -228,6 +228,19 @@ Hafta-02-02-Pure_Virtual_Functions/fast:
 .PHONY : Hafta-02-02-Pure_Virtual_Functions/fast
 
 #=============================================================================
+# Target rules for targets named Hafta-05-05-Late_Binding
+
+# Build rule for target.
+Hafta-05-05-Late_Binding: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Hafta-05-05-Late_Binding
+.PHONY : Hafta-05-05-Late_Binding
+
+# fast build rule for target.
+Hafta-05-05-Late_Binding/fast:
+	$(MAKE) -f CMakeFiles/Hafta-05-05-Late_Binding.dir/build.make CMakeFiles/Hafta-05-05-Late_Binding.dir/build
+.PHONY : Hafta-05-05-Late_Binding/fast
+
+#=============================================================================
 # Target rules for targets named Hafta-01-03-Animals
 
 # Build rule for target.
@@ -239,6 +252,19 @@ Hafta-01-03-Animals: cmake_check_build_system
 Hafta-01-03-Animals/fast:
 	$(MAKE) -f CMakeFiles/Hafta-01-03-Animals.dir/build.make CMakeFiles/Hafta-01-03-Animals.dir/build
 .PHONY : Hafta-01-03-Animals/fast
+
+#=============================================================================
+# Target rules for targets named Hafta-05-04-Early_Binding
+
+# Build rule for target.
+Hafta-05-04-Early_Binding: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Hafta-05-04-Early_Binding
+.PHONY : Hafta-05-04-Early_Binding
+
+# fast build rule for target.
+Hafta-05-04-Early_Binding/fast:
+	$(MAKE) -f CMakeFiles/Hafta-05-04-Early_Binding.dir/build.make CMakeFiles/Hafta-05-04-Early_Binding.dir/build
+.PHONY : Hafta-05-04-Early_Binding/fast
 
 #=============================================================================
 # Target rules for targets named Hafta-03-01-Map
@@ -1394,6 +1420,63 @@ Hafta-05/03-Operators/topluluk.cpp.s:
 	$(MAKE) -f CMakeFiles/Hafta-05-03-Operators.dir/build.make CMakeFiles/Hafta-05-03-Operators.dir/Hafta-05/03-Operators/topluluk.cpp.s
 .PHONY : Hafta-05/03-Operators/topluluk.cpp.s
 
+Hafta-05/04-Early_Binding/main.o: Hafta-05/04-Early_Binding/main.cpp.o
+
+.PHONY : Hafta-05/04-Early_Binding/main.o
+
+# target to build an object file
+Hafta-05/04-Early_Binding/main.cpp.o:
+	$(MAKE) -f CMakeFiles/Hafta-05-04-Early_Binding.dir/build.make CMakeFiles/Hafta-05-04-Early_Binding.dir/Hafta-05/04-Early_Binding/main.cpp.o
+	$(MAKE) -f CMakeFiles/Hafta-01-01-Vector.dir/build.make CMakeFiles/Hafta-01-01-Vector.dir/Hafta-05/04-Early_Binding/main.cpp.o
+.PHONY : Hafta-05/04-Early_Binding/main.cpp.o
+
+Hafta-05/04-Early_Binding/main.i: Hafta-05/04-Early_Binding/main.cpp.i
+
+.PHONY : Hafta-05/04-Early_Binding/main.i
+
+# target to preprocess a source file
+Hafta-05/04-Early_Binding/main.cpp.i:
+	$(MAKE) -f CMakeFiles/Hafta-05-04-Early_Binding.dir/build.make CMakeFiles/Hafta-05-04-Early_Binding.dir/Hafta-05/04-Early_Binding/main.cpp.i
+	$(MAKE) -f CMakeFiles/Hafta-01-01-Vector.dir/build.make CMakeFiles/Hafta-01-01-Vector.dir/Hafta-05/04-Early_Binding/main.cpp.i
+.PHONY : Hafta-05/04-Early_Binding/main.cpp.i
+
+Hafta-05/04-Early_Binding/main.s: Hafta-05/04-Early_Binding/main.cpp.s
+
+.PHONY : Hafta-05/04-Early_Binding/main.s
+
+# target to generate assembly for a file
+Hafta-05/04-Early_Binding/main.cpp.s:
+	$(MAKE) -f CMakeFiles/Hafta-05-04-Early_Binding.dir/build.make CMakeFiles/Hafta-05-04-Early_Binding.dir/Hafta-05/04-Early_Binding/main.cpp.s
+	$(MAKE) -f CMakeFiles/Hafta-01-01-Vector.dir/build.make CMakeFiles/Hafta-01-01-Vector.dir/Hafta-05/04-Early_Binding/main.cpp.s
+.PHONY : Hafta-05/04-Early_Binding/main.cpp.s
+
+Hafta-05/05-Late_Binding/main.o: Hafta-05/05-Late_Binding/main.cpp.o
+
+.PHONY : Hafta-05/05-Late_Binding/main.o
+
+# target to build an object file
+Hafta-05/05-Late_Binding/main.cpp.o:
+	$(MAKE) -f CMakeFiles/Hafta-05-05-Late_Binding.dir/build.make CMakeFiles/Hafta-05-05-Late_Binding.dir/Hafta-05/05-Late_Binding/main.cpp.o
+.PHONY : Hafta-05/05-Late_Binding/main.cpp.o
+
+Hafta-05/05-Late_Binding/main.i: Hafta-05/05-Late_Binding/main.cpp.i
+
+.PHONY : Hafta-05/05-Late_Binding/main.i
+
+# target to preprocess a source file
+Hafta-05/05-Late_Binding/main.cpp.i:
+	$(MAKE) -f CMakeFiles/Hafta-05-05-Late_Binding.dir/build.make CMakeFiles/Hafta-05-05-Late_Binding.dir/Hafta-05/05-Late_Binding/main.cpp.i
+.PHONY : Hafta-05/05-Late_Binding/main.cpp.i
+
+Hafta-05/05-Late_Binding/main.s: Hafta-05/05-Late_Binding/main.cpp.s
+
+.PHONY : Hafta-05/05-Late_Binding/main.s
+
+# target to generate assembly for a file
+Hafta-05/05-Late_Binding/main.cpp.s:
+	$(MAKE) -f CMakeFiles/Hafta-05-05-Late_Binding.dir/build.make CMakeFiles/Hafta-05-05-Late_Binding.dir/Hafta-05/05-Late_Binding/main.cpp.s
+.PHONY : Hafta-05/05-Late_Binding/main.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -1411,7 +1494,9 @@ help:
 	@echo "... Hafta-05-03-Operators"
 	@echo "... Hafta-02-05-Move_Semantics"
 	@echo "... Hafta-02-02-Pure_Virtual_Functions"
+	@echo "... Hafta-05-05-Late_Binding"
 	@echo "... Hafta-01-03-Animals"
+	@echo "... Hafta-05-04-Early_Binding"
 	@echo "... Hafta-03-01-Map"
 	@echo "... Hafta-01-01-Vector"
 	@echo "... Hafta-04-07-Stack"
@@ -1534,6 +1619,12 @@ help:
 	@echo "... Hafta-05/03-Operators/topluluk.o"
 	@echo "... Hafta-05/03-Operators/topluluk.i"
 	@echo "... Hafta-05/03-Operators/topluluk.s"
+	@echo "... Hafta-05/04-Early_Binding/main.o"
+	@echo "... Hafta-05/04-Early_Binding/main.i"
+	@echo "... Hafta-05/04-Early_Binding/main.s"
+	@echo "... Hafta-05/05-Late_Binding/main.o"
+	@echo "... Hafta-05/05-Late_Binding/main.i"
+	@echo "... Hafta-05/05-Late_Binding/main.s"
 .PHONY : help
 
 
