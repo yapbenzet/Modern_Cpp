@@ -50,3 +50,5 @@ find_package (Threads)
 target_link_libraries (Hafta-05-01-Thread_Safe_Singleton ${CMAKE_THREAD_LIBS_INIT})
 
 add_executable(Hafta-05-02-Factory Hafta-05/02-Factory/main.cpp)
+
+add_executable(Hafta-05-03-Operators Hafta-05/03-Operators/main.cpp Hafta-05/03-Operators/topluluk.cpp Hafta-05/03-Operators/topluluk.h)

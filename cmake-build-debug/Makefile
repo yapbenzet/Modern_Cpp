@@ -189,6 +189,19 @@ Hafta-02-01-Virtual_Functions/fast:
 .PHONY : Hafta-02-01-Virtual_Functions/fast
 
 #=============================================================================
+# Target rules for targets named Hafta-05-03-Operators
+
+# Build rule for target.
+Hafta-05-03-Operators: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Hafta-05-03-Operators
+.PHONY : Hafta-05-03-Operators
+
+# fast build rule for target.
+Hafta-05-03-Operators/fast:
+	$(MAKE) -f CMakeFiles/Hafta-05-03-Operators.dir/build.make CMakeFiles/Hafta-05-03-Operators.dir/build
+.PHONY : Hafta-05-03-Operators/fast
+
+#=============================================================================
 # Target rules for targets named Hafta-02-05-Move_Semantics
 
 # Build rule for target.
@@ -1327,6 +1340,60 @@ Hafta-05/02-Factory/main.cpp.s:
 	$(MAKE) -f CMakeFiles/Hafta-05-02-Factory.dir/build.make CMakeFiles/Hafta-05-02-Factory.dir/Hafta-05/02-Factory/main.cpp.s
 .PHONY : Hafta-05/02-Factory/main.cpp.s
 
+Hafta-05/03-Operators/main.o: Hafta-05/03-Operators/main.cpp.o
+
+.PHONY : Hafta-05/03-Operators/main.o
+
+# target to build an object file
+Hafta-05/03-Operators/main.cpp.o:
+	$(MAKE) -f CMakeFiles/Hafta-05-03-Operators.dir/build.make CMakeFiles/Hafta-05-03-Operators.dir/Hafta-05/03-Operators/main.cpp.o
+.PHONY : Hafta-05/03-Operators/main.cpp.o
+
+Hafta-05/03-Operators/main.i: Hafta-05/03-Operators/main.cpp.i
+
+.PHONY : Hafta-05/03-Operators/main.i
+
+# target to preprocess a source file
+Hafta-05/03-Operators/main.cpp.i:
+	$(MAKE) -f CMakeFiles/Hafta-05-03-Operators.dir/build.make CMakeFiles/Hafta-05-03-Operators.dir/Hafta-05/03-Operators/main.cpp.i
+.PHONY : Hafta-05/03-Operators/main.cpp.i
+
+Hafta-05/03-Operators/main.s: Hafta-05/03-Operators/main.cpp.s
+
+.PHONY : Hafta-05/03-Operators/main.s
+
+# target to generate assembly for a file
+Hafta-05/03-Operators/main.cpp.s:
+	$(MAKE) -f CMakeFiles/Hafta-05-03-Operators.dir/build.make CMakeFiles/Hafta-05-03-Operators.dir/Hafta-05/03-Operators/main.cpp.s
+.PHONY : Hafta-05/03-Operators/main.cpp.s
+
+Hafta-05/03-Operators/topluluk.o: Hafta-05/03-Operators/topluluk.cpp.o
+
+.PHONY : Hafta-05/03-Operators/topluluk.o
+
+# target to build an object file
+Hafta-05/03-Operators/topluluk.cpp.o:
+	$(MAKE) -f CMakeFiles/Hafta-05-03-Operators.dir/build.make CMakeFiles/Hafta-05-03-Operators.dir/Hafta-05/03-Operators/topluluk.cpp.o
+.PHONY : Hafta-05/03-Operators/topluluk.cpp.o
+
+Hafta-05/03-Operators/topluluk.i: Hafta-05/03-Operators/topluluk.cpp.i
+
+.PHONY : Hafta-05/03-Operators/topluluk.i
+
+# target to preprocess a source file
+Hafta-05/03-Operators/topluluk.cpp.i:
+	$(MAKE) -f CMakeFiles/Hafta-05-03-Operators.dir/build.make CMakeFiles/Hafta-05-03-Operators.dir/Hafta-05/03-Operators/topluluk.cpp.i
+.PHONY : Hafta-05/03-Operators/topluluk.cpp.i
+
+Hafta-05/03-Operators/topluluk.s: Hafta-05/03-Operators/topluluk.cpp.s
+
+.PHONY : Hafta-05/03-Operators/topluluk.s
+
+# target to generate assembly for a file
+Hafta-05/03-Operators/topluluk.cpp.s:
+	$(MAKE) -f CMakeFiles/Hafta-05-03-Operators.dir/build.make CMakeFiles/Hafta-05-03-Operators.dir/Hafta-05/03-Operators/topluluk.cpp.s
+.PHONY : Hafta-05/03-Operators/topluluk.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -1341,6 +1408,7 @@ help:
 	@echo "... Hafta-02-03-Abstract"
 	@echo "... rebuild_cache"
 	@echo "... Hafta-02-01-Virtual_Functions"
+	@echo "... Hafta-05-03-Operators"
 	@echo "... Hafta-02-05-Move_Semantics"
 	@echo "... Hafta-02-02-Pure_Virtual_Functions"
 	@echo "... Hafta-01-03-Animals"
@@ -1460,6 +1528,12 @@ help:
 	@echo "... Hafta-05/02-Factory/main.o"
 	@echo "... Hafta-05/02-Factory/main.i"
 	@echo "... Hafta-05/02-Factory/main.s"
+	@echo "... Hafta-05/03-Operators/main.o"
+	@echo "... Hafta-05/03-Operators/main.i"
+	@echo "... Hafta-05/03-Operators/main.s"
+	@echo "... Hafta-05/03-Operators/topluluk.o"
+	@echo "... Hafta-05/03-Operators/topluluk.i"
+	@echo "... Hafta-05/03-Operators/topluluk.s"
 .PHONY : help
 
 

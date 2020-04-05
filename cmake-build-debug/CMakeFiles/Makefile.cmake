@@ -60,6 +60,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/Hafta-04-06-Multiset.dir/DependInfo.cmake"
   "CMakeFiles/Hafta-02-03-Abstract.dir/DependInfo.cmake"
   "CMakeFiles/Hafta-02-01-Virtual_Functions.dir/DependInfo.cmake"
+  "CMakeFiles/Hafta-05-03-Operators.dir/DependInfo.cmake"
   "CMakeFiles/Hafta-02-05-Move_Semantics.dir/DependInfo.cmake"
   "CMakeFiles/Hafta-02-02-Pure_Virtual_Functions.dir/DependInfo.cmake"
   "CMakeFiles/Hafta-01-03-Animals.dir/DependInfo.cmake"
