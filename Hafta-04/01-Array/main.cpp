@@ -13,6 +13,7 @@
 
 int main() {
 
+
     std::array<int, 5> ar1{3, 4, 5, 1, 2};
     std::array<int, 5> ar2 = {1, 2, 3, 4, 5};
     std::array<std::string, 2> ar3 = {std::string("a"), "b"};

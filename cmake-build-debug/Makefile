@@ -111,6 +111,32 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named Hafta-05-02-Factory
+
+# Build rule for target.
+Hafta-05-02-Factory: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Hafta-05-02-Factory
+.PHONY : Hafta-05-02-Factory
+
+# fast build rule for target.
+Hafta-05-02-Factory/fast:
+	$(MAKE) -f CMakeFiles/Hafta-05-02-Factory.dir/build.make CMakeFiles/Hafta-05-02-Factory.dir/build
+.PHONY : Hafta-05-02-Factory/fast
+
+#=============================================================================
+# Target rules for targets named Hafta-05-01-Thread_Safe_Singleton
+
+# Build rule for target.
+Hafta-05-01-Thread_Safe_Singleton: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Hafta-05-01-Thread_Safe_Singleton
+.PHONY : Hafta-05-01-Thread_Safe_Singleton
+
+# fast build rule for target.
+Hafta-05-01-Thread_Safe_Singleton/fast:
+	$(MAKE) -f CMakeFiles/Hafta-05-01-Thread_Safe_Singleton.dir/build.make CMakeFiles/Hafta-05-01-Thread_Safe_Singleton.dir/build
+.PHONY : Hafta-05-01-Thread_Safe_Singleton/fast
+
+#=============================================================================
 # Target rules for targets named Hafta-04-09-Priority_Queue
 
 # Build rule for target.
@@ -1247,6 +1273,60 @@ Hafta-04/10-Open_Closed_Principle/main.cpp.s:
 	$(MAKE) -f CMakeFiles/Hafta-04-10-Open_Closed_Principle.dir/build.make CMakeFiles/Hafta-04-10-Open_Closed_Principle.dir/Hafta-04/10-Open_Closed_Principle/main.cpp.s
 .PHONY : Hafta-04/10-Open_Closed_Principle/main.cpp.s
 
+Hafta-05/01-Singleton/main.o: Hafta-05/01-Singleton/main.cpp.o
+
+.PHONY : Hafta-05/01-Singleton/main.o
+
+# target to build an object file
+Hafta-05/01-Singleton/main.cpp.o:
+	$(MAKE) -f CMakeFiles/Hafta-05-01-Thread_Safe_Singleton.dir/build.make CMakeFiles/Hafta-05-01-Thread_Safe_Singleton.dir/Hafta-05/01-Singleton/main.cpp.o
+.PHONY : Hafta-05/01-Singleton/main.cpp.o
+
+Hafta-05/01-Singleton/main.i: Hafta-05/01-Singleton/main.cpp.i
+
+.PHONY : Hafta-05/01-Singleton/main.i
+
+# target to preprocess a source file
+Hafta-05/01-Singleton/main.cpp.i:
+	$(MAKE) -f CMakeFiles/Hafta-05-01-Thread_Safe_Singleton.dir/build.make CMakeFiles/Hafta-05-01-Thread_Safe_Singleton.dir/Hafta-05/01-Singleton/main.cpp.i
+.PHONY : Hafta-05/01-Singleton/main.cpp.i
+
+Hafta-05/01-Singleton/main.s: Hafta-05/01-Singleton/main.cpp.s
+
+.PHONY : Hafta-05/01-Singleton/main.s
+
+# target to generate assembly for a file
+Hafta-05/01-Singleton/main.cpp.s:
+	$(MAKE) -f CMakeFiles/Hafta-05-01-Thread_Safe_Singleton.dir/build.make CMakeFiles/Hafta-05-01-Thread_Safe_Singleton.dir/Hafta-05/01-Singleton/main.cpp.s
+.PHONY : Hafta-05/01-Singleton/main.cpp.s
+
+Hafta-05/02-Factory/main.o: Hafta-05/02-Factory/main.cpp.o
+
+.PHONY : Hafta-05/02-Factory/main.o
+
+# target to build an object file
+Hafta-05/02-Factory/main.cpp.o:
+	$(MAKE) -f CMakeFiles/Hafta-05-02-Factory.dir/build.make CMakeFiles/Hafta-05-02-Factory.dir/Hafta-05/02-Factory/main.cpp.o
+.PHONY : Hafta-05/02-Factory/main.cpp.o
+
+Hafta-05/02-Factory/main.i: Hafta-05/02-Factory/main.cpp.i
+
+.PHONY : Hafta-05/02-Factory/main.i
+
+# target to preprocess a source file
+Hafta-05/02-Factory/main.cpp.i:
+	$(MAKE) -f CMakeFiles/Hafta-05-02-Factory.dir/build.make CMakeFiles/Hafta-05-02-Factory.dir/Hafta-05/02-Factory/main.cpp.i
+.PHONY : Hafta-05/02-Factory/main.cpp.i
+
+Hafta-05/02-Factory/main.s: Hafta-05/02-Factory/main.cpp.s
+
+.PHONY : Hafta-05/02-Factory/main.s
+
+# target to generate assembly for a file
+Hafta-05/02-Factory/main.cpp.s:
+	$(MAKE) -f CMakeFiles/Hafta-05-02-Factory.dir/build.make CMakeFiles/Hafta-05-02-Factory.dir/Hafta-05/02-Factory/main.cpp.s
+.PHONY : Hafta-05/02-Factory/main.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -1254,6 +1334,8 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... edit_cache"
+	@echo "... Hafta-05-02-Factory"
+	@echo "... Hafta-05-01-Thread_Safe_Singleton"
 	@echo "... Hafta-04-09-Priority_Queue"
 	@echo "... Hafta-04-06-Multiset"
 	@echo "... Hafta-02-03-Abstract"
@@ -1372,6 +1454,12 @@ help:
 	@echo "... Hafta-04/10-Open_Closed_Principle/main.o"
 	@echo "... Hafta-04/10-Open_Closed_Principle/main.i"
 	@echo "... Hafta-04/10-Open_Closed_Principle/main.s"
+	@echo "... Hafta-05/01-Singleton/main.o"
+	@echo "... Hafta-05/01-Singleton/main.i"
+	@echo "... Hafta-05/01-Singleton/main.s"
+	@echo "... Hafta-05/02-Factory/main.o"
+	@echo "... Hafta-05/02-Factory/main.i"
+	@echo "... Hafta-05/02-Factory/main.s"
 .PHONY : help
 
 

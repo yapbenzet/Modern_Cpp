@@ -44,3 +44,7 @@ add_executable(Hafta-04-08-Queue Hafta-04/08-Queue/main.cpp)
 add_executable(Hafta-04-09-Priority_Queue Hafta-04/09-Priority_Queue/main.cpp)
 
 add_executable(Hafta-04-10-Open_Closed_Principle Hafta-04/10-Open_Closed_Principle/main.cpp)
+
+add_executable(Hafta-05-01-Thread_Safe_Singleton Hafta-05/01-Singleton/main.cpp)
+
+add_executable(Hafta-05-02-Factory Hafta-05/02-Factory/main.cpp)

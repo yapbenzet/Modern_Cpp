@@ -1,4 +1,6 @@
 /home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles/Hafta-05-02-Factory.dir
+/home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles/Hafta-05-01-Thread_Safe_Singleton.dir
 /home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles/Hafta-04-09-Priority_Queue.dir
 /home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles/Hafta-04-06-Multiset.dir
 /home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles/Hafta-02-03-Abstract.dir

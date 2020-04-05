@@ -48,6 +48,8 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
+  "CMakeFiles/Hafta-05-02-Factory.dir/DependInfo.cmake"
+  "CMakeFiles/Hafta-05-01-Thread_Safe_Singleton.dir/DependInfo.cmake"
   "CMakeFiles/Hafta-04-09-Priority_Queue.dir/DependInfo.cmake"
   "CMakeFiles/Hafta-04-06-Multiset.dir/DependInfo.cmake"
   "CMakeFiles/Hafta-02-03-Abstract.dir/DependInfo.cmake"
