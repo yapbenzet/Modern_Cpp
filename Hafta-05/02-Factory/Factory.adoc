@@ -116,7 +116,7 @@ int main()
 
 [plantuml, Factory, png]
 ----
-Class Karakter{
+Abstract Karakter{
     + int can;
     + int guc;
     + std::string isim;
@@ -140,9 +140,9 @@ Class KarakterÜretici{
     + Karakter* karakterUret(string tip)
 }
 
-Karakter <|--- Savaşçı
-Karakter <|--- Düşman
-Karakter <|--- Hayvan
+Karakter <|... Savaşçı
+Karakter <|... Düşman
+Karakter <|... Hayvan
 
 Savaşçı <..  KarakterÜretici : Üretir <
 Düşman <..  KarakterÜretici : Üretir <

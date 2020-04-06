@@ -134,6 +134,8 @@ Class Savaşçı{
     + Savasci(int id, int hasar)
 }
 
+Düşman --- Düşman : Self Association
+
 Düşman <.. Savaşçı : Hasar verir <
 ----
 
