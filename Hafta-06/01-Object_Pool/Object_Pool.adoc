@@ -4,7 +4,7 @@
 
 Aşağıdaki örnek bir oyun içersindeki bir dükkan ile ilgilidir.
 
-Burada dükkan Singleton sınıf olarak oluşturulnuştur ve Object Pool görevi görmektedir. Esya için de ayrı bir sınıf oluşturulmuştur. Dukkan sınıfı esya sınıfını uretir ve barındırır. Dukkan sınıfı en fazla 3 esya barındırabilir.
+Burada dükkan, Singleton sınıf olarak oluşturulmuştur ve Object Pool görevi görmektedir. Eşya için de ayrı bir sınıf oluşturulmuştur. Dükkan sınıfı Eşya sınıfını uretir ve barındırır. Dükkan sınıfı en fazla 3 Eşya barındırabilir.
 
 Örnekte threadler ile dükkandan eşya alınıp dükkana eşya satılmaktadır.
 
@@ -187,7 +187,7 @@ int main()
     return 0;
 }
 ----
-<1> Esya sinifi tanimlanir.
+<1> Esya sınıfı tanımlanır.
 <2> Esya sınıfının constructer'ı overload edilir.
 <3> Dukkan sınıfı tanımlanır.
 <4> Dukkan sınıfının Singleton sınıf olması için gerekli fonksiyon tanımlanır (koşullu constructer denebilir).

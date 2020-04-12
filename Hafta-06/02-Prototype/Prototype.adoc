@@ -165,12 +165,12 @@ int main()
     return 0;
 }
 ----
-<1> Esya1 sınıfı tanimlanir.
-<2> Esya2 sınıfı tanimlanir.
+<1> Esya1 sınıfı tanımlanır.
+<2> Esya2 sınıfı tanımlanır.
 <3> Esya2 sınıfı için tanımlanan Copy Constructer. Bununla beraber '=' operatörü ile bir tanımlama gerçekleşiyorsa bu fonksiyon çalışacaktır.
 <4> Cevresel_Esya sınıfının tanımlanması.
 <5> Bir Cevresel_Esya örneği (instance) oluşturulurken girdi olarak Esya1 sınıfının örneğinin kullanılabilmesi için oluşturulan Constructer.
-<6> Kisisel_Esya sınıfının tanımlanması..
+<6> Kisisel_Esya sınıfının tanımlanması.
 <7> Kisisel_Esya sınıfı için tanımlanan Copy Constructer. Bu fonksiyonda girdi olarak Esya2 sınıfının bir örneği (instance) kullanılmaktadır.
 <8> Burada Copy Constructer çağırılmamaktadır. Dolayısıyla pointer değişken kopyalanmayacaktır, atanacaktır.
 <9> Burada Copy Constructer çağırılmaktadır. Dolayısıyla pointer değişken koplayanmaktadır. Böylece yeni bir pointer oluşturulmaktadır.
