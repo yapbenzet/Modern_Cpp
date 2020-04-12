@@ -53,6 +53,7 @@ CMAKE_BINARY_DIR = /home/atuash/Modern_Cpp/cmake-build-debug
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
+all: CMakeFiles/Hafta-06-03-Deep_And_Shallow_Copy.dir/all
 all: CMakeFiles/Hafta-06-02-Prototype.dir/all
 all: CMakeFiles/Hafta-06-01-Object_Pool.dir/all
 all: CMakeFiles/Hafta-05-02-Factory.dir/all
@@ -85,6 +86,7 @@ all: CMakeFiles/Hafta-04-04-Multimap.dir/all
 .PHONY : all
 
 # The main recursive "clean" target.
+clean: CMakeFiles/Hafta-06-03-Deep_And_Shallow_Copy.dir/clean
 clean: CMakeFiles/Hafta-06-02-Prototype.dir/clean
 clean: CMakeFiles/Hafta-06-01-Object_Pool.dir/clean
 clean: CMakeFiles/Hafta-05-02-Factory.dir/clean
@@ -120,6 +122,33 @@ clean: CMakeFiles/Hafta-04-04-Multimap.dir/clean
 preinstall:
 
 .PHONY : preinstall
+
+#=============================================================================
+# Target rules for target CMakeFiles/Hafta-06-03-Deep_And_Shallow_Copy.dir
+
+# All Build rule for target.
+CMakeFiles/Hafta-06-03-Deep_And_Shallow_Copy.dir/all:
+	$(MAKE) -f CMakeFiles/Hafta-06-03-Deep_And_Shallow_Copy.dir/build.make CMakeFiles/Hafta-06-03-Deep_And_Shallow_Copy.dir/depend
+	$(MAKE) -f CMakeFiles/Hafta-06-03-Deep_And_Shallow_Copy.dir/build.make CMakeFiles/Hafta-06-03-Deep_And_Shallow_Copy.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles --progress-num=70,71 "Built target Hafta-06-03-Deep_And_Shallow_Copy"
+.PHONY : CMakeFiles/Hafta-06-03-Deep_And_Shallow_Copy.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Hafta-06-03-Deep_And_Shallow_Copy.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Hafta-06-03-Deep_And_Shallow_Copy.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/Hafta-06-03-Deep_And_Shallow_Copy.dir/rule
+
+# Convenience name for target.
+Hafta-06-03-Deep_And_Shallow_Copy: CMakeFiles/Hafta-06-03-Deep_And_Shallow_Copy.dir/rule
+
+.PHONY : Hafta-06-03-Deep_And_Shallow_Copy
+
+# clean rule for target.
+CMakeFiles/Hafta-06-03-Deep_And_Shallow_Copy.dir/clean:
+	$(MAKE) -f CMakeFiles/Hafta-06-03-Deep_And_Shallow_Copy.dir/build.make CMakeFiles/Hafta-06-03-Deep_And_Shallow_Copy.dir/clean
+.PHONY : CMakeFiles/Hafta-06-03-Deep_And_Shallow_Copy.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/Hafta-06-02-Prototype.dir

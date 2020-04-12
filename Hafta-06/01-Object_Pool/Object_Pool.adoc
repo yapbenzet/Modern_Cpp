@@ -1,3 +1,21 @@
+== Ödev-04
+
+=== Object Pool
+
+Aşağıdaki örnek bir oyun içersindeki bir dükkan ile ilgilidir.
+
+Burada dükkan Singleton sınıf olarak oluşturulnuştur ve Object Pool görevi görmektedir. Esya için de ayrı bir sınıf oluşturulmuştur. Dukkan sınıfı esya sınıfını uretir ve barındırır. Dukkan sınıfı en fazla 3 esya barındırabilir.
+
+Örnekte threadler ile dükkandan eşya alınıp dükkana eşya satılmaktadır.
+
+[source,cpp]
+----
+std::mutex
+----
+komutu ile herhangi bir sıkıntı çıkmadan bu işlem gerçekleştirilebilmektedir.
+
+[source,cpp]
+----
 #include <iostream>
 #include <string>
 #include <list>
@@ -72,6 +90,7 @@ public:
         _mtx.lock();
         if (esyalar.empty())
         {
+
             if(eleman_sayisi < 3) {
                 std::cout << "Yeni esya yaratildi." << std::endl;
                 eleman_sayisi++;
@@ -167,3 +186,40 @@ int main()
 
     return 0;
 }
+----
+<1> Esya sinifi tanimlanir.
+<2> Esya sınıfının constructer'ı overload edilir.
+<3> Dukkan sınıfı tanımlanır.
+<4> Dukkan sınıfının Singleton sınıf olması için gerekli fonksiyon tanımlanır (koşullu constructer denebilir).
+<5> Object Pool olarak görev gören Dukkan sınıfı ile Esya örneği(instance) oluşturmak veya oluşturulmuş örneği dışarı vermek için kullanılır. Aynı zaman Object Pool içerisinde örnek olup olmadığını kontrol eder.
+<6> Object Pool olarak görev gören Dukkan sınıfına Esya örneği eklemek için kullanılır.
+<7> esyaSat() fonksiyonunun kullanımı.
+<8> esyaSatınAl() fonksiyonunun kullanımı.
+
+==== UML Diagramı
+
+[plantuml, Object_Pool, png]
+----
+Class Eşya{
+    +string isim
+    +Eşya()
+    +Eşya(string)
+    +string getIsim()
+    +void setIsim(string)
+    +void reset()
+}
+
+Class Dükkan{
+    -list<Eşya> esyalar
+    -{static} int eleman_sayisi
+    -{static} int mevcut_eleman_sayisi
+    -int max_size = 3;
+    -Dukkan()
+    +{static} Dukkan getInsatance()
+    +Eşya esyaSat(string)
+    +void esyaSatinAl(Eşya)
+}
+
+Dükkan --- Dükkan : Self Association
+Eşya <.. Dükkan : Üretir <
+----

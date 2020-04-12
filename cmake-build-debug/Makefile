@@ -111,6 +111,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named Hafta-06-03-Deep_And_Shallow_Copy
+
+# Build rule for target.
+Hafta-06-03-Deep_And_Shallow_Copy: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Hafta-06-03-Deep_And_Shallow_Copy
+.PHONY : Hafta-06-03-Deep_And_Shallow_Copy
+
+# fast build rule for target.
+Hafta-06-03-Deep_And_Shallow_Copy/fast:
+	$(MAKE) -f CMakeFiles/Hafta-06-03-Deep_And_Shallow_Copy.dir/build.make CMakeFiles/Hafta-06-03-Deep_And_Shallow_Copy.dir/build
+.PHONY : Hafta-06-03-Deep_And_Shallow_Copy/fast
+
+#=============================================================================
 # Target rules for targets named Hafta-06-02-Prototype
 
 # Build rule for target.
@@ -1557,6 +1570,33 @@ Hafta-06/02-Prototype/main.cpp.s:
 	$(MAKE) -f CMakeFiles/Hafta-06-02-Prototype.dir/build.make CMakeFiles/Hafta-06-02-Prototype.dir/Hafta-06/02-Prototype/main.cpp.s
 .PHONY : Hafta-06/02-Prototype/main.cpp.s
 
+Hafta-06/03-Deep_And_Shallow_Copy/main.o: Hafta-06/03-Deep_And_Shallow_Copy/main.cpp.o
+
+.PHONY : Hafta-06/03-Deep_And_Shallow_Copy/main.o
+
+# target to build an object file
+Hafta-06/03-Deep_And_Shallow_Copy/main.cpp.o:
+	$(MAKE) -f CMakeFiles/Hafta-06-03-Deep_And_Shallow_Copy.dir/build.make CMakeFiles/Hafta-06-03-Deep_And_Shallow_Copy.dir/Hafta-06/03-Deep_And_Shallow_Copy/main.cpp.o
+.PHONY : Hafta-06/03-Deep_And_Shallow_Copy/main.cpp.o
+
+Hafta-06/03-Deep_And_Shallow_Copy/main.i: Hafta-06/03-Deep_And_Shallow_Copy/main.cpp.i
+
+.PHONY : Hafta-06/03-Deep_And_Shallow_Copy/main.i
+
+# target to preprocess a source file
+Hafta-06/03-Deep_And_Shallow_Copy/main.cpp.i:
+	$(MAKE) -f CMakeFiles/Hafta-06-03-Deep_And_Shallow_Copy.dir/build.make CMakeFiles/Hafta-06-03-Deep_And_Shallow_Copy.dir/Hafta-06/03-Deep_And_Shallow_Copy/main.cpp.i
+.PHONY : Hafta-06/03-Deep_And_Shallow_Copy/main.cpp.i
+
+Hafta-06/03-Deep_And_Shallow_Copy/main.s: Hafta-06/03-Deep_And_Shallow_Copy/main.cpp.s
+
+.PHONY : Hafta-06/03-Deep_And_Shallow_Copy/main.s
+
+# target to generate assembly for a file
+Hafta-06/03-Deep_And_Shallow_Copy/main.cpp.s:
+	$(MAKE) -f CMakeFiles/Hafta-06-03-Deep_And_Shallow_Copy.dir/build.make CMakeFiles/Hafta-06-03-Deep_And_Shallow_Copy.dir/Hafta-06/03-Deep_And_Shallow_Copy/main.cpp.s
+.PHONY : Hafta-06/03-Deep_And_Shallow_Copy/main.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -1564,6 +1604,7 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... edit_cache"
+	@echo "... Hafta-06-03-Deep_And_Shallow_Copy"
 	@echo "... Hafta-06-02-Prototype"
 	@echo "... Hafta-06-01-Object_Pool"
 	@echo "... Hafta-05-02-Factory"
@@ -1713,6 +1754,9 @@ help:
 	@echo "... Hafta-06/02-Prototype/main.o"
 	@echo "... Hafta-06/02-Prototype/main.i"
 	@echo "... Hafta-06/02-Prototype/main.s"
+	@echo "... Hafta-06/03-Deep_And_Shallow_Copy/main.o"
+	@echo "... Hafta-06/03-Deep_And_Shallow_Copy/main.i"
+	@echo "... Hafta-06/03-Deep_And_Shallow_Copy/main.s"
 .PHONY : help
 
 

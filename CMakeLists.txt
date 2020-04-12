@@ -62,3 +62,5 @@ find_package (Threads)
 target_link_libraries (Hafta-06-01-Object_Pool ${CMAKE_THREAD_LIBS_INIT})
 
 add_executable(Hafta-06-02-Prototype Hafta-06/02-Prototype/main.cpp)
+
+add_executable(Hafta-06-03-Deep_And_Shallow_Copy Hafta-06/03-Deep_And_Shallow_Copy/main.cpp)
