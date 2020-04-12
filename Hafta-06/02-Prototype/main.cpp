@@ -1,49 +1,49 @@
 #include <iostream>
 
-class Esya1{
+class Esya1{                                // <1>
 public:
-    int *id;
-    int hacim;
+    int id;
+    int *hacim;
 
     Esya1(){
-        id = new int(0);
-        hacim = 10;
+        id = 0;
+        hacim = new int(10);
     }
 
     virtual void yazdir() const
     {
-        std::cout << "Esya1 esya: " << "ID: " << *this->id << " Hacim: " << this->hacim << std::endl;
+        std::cout << "Esya1 esya: " << "ID: " << this->id << " Hacim: " << *this->hacim << std::endl;
     }
 };
 
-class Esya2{
+class Esya2{                                // <2>
 public:
-    int *id;
-    int hacim;
+    int id;
+    int *hacim;
 
     Esya2(){
-        this->id = new int(0);
-        this->hacim = 10;
+        this->id = 0;
+        this->hacim = new int(10);
     }
 
-    // Copy Constructer
+    // Copy Constructer                     // <3>
     Esya2(const Esya2& es)
     {
-        this->id = new int(*es.id);
-        this->hacim = es.hacim;
+        this->id = es.id;
+        this->hacim = new int(*es.hacim);
     }
 
     virtual void yazdir() const
     {
-        std::cout << "Esya2 esya: " << "ID: " << *this->id << " Hacim: " << this->hacim << std::endl;
+        std::cout << "Esya2 esya: " << "ID: " << this->id << " Hacim: " << *this->hacim << std::endl;
     }
 };
 
 // Shallow copy icin
-class Cevresel_Esya : public Esya1{
+class Cevresel_Esya : public Esya1{         // <4>
 public:
 
-    Cevresel_Esya(const Esya1& esya1)
+    Cevresel_Esya(const Esya1& esya1)       // <5>
     {
         this->id = esya1.id;
         this->hacim = esya1.hacim;
@@ -51,24 +51,24 @@ public:
 
     void yazdir() const
     {
-        std::cout << "Cevresel esya: " << "ID: " << *this->id << " Hacim: " << this->hacim << std::endl;
+        std::cout << "Cevresel esya: " << "ID: " << this->id << " Hacim: " << *this->hacim << std::endl;
     }
 };
 
 // Deep copy icin
-class Kisisel_Esya : public Esya2{
+class Kisisel_Esya : public Esya2{          // <6>
 public:
 
     // Copy Constructer
-    Kisisel_Esya(const Esya2& es)
+    Kisisel_Esya(const Esya2& es)           // <7>
     {
-        this->id = new int(*es.id);
-        this->hacim = es.hacim;
+        this->id = es.id;
+        this->hacim = new int(*es.hacim);
     }
 
     void yazdir() const
     {
-        std::cout << "Kisisel esya: " << "ID: " << *this->id << " Hacim: " << this->hacim << std::endl;
+        std::cout << "Kisisel esya: " << "ID: " << this->id << " Hacim: " << *this->hacim << std::endl;
     }
 };
 
@@ -105,7 +105,7 @@ int main()
 //    std::cout << "esya22: id:" << *esya22.id << " Hacim: " << esya22.hacim << std::endl;
 
     Esya1 esya3;
-    Cevresel_Esya cev = esya3;
+    Cevresel_Esya cev = esya3;              // <8>
 
     std::cout << "esya3: ";
     esya3.yazdir();
@@ -113,8 +113,8 @@ int main()
     cev.yazdir();
 
     std::cout << std::endl;
-    *esya3.id = 5;
-    esya3.hacim = 12;
+    esya3.id = 5;
+    *esya3.hacim = 12;
 
     std::cout << "esya3: ";
     esya3.yazdir();
@@ -126,7 +126,7 @@ int main()
     std::cout << std::endl;
 
     Esya2 esya4;
-    Kisisel_Esya kis = esya4;
+    Kisisel_Esya kis = esya4;               // <9>
 
     std::cout << "esya4: ";
     esya4.yazdir();
@@ -134,8 +134,8 @@ int main()
     kis.yazdir();
 
     std::cout << std::endl;
-    *esya4.id = 5;
-    esya4.hacim = 12;
+    esya4.id = 5;
+    *esya4.hacim = 12;
 
     std::cout << "esya4: ";
     esya4.yazdir();
