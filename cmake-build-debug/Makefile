@@ -111,6 +111,32 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named Hafta-06-02-Prototype
+
+# Build rule for target.
+Hafta-06-02-Prototype: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Hafta-06-02-Prototype
+.PHONY : Hafta-06-02-Prototype
+
+# fast build rule for target.
+Hafta-06-02-Prototype/fast:
+	$(MAKE) -f CMakeFiles/Hafta-06-02-Prototype.dir/build.make CMakeFiles/Hafta-06-02-Prototype.dir/build
+.PHONY : Hafta-06-02-Prototype/fast
+
+#=============================================================================
+# Target rules for targets named Hafta-06-01-Object_Pool
+
+# Build rule for target.
+Hafta-06-01-Object_Pool: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Hafta-06-01-Object_Pool
+.PHONY : Hafta-06-01-Object_Pool
+
+# fast build rule for target.
+Hafta-06-01-Object_Pool/fast:
+	$(MAKE) -f CMakeFiles/Hafta-06-01-Object_Pool.dir/build.make CMakeFiles/Hafta-06-01-Object_Pool.dir/build
+.PHONY : Hafta-06-01-Object_Pool/fast
+
+#=============================================================================
 # Target rules for targets named Hafta-05-02-Factory
 
 # Build rule for target.
@@ -1477,6 +1503,60 @@ Hafta-05/05-Late_Binding/main.cpp.s:
 	$(MAKE) -f CMakeFiles/Hafta-05-05-Late_Binding.dir/build.make CMakeFiles/Hafta-05-05-Late_Binding.dir/Hafta-05/05-Late_Binding/main.cpp.s
 .PHONY : Hafta-05/05-Late_Binding/main.cpp.s
 
+Hafta-06/01-Object_Pool/main.o: Hafta-06/01-Object_Pool/main.cpp.o
+
+.PHONY : Hafta-06/01-Object_Pool/main.o
+
+# target to build an object file
+Hafta-06/01-Object_Pool/main.cpp.o:
+	$(MAKE) -f CMakeFiles/Hafta-06-01-Object_Pool.dir/build.make CMakeFiles/Hafta-06-01-Object_Pool.dir/Hafta-06/01-Object_Pool/main.cpp.o
+.PHONY : Hafta-06/01-Object_Pool/main.cpp.o
+
+Hafta-06/01-Object_Pool/main.i: Hafta-06/01-Object_Pool/main.cpp.i
+
+.PHONY : Hafta-06/01-Object_Pool/main.i
+
+# target to preprocess a source file
+Hafta-06/01-Object_Pool/main.cpp.i:
+	$(MAKE) -f CMakeFiles/Hafta-06-01-Object_Pool.dir/build.make CMakeFiles/Hafta-06-01-Object_Pool.dir/Hafta-06/01-Object_Pool/main.cpp.i
+.PHONY : Hafta-06/01-Object_Pool/main.cpp.i
+
+Hafta-06/01-Object_Pool/main.s: Hafta-06/01-Object_Pool/main.cpp.s
+
+.PHONY : Hafta-06/01-Object_Pool/main.s
+
+# target to generate assembly for a file
+Hafta-06/01-Object_Pool/main.cpp.s:
+	$(MAKE) -f CMakeFiles/Hafta-06-01-Object_Pool.dir/build.make CMakeFiles/Hafta-06-01-Object_Pool.dir/Hafta-06/01-Object_Pool/main.cpp.s
+.PHONY : Hafta-06/01-Object_Pool/main.cpp.s
+
+Hafta-06/02-Prototype/main.o: Hafta-06/02-Prototype/main.cpp.o
+
+.PHONY : Hafta-06/02-Prototype/main.o
+
+# target to build an object file
+Hafta-06/02-Prototype/main.cpp.o:
+	$(MAKE) -f CMakeFiles/Hafta-06-02-Prototype.dir/build.make CMakeFiles/Hafta-06-02-Prototype.dir/Hafta-06/02-Prototype/main.cpp.o
+.PHONY : Hafta-06/02-Prototype/main.cpp.o
+
+Hafta-06/02-Prototype/main.i: Hafta-06/02-Prototype/main.cpp.i
+
+.PHONY : Hafta-06/02-Prototype/main.i
+
+# target to preprocess a source file
+Hafta-06/02-Prototype/main.cpp.i:
+	$(MAKE) -f CMakeFiles/Hafta-06-02-Prototype.dir/build.make CMakeFiles/Hafta-06-02-Prototype.dir/Hafta-06/02-Prototype/main.cpp.i
+.PHONY : Hafta-06/02-Prototype/main.cpp.i
+
+Hafta-06/02-Prototype/main.s: Hafta-06/02-Prototype/main.cpp.s
+
+.PHONY : Hafta-06/02-Prototype/main.s
+
+# target to generate assembly for a file
+Hafta-06/02-Prototype/main.cpp.s:
+	$(MAKE) -f CMakeFiles/Hafta-06-02-Prototype.dir/build.make CMakeFiles/Hafta-06-02-Prototype.dir/Hafta-06/02-Prototype/main.cpp.s
+.PHONY : Hafta-06/02-Prototype/main.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -1484,6 +1564,8 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... edit_cache"
+	@echo "... Hafta-06-02-Prototype"
+	@echo "... Hafta-06-01-Object_Pool"
 	@echo "... Hafta-05-02-Factory"
 	@echo "... Hafta-05-01-Thread_Safe_Singleton"
 	@echo "... Hafta-04-09-Priority_Queue"
@@ -1625,6 +1707,12 @@ help:
 	@echo "... Hafta-05/05-Late_Binding/main.o"
 	@echo "... Hafta-05/05-Late_Binding/main.i"
 	@echo "... Hafta-05/05-Late_Binding/main.s"
+	@echo "... Hafta-06/01-Object_Pool/main.o"
+	@echo "... Hafta-06/01-Object_Pool/main.i"
+	@echo "... Hafta-06/01-Object_Pool/main.s"
+	@echo "... Hafta-06/02-Prototype/main.o"
+	@echo "... Hafta-06/02-Prototype/main.i"
+	@echo "... Hafta-06/02-Prototype/main.s"
 .PHONY : help
 
 

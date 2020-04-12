@@ -56,3 +56,9 @@ add_executable(Hafta-05-03-Operators Hafta-05/03-Operators/main.cpp Hafta-05/03-
 add_executable(Hafta-05-04-Early_Binding Hafta-05/04-Early_Binding/main.cpp)
 
 add_executable(Hafta-05-05-Late_Binding Hafta-05/05-Late_Binding/main.cpp)
+
+add_executable(Hafta-06-01-Object_Pool Hafta-06/01-Object_Pool/main.cpp)
+find_package (Threads)
+target_link_libraries (Hafta-06-01-Object_Pool ${CMAKE_THREAD_LIBS_INIT})
+
+add_executable(Hafta-06-02-Prototype Hafta-06/02-Prototype/main.cpp)
