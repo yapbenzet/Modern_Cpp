@@ -105,3 +105,11 @@ Modern Cpp ile Open-Closed (Geliştirmeye Açık Değiştirmeye Kapalı) prensib
 * *Early Binding*
 
 * *Late Binding*
+
+== Hafta-06
+
+* *Thread-Safe Object Pool*
+
+* *Prototype Pattern*
+
+* *Deep and Shallow Copy*
