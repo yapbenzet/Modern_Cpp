@@ -113,3 +113,5 @@ Modern Cpp ile Open-Closed (Geliştirmeye Açık Değiştirmeye Kapalı) prensib
 * *Prototype Pattern*
 
 * *Deep and Shallow Copy*
+
+* *Initializers*
