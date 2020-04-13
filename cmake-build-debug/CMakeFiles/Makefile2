@@ -53,6 +53,7 @@ CMAKE_BINARY_DIR = /home/atuash/Modern_Cpp/cmake-build-debug
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
+all: CMakeFiles/Hafta-06-04-Initializers.dir/all
 all: CMakeFiles/Hafta-06-03-Deep_And_Shallow_Copy.dir/all
 all: CMakeFiles/Hafta-06-02-Prototype.dir/all
 all: CMakeFiles/Hafta-06-01-Object_Pool.dir/all
@@ -86,6 +87,7 @@ all: CMakeFiles/Hafta-04-04-Multimap.dir/all
 .PHONY : all
 
 # The main recursive "clean" target.
+clean: CMakeFiles/Hafta-06-04-Initializers.dir/clean
 clean: CMakeFiles/Hafta-06-03-Deep_And_Shallow_Copy.dir/clean
 clean: CMakeFiles/Hafta-06-02-Prototype.dir/clean
 clean: CMakeFiles/Hafta-06-01-Object_Pool.dir/clean
@@ -122,6 +124,33 @@ clean: CMakeFiles/Hafta-04-04-Multimap.dir/clean
 preinstall:
 
 .PHONY : preinstall
+
+#=============================================================================
+# Target rules for target CMakeFiles/Hafta-06-04-Initializers.dir
+
+# All Build rule for target.
+CMakeFiles/Hafta-06-04-Initializers.dir/all:
+	$(MAKE) -f CMakeFiles/Hafta-06-04-Initializers.dir/build.make CMakeFiles/Hafta-06-04-Initializers.dir/depend
+	$(MAKE) -f CMakeFiles/Hafta-06-04-Initializers.dir/build.make CMakeFiles/Hafta-06-04-Initializers.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles --progress-num=72,73,74 "Built target Hafta-06-04-Initializers"
+.PHONY : CMakeFiles/Hafta-06-04-Initializers.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Hafta-06-04-Initializers.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles 3
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Hafta-06-04-Initializers.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/Hafta-06-04-Initializers.dir/rule
+
+# Convenience name for target.
+Hafta-06-04-Initializers: CMakeFiles/Hafta-06-04-Initializers.dir/rule
+
+.PHONY : Hafta-06-04-Initializers
+
+# clean rule for target.
+CMakeFiles/Hafta-06-04-Initializers.dir/clean:
+	$(MAKE) -f CMakeFiles/Hafta-06-04-Initializers.dir/build.make CMakeFiles/Hafta-06-04-Initializers.dir/clean
+.PHONY : CMakeFiles/Hafta-06-04-Initializers.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/Hafta-06-03-Deep_And_Shallow_Copy.dir

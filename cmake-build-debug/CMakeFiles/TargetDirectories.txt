@@ -1,4 +1,5 @@
 /home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles/Hafta-06-04-Initializers.dir
 /home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles/Hafta-06-03-Deep_And_Shallow_Copy.dir
 /home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles/Hafta-06-02-Prototype.dir
 /home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles/Hafta-06-01-Object_Pool.dir

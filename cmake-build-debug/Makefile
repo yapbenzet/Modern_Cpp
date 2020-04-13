@@ -111,6 +111,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named Hafta-06-04-Initializers
+
+# Build rule for target.
+Hafta-06-04-Initializers: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Hafta-06-04-Initializers
+.PHONY : Hafta-06-04-Initializers
+
+# fast build rule for target.
+Hafta-06-04-Initializers/fast:
+	$(MAKE) -f CMakeFiles/Hafta-06-04-Initializers.dir/build.make CMakeFiles/Hafta-06-04-Initializers.dir/build
+.PHONY : Hafta-06-04-Initializers/fast
+
+#=============================================================================
 # Target rules for targets named Hafta-06-03-Deep_And_Shallow_Copy
 
 # Build rule for target.
@@ -1597,6 +1610,60 @@ Hafta-06/03-Deep_And_Shallow_Copy/main.cpp.s:
 	$(MAKE) -f CMakeFiles/Hafta-06-03-Deep_And_Shallow_Copy.dir/build.make CMakeFiles/Hafta-06-03-Deep_And_Shallow_Copy.dir/Hafta-06/03-Deep_And_Shallow_Copy/main.cpp.s
 .PHONY : Hafta-06/03-Deep_And_Shallow_Copy/main.cpp.s
 
+Hafta-06/04-Initializers/main.o: Hafta-06/04-Initializers/main.cpp.o
+
+.PHONY : Hafta-06/04-Initializers/main.o
+
+# target to build an object file
+Hafta-06/04-Initializers/main.cpp.o:
+	$(MAKE) -f CMakeFiles/Hafta-06-04-Initializers.dir/build.make CMakeFiles/Hafta-06-04-Initializers.dir/Hafta-06/04-Initializers/main.cpp.o
+.PHONY : Hafta-06/04-Initializers/main.cpp.o
+
+Hafta-06/04-Initializers/main.i: Hafta-06/04-Initializers/main.cpp.i
+
+.PHONY : Hafta-06/04-Initializers/main.i
+
+# target to preprocess a source file
+Hafta-06/04-Initializers/main.cpp.i:
+	$(MAKE) -f CMakeFiles/Hafta-06-04-Initializers.dir/build.make CMakeFiles/Hafta-06-04-Initializers.dir/Hafta-06/04-Initializers/main.cpp.i
+.PHONY : Hafta-06/04-Initializers/main.cpp.i
+
+Hafta-06/04-Initializers/main.s: Hafta-06/04-Initializers/main.cpp.s
+
+.PHONY : Hafta-06/04-Initializers/main.s
+
+# target to generate assembly for a file
+Hafta-06/04-Initializers/main.cpp.s:
+	$(MAKE) -f CMakeFiles/Hafta-06-04-Initializers.dir/build.make CMakeFiles/Hafta-06-04-Initializers.dir/Hafta-06/04-Initializers/main.cpp.s
+.PHONY : Hafta-06/04-Initializers/main.cpp.s
+
+Hafta-06/04-Initializers/sinif.o: Hafta-06/04-Initializers/sinif.cpp.o
+
+.PHONY : Hafta-06/04-Initializers/sinif.o
+
+# target to build an object file
+Hafta-06/04-Initializers/sinif.cpp.o:
+	$(MAKE) -f CMakeFiles/Hafta-06-04-Initializers.dir/build.make CMakeFiles/Hafta-06-04-Initializers.dir/Hafta-06/04-Initializers/sinif.cpp.o
+.PHONY : Hafta-06/04-Initializers/sinif.cpp.o
+
+Hafta-06/04-Initializers/sinif.i: Hafta-06/04-Initializers/sinif.cpp.i
+
+.PHONY : Hafta-06/04-Initializers/sinif.i
+
+# target to preprocess a source file
+Hafta-06/04-Initializers/sinif.cpp.i:
+	$(MAKE) -f CMakeFiles/Hafta-06-04-Initializers.dir/build.make CMakeFiles/Hafta-06-04-Initializers.dir/Hafta-06/04-Initializers/sinif.cpp.i
+.PHONY : Hafta-06/04-Initializers/sinif.cpp.i
+
+Hafta-06/04-Initializers/sinif.s: Hafta-06/04-Initializers/sinif.cpp.s
+
+.PHONY : Hafta-06/04-Initializers/sinif.s
+
+# target to generate assembly for a file
+Hafta-06/04-Initializers/sinif.cpp.s:
+	$(MAKE) -f CMakeFiles/Hafta-06-04-Initializers.dir/build.make CMakeFiles/Hafta-06-04-Initializers.dir/Hafta-06/04-Initializers/sinif.cpp.s
+.PHONY : Hafta-06/04-Initializers/sinif.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -1604,6 +1671,7 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... edit_cache"
+	@echo "... Hafta-06-04-Initializers"
 	@echo "... Hafta-06-03-Deep_And_Shallow_Copy"
 	@echo "... Hafta-06-02-Prototype"
 	@echo "... Hafta-06-01-Object_Pool"
@@ -1757,6 +1825,12 @@ help:
 	@echo "... Hafta-06/03-Deep_And_Shallow_Copy/main.o"
 	@echo "... Hafta-06/03-Deep_And_Shallow_Copy/main.i"
 	@echo "... Hafta-06/03-Deep_And_Shallow_Copy/main.s"
+	@echo "... Hafta-06/04-Initializers/main.o"
+	@echo "... Hafta-06/04-Initializers/main.i"
+	@echo "... Hafta-06/04-Initializers/main.s"
+	@echo "... Hafta-06/04-Initializers/sinif.o"
+	@echo "... Hafta-06/04-Initializers/sinif.i"
+	@echo "... Hafta-06/04-Initializers/sinif.s"
 .PHONY : help
 
 
