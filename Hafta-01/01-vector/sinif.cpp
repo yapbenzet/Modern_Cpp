@@ -3,8 +3,6 @@
 //
 
 #include "sinif.h"
-#include "../../Hafta-06/04-Initializers/sinif.h"
-
 
 sinif::sinif()
 {
