@@ -49,80 +49,65 @@ CMAKE_SOURCE_DIR = /home/atuash/Modern_Cpp
 CMAKE_BINARY_DIR = /home/atuash/Modern_Cpp/cmake-build-debug
 
 # Include any dependencies generated for this target.
-include CMakeFiles/Hafta-01-01-Vector.dir/depend.make
+include CMakeFiles/Hafta-01-01-vector.dir/depend.make
 
 # Include the progress variables for this target.
-include CMakeFiles/Hafta-01-01-Vector.dir/progress.make
+include CMakeFiles/Hafta-01-01-vector.dir/progress.make
 
 # Include the compile flags for this target's objects.
-include CMakeFiles/Hafta-01-01-Vector.dir/flags.make
+include CMakeFiles/Hafta-01-01-vector.dir/flags.make
 
-CMakeFiles/Hafta-01-01-Vector.dir/Hafta-01/01-vector/main.cpp.o: CMakeFiles/Hafta-01-01-Vector.dir/flags.make
-CMakeFiles/Hafta-01-01-Vector.dir/Hafta-01/01-vector/main.cpp.o: ../Hafta-01/01-vector/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Hafta-01-01-Vector.dir/Hafta-01/01-vector/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Hafta-01-01-Vector.dir/Hafta-01/01-vector/main.cpp.o -c /home/atuash/Modern_Cpp/Hafta-01/01-vector/main.cpp
+CMakeFiles/Hafta-01-01-vector.dir/Hafta-01/01-vector/main.cpp.o: CMakeFiles/Hafta-01-01-vector.dir/flags.make
+CMakeFiles/Hafta-01-01-vector.dir/Hafta-01/01-vector/main.cpp.o: ../Hafta-01/01-vector/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Hafta-01-01-vector.dir/Hafta-01/01-vector/main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Hafta-01-01-vector.dir/Hafta-01/01-vector/main.cpp.o -c /home/atuash/Modern_Cpp/Hafta-01/01-vector/main.cpp
 
-CMakeFiles/Hafta-01-01-Vector.dir/Hafta-01/01-vector/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Hafta-01-01-Vector.dir/Hafta-01/01-vector/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/atuash/Modern_Cpp/Hafta-01/01-vector/main.cpp > CMakeFiles/Hafta-01-01-Vector.dir/Hafta-01/01-vector/main.cpp.i
+CMakeFiles/Hafta-01-01-vector.dir/Hafta-01/01-vector/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Hafta-01-01-vector.dir/Hafta-01/01-vector/main.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/atuash/Modern_Cpp/Hafta-01/01-vector/main.cpp > CMakeFiles/Hafta-01-01-vector.dir/Hafta-01/01-vector/main.cpp.i
 
-CMakeFiles/Hafta-01-01-Vector.dir/Hafta-01/01-vector/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Hafta-01-01-Vector.dir/Hafta-01/01-vector/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/atuash/Modern_Cpp/Hafta-01/01-vector/main.cpp -o CMakeFiles/Hafta-01-01-Vector.dir/Hafta-01/01-vector/main.cpp.s
+CMakeFiles/Hafta-01-01-vector.dir/Hafta-01/01-vector/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Hafta-01-01-vector.dir/Hafta-01/01-vector/main.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/atuash/Modern_Cpp/Hafta-01/01-vector/main.cpp -o CMakeFiles/Hafta-01-01-vector.dir/Hafta-01/01-vector/main.cpp.s
 
-CMakeFiles/Hafta-01-01-Vector.dir/Hafta-01/01-vector/sinif.cpp.o: CMakeFiles/Hafta-01-01-Vector.dir/flags.make
-CMakeFiles/Hafta-01-01-Vector.dir/Hafta-01/01-vector/sinif.cpp.o: ../Hafta-01/01-vector/sinif.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Hafta-01-01-Vector.dir/Hafta-01/01-vector/sinif.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Hafta-01-01-Vector.dir/Hafta-01/01-vector/sinif.cpp.o -c /home/atuash/Modern_Cpp/Hafta-01/01-vector/sinif.cpp
+CMakeFiles/Hafta-01-01-vector.dir/Hafta-01/01-vector/sinif.cpp.o: CMakeFiles/Hafta-01-01-vector.dir/flags.make
+CMakeFiles/Hafta-01-01-vector.dir/Hafta-01/01-vector/sinif.cpp.o: ../Hafta-01/01-vector/sinif.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Hafta-01-01-vector.dir/Hafta-01/01-vector/sinif.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Hafta-01-01-vector.dir/Hafta-01/01-vector/sinif.cpp.o -c /home/atuash/Modern_Cpp/Hafta-01/01-vector/sinif.cpp
 
-CMakeFiles/Hafta-01-01-Vector.dir/Hafta-01/01-vector/sinif.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Hafta-01-01-Vector.dir/Hafta-01/01-vector/sinif.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/atuash/Modern_Cpp/Hafta-01/01-vector/sinif.cpp > CMakeFiles/Hafta-01-01-Vector.dir/Hafta-01/01-vector/sinif.cpp.i
+CMakeFiles/Hafta-01-01-vector.dir/Hafta-01/01-vector/sinif.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Hafta-01-01-vector.dir/Hafta-01/01-vector/sinif.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/atuash/Modern_Cpp/Hafta-01/01-vector/sinif.cpp > CMakeFiles/Hafta-01-01-vector.dir/Hafta-01/01-vector/sinif.cpp.i
 
-CMakeFiles/Hafta-01-01-Vector.dir/Hafta-01/01-vector/sinif.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Hafta-01-01-Vector.dir/Hafta-01/01-vector/sinif.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/atuash/Modern_Cpp/Hafta-01/01-vector/sinif.cpp -o CMakeFiles/Hafta-01-01-Vector.dir/Hafta-01/01-vector/sinif.cpp.s
+CMakeFiles/Hafta-01-01-vector.dir/Hafta-01/01-vector/sinif.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Hafta-01-01-vector.dir/Hafta-01/01-vector/sinif.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/atuash/Modern_Cpp/Hafta-01/01-vector/sinif.cpp -o CMakeFiles/Hafta-01-01-vector.dir/Hafta-01/01-vector/sinif.cpp.s
 
-CMakeFiles/Hafta-01-01-Vector.dir/Hafta-05/04-Early_Binding/main.cpp.o: CMakeFiles/Hafta-01-01-Vector.dir/flags.make
-CMakeFiles/Hafta-01-01-Vector.dir/Hafta-05/04-Early_Binding/main.cpp.o: ../Hafta-05/04-Early_Binding/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Hafta-01-01-Vector.dir/Hafta-05/04-Early_Binding/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Hafta-01-01-Vector.dir/Hafta-05/04-Early_Binding/main.cpp.o -c /home/atuash/Modern_Cpp/Hafta-05/04-Early_Binding/main.cpp
+# Object files for target Hafta-01-01-vector
+Hafta__01__01__vector_OBJECTS = \
+"CMakeFiles/Hafta-01-01-vector.dir/Hafta-01/01-vector/main.cpp.o" \
+"CMakeFiles/Hafta-01-01-vector.dir/Hafta-01/01-vector/sinif.cpp.o"
 
-CMakeFiles/Hafta-01-01-Vector.dir/Hafta-05/04-Early_Binding/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Hafta-01-01-Vector.dir/Hafta-05/04-Early_Binding/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/atuash/Modern_Cpp/Hafta-05/04-Early_Binding/main.cpp > CMakeFiles/Hafta-01-01-Vector.dir/Hafta-05/04-Early_Binding/main.cpp.i
+# External object files for target Hafta-01-01-vector
+Hafta__01__01__vector_EXTERNAL_OBJECTS =
 
-CMakeFiles/Hafta-01-01-Vector.dir/Hafta-05/04-Early_Binding/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Hafta-01-01-Vector.dir/Hafta-05/04-Early_Binding/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/atuash/Modern_Cpp/Hafta-05/04-Early_Binding/main.cpp -o CMakeFiles/Hafta-01-01-Vector.dir/Hafta-05/04-Early_Binding/main.cpp.s
-
-# Object files for target Hafta-01-01-Vector
-Hafta__01__01__Vector_OBJECTS = \
-"CMakeFiles/Hafta-01-01-Vector.dir/Hafta-01/01-vector/main.cpp.o" \
-"CMakeFiles/Hafta-01-01-Vector.dir/Hafta-01/01-vector/sinif.cpp.o" \
-"CMakeFiles/Hafta-01-01-Vector.dir/Hafta-05/04-Early_Binding/main.cpp.o"
-
-# External object files for target Hafta-01-01-Vector
-Hafta__01__01__Vector_EXTERNAL_OBJECTS =
-
-Hafta-01-01-Vector: CMakeFiles/Hafta-01-01-Vector.dir/Hafta-01/01-vector/main.cpp.o
-Hafta-01-01-Vector: CMakeFiles/Hafta-01-01-Vector.dir/Hafta-01/01-vector/sinif.cpp.o
-Hafta-01-01-Vector: CMakeFiles/Hafta-01-01-Vector.dir/Hafta-05/04-Early_Binding/main.cpp.o
-Hafta-01-01-Vector: CMakeFiles/Hafta-01-01-Vector.dir/build.make
-Hafta-01-01-Vector: CMakeFiles/Hafta-01-01-Vector.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable Hafta-01-01-Vector"
-	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Hafta-01-01-Vector.dir/link.txt --verbose=$(VERBOSE)
+Hafta-01-01-vector: CMakeFiles/Hafta-01-01-vector.dir/Hafta-01/01-vector/main.cpp.o
+Hafta-01-01-vector: CMakeFiles/Hafta-01-01-vector.dir/Hafta-01/01-vector/sinif.cpp.o
+Hafta-01-01-vector: CMakeFiles/Hafta-01-01-vector.dir/build.make
+Hafta-01-01-vector: CMakeFiles/Hafta-01-01-vector.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable Hafta-01-01-vector"
+	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Hafta-01-01-vector.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-CMakeFiles/Hafta-01-01-Vector.dir/build: Hafta-01-01-Vector
+CMakeFiles/Hafta-01-01-vector.dir/build: Hafta-01-01-vector
 
-.PHONY : CMakeFiles/Hafta-01-01-Vector.dir/build
+.PHONY : CMakeFiles/Hafta-01-01-vector.dir/build
 
-CMakeFiles/Hafta-01-01-Vector.dir/clean:
-	$(CMAKE_COMMAND) -P CMakeFiles/Hafta-01-01-Vector.dir/cmake_clean.cmake
-.PHONY : CMakeFiles/Hafta-01-01-Vector.dir/clean
+CMakeFiles/Hafta-01-01-vector.dir/clean:
+	$(CMAKE_COMMAND) -P CMakeFiles/Hafta-01-01-vector.dir/cmake_clean.cmake
+.PHONY : CMakeFiles/Hafta-01-01-vector.dir/clean
 
-CMakeFiles/Hafta-01-01-Vector.dir/depend:
-	cd /home/atuash/Modern_Cpp/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/atuash/Modern_Cpp /home/atuash/Modern_Cpp /home/atuash/Modern_Cpp/cmake-build-debug /home/atuash/Modern_Cpp/cmake-build-debug /home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles/Hafta-01-01-Vector.dir/DependInfo.cmake --color=$(COLOR)
-.PHONY : CMakeFiles/Hafta-01-01-Vector.dir/depend
+CMakeFiles/Hafta-01-01-vector.dir/depend:
+	cd /home/atuash/Modern_Cpp/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/atuash/Modern_Cpp /home/atuash/Modern_Cpp /home/atuash/Modern_Cpp/cmake-build-debug /home/atuash/Modern_Cpp/cmake-build-debug /home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles/Hafta-01-01-vector.dir/DependInfo.cmake --color=$(COLOR)
+.PHONY : CMakeFiles/Hafta-01-01-vector.dir/depend
 
